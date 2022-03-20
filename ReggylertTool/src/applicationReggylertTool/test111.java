@@ -117,7 +117,7 @@ public class test111 extends Application {
         pane.getChildren().addAll(faceItems);
 
         //Create a scene and place iy in the stage
-        Scene scene = new Scene(pane, 600, 900);
+        Scene scene = new Scene(pane, 600, 750);
         stage.setTitle("Hang Man");
         stage.setScene(scene);
         stage.show();
