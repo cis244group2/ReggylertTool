@@ -20,14 +20,14 @@
                            <children>
                               <TableView layoutX="14.0" layoutY="60.0" prefHeight="629.0" prefWidth="922.0">
                                 <columns>
-                                  <TableColumn prefWidth="75.0" text="Search ID#" />
-                                  <TableColumn prefWidth="75.0" text="Keyword" />
-                                    <TableColumn prefWidth="140.0" text="Date Identified" />
-                                    <TableColumn prefWidth="80.888916015625" text="Title" />
-                                    <TableColumn prefWidth="75.0" text="Type" />
-                                    <TableColumn prefWidth="119.55551147460938" text="Publication Date" />
-                                    <TableColumn prefWidth="118.22216796875" text="Serial Number" />
-                                    <TableColumn prefWidth="101.77783203125" text="Link" />
+                                  <TableColumn prefWidth="97.77777481079102" text="Search ID#" />
+                                  <TableColumn prefWidth="105.77777099609375" text="Keyword" />
+                                    <TableColumn prefWidth="118.22222900390625" text="Date Identified" />
+                                    <TableColumn prefWidth="118.6666259765625" text="Title" />
+                                    <TableColumn prefWidth="95.11111450195312" text="Type" />
+                                    <TableColumn prefWidth="126.22222900390625" text="Publication Date" />
+                                    <TableColumn prefWidth="140.0" text="Serial Number" />
+                                    <TableColumn prefWidth="120.888916015625" text="Link" />
                                 </columns>
                               </TableView>
                               <Button layoutX="14.0" layoutY="24.0" mnemonicParsing="false" text="Return to Home" />
