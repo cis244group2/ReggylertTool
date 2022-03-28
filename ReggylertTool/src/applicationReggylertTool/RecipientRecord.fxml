@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.TitledPane?>
@@ -14,12 +16,15 @@
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
                      <children>
-                        <Label layoutX="24.0" layoutY="52.0" text="Recipient First Name:" />
-                        <Label layoutX="24.0" layoutY="107.0" text="Recipient Last Name:" />
-                        <Label layoutX="24.0" layoutY="161.0" text="Recipient Email Address:" />
-                        <TextField layoutX="170.0" layoutY="48.0" prefHeight="25.0" prefWidth="232.0" />
-                        <TextField layoutX="170.0" layoutY="103.0" prefHeight="25.0" prefWidth="232.0" />
-                        <TextField layoutX="170.0" layoutY="157.0" prefHeight="25.0" prefWidth="232.0" />
+                        <Label layoutX="24.0" layoutY="44.0" text="Recipient First Name:" />
+                        <Label layoutX="24.0" layoutY="76.0" text="Recipient Last Name:" />
+                        <Label layoutX="24.0" layoutY="109.0" text="Recipient Email Address:" />
+                        <TextField layoutX="170.0" layoutY="40.0" prefHeight="25.0" prefWidth="232.0" />
+                        <TextField layoutX="170.0" layoutY="72.0" prefHeight="25.0" prefWidth="232.0" />
+                        <TextField layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
+                        <Button layoutX="56.0" layoutY="184.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="65.0" text="Submit" />
+                        <Label layoutX="24.0" layoutY="141.0" text="Status:" />
+                        <ChoiceBox layoutX="170.0" layoutY="137.0" prefHeight="25.0" prefWidth="231.0" />
                      </children>
                   </AnchorPane>
               </content>
