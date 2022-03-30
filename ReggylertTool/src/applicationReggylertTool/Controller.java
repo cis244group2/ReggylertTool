@@ -1,7 +1,5 @@
 package applicationReggylertTool;
 
-//Paulo
-
-public class RSSreader {
+public class Controller {
 
 }
