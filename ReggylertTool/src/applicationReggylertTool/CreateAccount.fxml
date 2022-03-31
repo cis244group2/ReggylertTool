@@ -58,9 +58,9 @@
             <Text layoutX="50.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
             <TextField layoutX="100.0" layoutY="18.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="400.0" />
             <Text layoutX="39.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-            <PasswordField layoutX="104.0" layoutY="116.0" prefHeight="25.0" prefWidth="399.0" />
+            <PasswordField layoutX="100.0" layoutY="116.0" prefHeight="25.0" prefWidth="400.0" />
             <Text layoutX="20.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm password" textAlignment="RIGHT" wrappingWidth="71.66015625" />
-            <PasswordField layoutX="102.0" layoutY="63.0" prefHeight="25.0" prefWidth="401.0" />
+            <PasswordField layoutX="100.0" layoutY="63.0" prefHeight="25.0" prefWidth="400.0" />
             <HBox prefHeight="100.0" prefWidth="200.0" />
             <Button alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="166.0" mnemonicParsing="false" text="Create your account" />
          </children>
