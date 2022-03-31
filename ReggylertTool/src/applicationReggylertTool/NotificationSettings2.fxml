@@ -4,7 +4,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
@@ -35,9 +34,7 @@
                               <TableColumn prefWidth="214.6666259765625" text="Status" />
                           </columns>
                         </TableView>
-                        <Button layoutX="964.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Export" />
-                        <TextField layoutX="595.0" layoutY="65.0" prefHeight="25.0" prefWidth="178.0" />
-                        <Button layoutX="784.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Search" />
+                        <Button layoutX="907.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" text="Return to Home" />
                      </children>
                   </AnchorPane>
               </content>
