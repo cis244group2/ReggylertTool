@@ -17,8 +17,8 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
                      <children>
-                        <Label layoutX="24.0" layoutY="62.0" text="Password" />
-                        <Label layoutX="24.0" layoutY="95.0" text="Confirm Password" />
+                        <Label layoutX="24.0" layoutY="62.0" text="Email" />
+                        <Label layoutX="24.0" layoutY="95.0" text="Password" />
                         <TextField layoutX="170.0" layoutY="58.0" prefHeight="25.0" prefWidth="232.0" />
                         <PasswordField layoutX="170.0" layoutY="91.0" prefHeight="25.0" prefWidth="232.0" />
                         <Button layoutX="53.0" layoutY="186.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Back to Log In" />
@@ -27,9 +27,15 @@
                               <Font size="14.0" />
                            </font>
                         </Button>
-                        <AnchorPane layoutX="-2.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="31.0" prefWidth="534.0" />
-                        <Label layoutX="24.0" layoutY="28.0" text="Email Address" />
-                        <TextField layoutX="170.0" layoutY="24.0" prefHeight="25.0" prefWidth="232.0" />
+                        <AnchorPane layoutX="-2.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="31.0" prefWidth="534.0">
+                           <children>
+                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="3.0" prefHeight="45.0" prefWidth="177.0" text="Reggylert" textFill="RED">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
                      </children>
                   </AnchorPane>
                </content>
