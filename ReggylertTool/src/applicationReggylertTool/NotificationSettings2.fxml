@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylertTool.Controller">
    <children>
       <VBox layoutX="1.0" layoutY="-1.0" prefHeight="767.0" prefWidth="1057.0">
          <children>
@@ -24,17 +24,17 @@
                            </font>
                         </Label>
                         <Pane layoutX="-19.0" layoutY="474.0" prefHeight="266.0" prefWidth="1030.0" />
-                        <Button layoutX="14.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Add New Recipient" />
-                        <Button layoutX="187.0" layoutY="65.0" mnemonicParsing="false" text="Update Existing Reciptient" />
-                        <Button layoutX="351.0" layoutY="65.0" mnemonicParsing="false" text="Remove Existing Recipient" />
+                        <Button fx:id="button_AddNewRecipient" layoutX="14.0" layoutY="65.0" mnemonicParsing="false" onAction="#action_AddNewRecipient" prefHeight="25.0" prefWidth="161.0" text="Add New Recipient" />
+                        <Button fx:id="button_UpdateRecipient" layoutX="187.0" layoutY="65.0" mnemonicParsing="false" onAction="#add_UpdateRecipient" text="Update Existing Reciptient" />
+                        <Button fx:id="button_RemoveRecipient" layoutX="351.0" layoutY="65.0" mnemonicParsing="false" onAction="#action_RemoveRecipient" text="Remove Existing Recipient" />
                         <TableView layoutX="14.0" layoutY="122.0" prefHeight="573.0" prefWidth="1009.0">
                           <columns>
-                            <TableColumn prefWidth="378.6666736602783" text="Recipient Name" />
-                            <TableColumn prefWidth="413.3333435058594" text="Recipient Email Address" />
-                              <TableColumn prefWidth="214.6666259765625" text="Status" />
+                            <TableColumn fx:id="column_RecipientName" prefWidth="378.6666736602783" text="Recipient Name" />
+                            <TableColumn fx:id="column_RecipientEmail" prefWidth="413.3333435058594" text="Recipient Email Address" />
+                              <TableColumn fx:id="column_RecipientStatus" prefWidth="214.6666259765625" text="Status" />
                           </columns>
                         </TableView>
-                        <Button layoutX="907.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" text="Return to Home" />
+                        <Button fx:id="button_ReturnHome" layoutX="907.0" layoutY="65.0" mnemonicParsing="false" onAction="#action_ReturnHome" prefHeight="25.0" prefWidth="115.0" text="Return to Home" />
                      </children>
                   </AnchorPane>
               </content>
