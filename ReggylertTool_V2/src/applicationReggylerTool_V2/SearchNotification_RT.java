@@ -1,4 +1,4 @@
-// Java program to send email
+package applicationReggylerTool_V2;
 
 import java.util.*;
 import javax.mail.*;
