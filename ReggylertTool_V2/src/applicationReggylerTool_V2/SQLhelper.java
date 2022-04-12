@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class SQLhelper {
-	private String dbname = "";
+	private String dbname = "Database_RT.db";
 
 	public SQLhelper(String dbname) {
 		this.dbname = dbname;
@@ -24,6 +24,7 @@ public class SQLhelper {
 
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
+			
 		}
 
 		return conn;
