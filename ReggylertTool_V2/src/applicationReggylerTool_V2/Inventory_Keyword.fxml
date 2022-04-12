@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Inventory_Keyword">
    <children>
       <VBox prefHeight="678.0" prefWidth="813.0">
          <children>
@@ -20,18 +20,18 @@
                            <children>
                               <TableView layoutX="21.0" layoutY="90.0" prefHeight="534.0" prefWidth="771.0">
                                 <columns>
-                                  <TableColumn prefWidth="132.00005531311035" text="Keyword" />
-                                  <TableColumn prefWidth="139.55555725097656" text="Keyword ID#" />
-                                    <TableColumn prefWidth="118.2222900390625" text="Priority Rating" />
-                                    <TableColumn prefWidth="155.111083984375" text="Control Standard ID#" />
-                                    <TableColumn prefWidth="120.888916015625" text="Date Modified" />
-                                    <TableColumn prefWidth="104.88882446289062" text="Status" />
+                                  <TableColumn fx:id="column_Keyword" prefWidth="132.00005531311035" text="Keyword" />
+                                  <TableColumn fx:id="column_KeywordID" prefWidth="139.55555725097656" text="Keyword ID#" />
+                                    <TableColumn fx:id="column_PriorityRating" prefWidth="118.2222900390625" text="Priority Rating" />
+                                    <TableColumn fx:id="column_ControlStandardID" prefWidth="155.111083984375" text="Control Standard ID#" />
+                                    <TableColumn fx:id="column_DateModified" prefWidth="120.888916015625" text="Date Modified" />
+                                    <TableColumn fx:id="column_KeywordStatus" prefWidth="104.88882446289062" text="Status" />
                                 </columns>
                               </TableView>
-                              <Button layoutX="690.0" layoutY="39.0" mnemonicParsing="false" text="Return to Home" />
-                              <Button layoutX="21.0" layoutY="39.0" mnemonicParsing="false" text="Add New Keyword" />
-                              <Button layoutX="146.0" layoutY="39.0" mnemonicParsing="false" text="Update Existing Keyword" />
-                              <Button layoutX="307.0" layoutY="39.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
+                              <Button fx:id="button_ReturnToHome" layoutX="690.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_ReturnToHome" text="Return to Home" />
+                              <Button fx:id="button_AddKeyword" layoutX="21.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_AddKeyword" text="Add New Keyword" />
+                              <Button fx:id="button_UpdateKeyword" layoutX="146.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_UpdateKeyword" text="Update Existing Keyword" />
+                              <Button fx:id="button_RemoveKeyword" layoutX="307.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_RemoveKeyword" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
                            </children>
                         </AnchorPane>
                   </content>

@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylertTool.Controller">
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1057.0" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylertTool_V2.Controller_Inventory_NotificationSettings.java">
    <children>
       <VBox layoutX="1.0" layoutY="-1.0" prefHeight="767.0" prefWidth="1057.0">
          <children>
@@ -42,4 +42,4 @@
          </children>
       </VBox>
    </children>
-</AnchorPane>
+</fx:root>

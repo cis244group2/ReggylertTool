@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="742.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="742.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Inventory_Search">
    <children>
       <VBox prefHeight="742.0" prefWidth="945.0">
          <children>
@@ -20,17 +20,17 @@
                            <children>
                               <TableView layoutX="14.0" layoutY="60.0" prefHeight="629.0" prefWidth="922.0">
                                 <columns>
-                                  <TableColumn prefWidth="97.77777481079102" text="Search ID#" />
-                                  <TableColumn prefWidth="105.77777099609375" text="Keyword" />
-                                    <TableColumn prefWidth="118.22222900390625" text="Date Identified" />
-                                    <TableColumn prefWidth="118.6666259765625" text="Title" />
-                                    <TableColumn prefWidth="95.11111450195312" text="Type" />
-                                    <TableColumn prefWidth="126.22222900390625" text="Publication Date" />
-                                    <TableColumn prefWidth="140.0" text="Serial Number" />
-                                    <TableColumn prefWidth="120.888916015625" text="Link" />
+                                  <TableColumn fx:id="column_SearchID" prefWidth="97.77777481079102" text="Search ID#" />
+                                  <TableColumn fx:id="column_Keyword" prefWidth="105.77777099609375" text="Keyword" />
+                                    <TableColumn fx:id="column_DateIdentified" prefWidth="118.22222900390625" text="Date Identified" />
+                                    <TableColumn fx:id="column_Title" prefWidth="118.6666259765625" text="Title" />
+                                    <TableColumn fx:id="column_Type" prefWidth="95.11111450195312" text="Type" />
+                                    <TableColumn fx:id="column_PublicationDate" prefWidth="126.22222900390625" text="Publication Date" />
+                                    <TableColumn fx:id="column_SerialNumber" prefWidth="140.0" text="Serial Number" />
+                                    <TableColumn fx:id="column_Link" prefWidth="120.888916015625" text="Link" />
                                 </columns>
                               </TableView>
-                              <Button layoutX="14.0" layoutY="24.0" mnemonicParsing="false" text="Return to Home" />
+                              <Button fx:id="btn_ReturnToHome" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#action_ReturnToHome" text="Return to Home" />
                            </children>
                         </AnchorPane>
                   </content>
