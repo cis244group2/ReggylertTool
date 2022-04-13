@@ -3,7 +3,7 @@ package applicationReggylerTool_V2;
 import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
-import javax.activation.*;
+//import javax.activation.*;
 import javax.mail.Session;
 import javax.mail.Transport;
 
@@ -53,4 +53,5 @@ public static void main(String [] args) {
 	{
 		mex.printStackTrace();
 	}
+}
 }
