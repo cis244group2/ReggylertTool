@@ -5,6 +5,10 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+
 
 
 public class Main extends Application {
@@ -24,4 +28,27 @@ public class Main extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
+	
+	
+	 @FXML
+	 private Button button_OpenRT;
+
+	 @FXML
+	 void action_OpenRT(ActionEvent event) {
+		 // for test
+		 try {
+			 
+			 FXMLLoader fxmlLoader = new FXMLLoader();
+			 fxmlLoader.setLocation(getClass().getResource("Inventory_Keyword.fxml"));
+			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
+			 Stage stage = new Stage();
+			 stage.setTitle("Keyword Inventory");
+			 stage.setScene(scene);
+			 stage.show();
+
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+	    }
+	
 }

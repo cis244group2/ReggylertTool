@@ -2,8 +2,11 @@ package applicationReggylerTool_V2;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
+import javafx.stage.Stage;
 
 public class Controller_Inventory_Keyword {
 
@@ -49,6 +52,19 @@ public class Controller_Inventory_Keyword {
 
     @FXML
     void action_ReturnToHome(ActionEvent event) {
+    	// for test
+    	try {
+			 FXMLLoader fxmlLoader = new FXMLLoader();
+			 fxmlLoader.setLocation(getClass().getResource("Inventory_Search.fxml"));
+			 Scene scene = new Scene(fxmlLoader.load(), 945, 742);
+			 Stage stage = new Stage();
+			 stage.setTitle("test");
+			 stage.setScene(scene);
+			 stage.show();
+
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
 
     }
 
