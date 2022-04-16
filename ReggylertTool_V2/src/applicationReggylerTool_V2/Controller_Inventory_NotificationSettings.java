@@ -35,7 +35,7 @@ public class Controller_Inventory_NotificationSettings {
 
     @FXML
     void action_RemoveRecipient(ActionEvent event) {
-
+    	
     }
 
     @FXML
