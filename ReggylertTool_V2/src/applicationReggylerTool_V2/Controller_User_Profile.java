@@ -1,10 +1,20 @@
 package applicationReggylerTool_V2;
 
-public class Controller_User_Profile {
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
 
-	}
+public class Controller_User_Profile {
+
+    @FXML
+    private TextField field_profileCompany;
+
+    @FXML
+    private TextField field_profileDateAccountCreated;
+
+    @FXML
+    private TextField field_profileEmail;
+
+    @FXML
+    private TextField field_profileName;
 
 }

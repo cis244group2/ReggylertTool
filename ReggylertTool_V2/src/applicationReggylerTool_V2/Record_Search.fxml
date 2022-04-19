@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Record_Search">
    <children>
       <TitledPane animated="false" layoutY="-3.0" prefHeight="637.0" prefWidth="831.0" text="Identified Search Record">
         <content>
@@ -22,14 +21,14 @@
                   <Label layoutX="23.0" layoutY="271.0" text="Publication Date:" />
                   <Label layoutX="26.0" layoutY="312.0" text="Serial Number:" />
                   <Label layoutX="26.0" layoutY="359.0" text="Link:" />
-                  <TextField layoutX="155.0" layoutY="55.0" prefHeight="25.0" prefWidth="337.0" />
-                  <TextField layoutX="155.0" layoutY="97.0" prefHeight="25.0" prefWidth="337.0" />
-                  <TextField layoutX="155.0" layoutY="140.0" prefHeight="25.0" prefWidth="338.0" />
-                  <TextField layoutX="155.0" layoutY="179.0" prefHeight="25.0" prefWidth="338.0" />
-                  <TextField layoutX="155.0" layoutY="221.0" prefHeight="25.0" prefWidth="338.0" />
-                  <TextField layoutX="155.0" layoutY="267.0" prefHeight="25.0" prefWidth="337.0" />
-                  <TextField layoutX="155.0" layoutY="308.0" prefHeight="25.0" prefWidth="337.0" />
-                  <Hyperlink layoutX="155.0" layoutY="356.0" prefHeight="24.0" prefWidth="337.0" text="Hyperlink" />
+                  <TextField fx:id="field_searchID" layoutX="155.0" layoutY="55.0" prefHeight="25.0" prefWidth="337.0" />
+                  <TextField fx:id="field_searchKeywords" layoutX="155.0" layoutY="97.0" prefHeight="25.0" prefWidth="337.0" />
+                  <TextField fx:id="field_searchDateIdentified" layoutX="155.0" layoutY="140.0" prefHeight="25.0" prefWidth="338.0" />
+                  <TextField fx:id="field_searchTitle" layoutX="155.0" layoutY="179.0" prefHeight="25.0" prefWidth="338.0" />
+                  <TextField fx:id="field_searchType" layoutX="155.0" layoutY="221.0" prefHeight="25.0" prefWidth="338.0" />
+                  <TextField fx:id="field_searchPublicationDate" layoutX="155.0" layoutY="267.0" prefHeight="25.0" prefWidth="337.0" />
+                  <TextField fx:id="field_searchSerialNumber" layoutX="155.0" layoutY="308.0" prefHeight="25.0" prefWidth="337.0" />
+                  <Hyperlink fx:id="link_searchHyperlink" layoutX="155.0" layoutY="356.0" prefHeight="24.0" prefWidth="337.0" text="Hyperlink" />
                   <Label layoutX="23.0" layoutY="14.0" prefHeight="26.0" prefWidth="287.0" text="IDENTIFIED SEARCH RECORD">
                      <font>
                         <Font size="17.0" />
