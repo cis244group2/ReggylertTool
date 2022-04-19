@@ -1,5 +1,7 @@
 package applicationReggylerTool_V2;
 	
+import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -34,7 +36,8 @@ public class Main extends Application {
 	 private Button button_OpenRT;
 
 	 @FXML
-	 void action_OpenRT(ActionEvent event) {
+	 void action_OpenRT(ActionEvent event) throws IOException {
+		 
 		 
 		 try {
 			 
@@ -42,7 +45,7 @@ public class Main extends Application {
 			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
 			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
 			 Stage stage = new Stage();
-			 stage.setTitle("Keyword Inventory");
+			 stage.setTitle("Home Page");
 			 stage.setScene(scene);
 			 stage.show();
 
