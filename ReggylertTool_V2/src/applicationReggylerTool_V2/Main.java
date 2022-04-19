@@ -35,11 +35,11 @@ public class Main extends Application {
 
 	 @FXML
 	 void action_OpenRT(ActionEvent event) {
-		 // for test
+		 
 		 try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("Inventory_Keyword.fxml"));
+			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
 			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
 			 Stage stage = new Stage();
 			 stage.setTitle("Keyword Inventory");
