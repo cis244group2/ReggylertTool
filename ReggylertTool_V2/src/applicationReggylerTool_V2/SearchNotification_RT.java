@@ -1,3 +1,8 @@
+/* Send email
+ * SMTP server details: https://support.google.com/a/answer/176600
+ * "Other setup options" > "Use the Gmail SMTP server"
+ */
+
 package applicationReggylerTool_V2;
 
 import java.util.*;
@@ -6,11 +11,6 @@ import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.Transport;
-
-/*
- * SMTP server details: https://support.google.com/a/answer/176600
- * Other setup options > Use the Gmail SMTP server
- */
 
 public class SearchNotification_RT {
 	private static String USERNAME = "cis244group2@gmail.com"; 
