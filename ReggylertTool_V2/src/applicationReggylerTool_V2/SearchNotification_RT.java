@@ -1,6 +1,7 @@
 /* Send email
  * SMTP server details: https://support.google.com/a/answer/176600
  * "Other setup options" > "Use the Gmail SMTP server"
+ * Before pushing, make sure PASS = PUTPASSWORD
  */
 
 package applicationReggylerTool_V2;
