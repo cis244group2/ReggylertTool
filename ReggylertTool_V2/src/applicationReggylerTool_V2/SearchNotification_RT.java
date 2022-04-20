@@ -1,32 +1,37 @@
 package applicationReggylerTool_V2;
 
 import java.util.*;
-import javax.mail.*;
 import javax.mail.internet.*;
+import javax.mail.Message;
+import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.Transport;
 
+/*
+ * SMTP server details: https://support.google.com/a/answer/176600
+ * Other setup options > Use the Gmail SMTP server
+ */
+
 public class SearchNotification_RT {
 	private static String USERNAME = "cis244group2@gmail.com"; 
-	private static String PASS = "NOTTHEPASSWORD"; //put in password here
+	private static String PASS = "PUTPASSWORD"; //put in password here in PUTPASSWORD
 	private static String RECIPIENT1 = "jnguyen52@student.ccc.edu"; //field_recipientEmail;
-	private static String RECIPIENT2 = "garias1@student.ccc.edu"; //field_recipientEmail;
-	private static String RECIPIENT3 = "jhector1@student.ccc.edu"; //field_recipientEmail;
-	private static String RECIPIENT4 = "poliveira1@student.ccc.edu"; //field_recipientEmail;
-
 	
   public static void main(String[] args) {
-      String from = USERNAME;
+	  Date date = new Date();
+	  String from = USERNAME;
       String login = PASS;
-      String[] to = { RECIPIENT1, RECIPIENT2, RECIPIENT3, RECIPIENT4 }; //recipient email addresses, can leave it to RECIPIENT1
-      String subject = "Reggylert Notifications";
-      String body = "Hello! Here are your Reggylert notifications you have subscribed to."; 
+      String[] to = { RECIPIENT1 }; //recipient email addresses
+      String subject = "Reggylert Search Notification (" + date + ")";
+      String body = "Date: " + date + 
+    		  "\n\nHello! Here are your Reggylert notifications you have subscribed to."; 
       // field_recipientFirstName + " " + field_recipientFirstName + "'s Notifications";
+     
       sendEmail(from, login, to, subject, body);
   }
 
   private static void sendEmail(String from, String pass, String[] to, String subject, String body) {
-      Properties props = System.getProperties();
+	  Properties props = System.getProperties();
       String host = "smtp.gmail.com";
       props.put("mail.smtp.starttls.enable", "true");
       props.put("mail.smtp.host", host);
@@ -42,7 +47,6 @@ public class SearchNotification_RT {
           message.setFrom(new InternetAddress(from));
           InternetAddress[] toAddress = new InternetAddress[to.length];
 
-          // To get the array of addresses
           for( int i = 0; i < to.length; i++ ) {
               toAddress[i] = new InternetAddress(to[i]);
           }
