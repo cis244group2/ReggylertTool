@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
@@ -16,7 +17,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("View_1_Initial.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("View_1_Initial.fxml"));
 			Scene scene = new Scene(root,755,565);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
@@ -36,8 +37,7 @@ public class Main extends Application {
 
 	 @FXML
 	 void action_OpenRT(ActionEvent event) throws IOException {
-		 
-		 
+		 		 
 		 try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();

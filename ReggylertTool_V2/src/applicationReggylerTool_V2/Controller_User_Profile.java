@@ -1,14 +1,22 @@
 package applicationReggylerTool_V2;
 
+import java.io.IOException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class Controller_User_Profile {
+	
+	private Stage stage;
+	private Scene scene;
+	private Parent root;
 
     @FXML
     private Button button_profileReturnHome;
@@ -26,28 +34,13 @@ public class Controller_User_Profile {
     private TextField field_profileName;
 
     @FXML
-    void action_profileReturnHome(ActionEvent event) {
+    void action_profileReturnHome(ActionEvent event) throws IOException {
     	
-    	Stage primaryStage = (Stage) button_profileReturnHome.getScene().getWindow();
-    	
-    	try {
-			 
-			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
-			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
-			 Stage stage = new Stage();
-			 stage.setTitle("Home Page");
-			 stage.setScene(scene);
-			 
-			 stage.setOnHidden(e -> primaryStage.show());
-			 
-			 stage.show();
-			 
-			 primaryStage.hide();
-
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
+    	Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
     	
        }
 

@@ -1,8 +1,12 @@
 package applicationReggylerTool_V2;
 
+import java.io.IOException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -10,6 +14,10 @@ import javafx.stage.Stage;
 
 public class Controller_Inventory_Keyword {
 
+	private Stage stage;
+	private Scene scene;
+	private Parent root;
+	
     @FXML
     private Button button_keyinvAddKeyword;
 
@@ -46,7 +54,7 @@ public class Controller_Inventory_Keyword {
     }
 
     @FXML
-    void action_keyinvkeyinvRemoveKeyword(ActionEvent event) {
+    void action_keyinvRemoveKeyword(ActionEvent event) {
 
     }
     
@@ -57,29 +65,12 @@ public class Controller_Inventory_Keyword {
     
 
     @FXML
-    void action_keyinvReturnToHome(ActionEvent event) {
+    void action_keyinvReturnToHome(ActionEvent event) throws IOException {
     	
-    	
-    	Stage primaryStage = (Stage) button_keyinvReturnToHome.getScene().getWindow();
-    	
-    	try {
-			 
-			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
-			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
-			 Stage stage = new Stage();
-			 stage.setTitle("Keyword Inventory");
-			 stage.setScene(scene);
-			 
-			 stage.setOnHidden(e -> primaryStage.show());
-			 
-			 stage.show();
-			 
-			 primaryStage.hide();
-
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
-    	
+		Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
     }
-}
+}	

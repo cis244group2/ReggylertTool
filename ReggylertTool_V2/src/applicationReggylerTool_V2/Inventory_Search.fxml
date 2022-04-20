@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="742.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Inventory_Search">
+<AnchorPane prefHeight="565.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Inventory_Search">
    <children>
-      <VBox prefHeight="742.0" prefWidth="945.0">
+      <VBox prefHeight="565.0" prefWidth="755.0">
          <children>
             <TabPane prefHeight="741.0" prefWidth="945.0" tabClosingPolicy="UNAVAILABLE">
               <tabs>
@@ -18,16 +18,16 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="331.0" prefWidth="945.0">
                            <children>
-                              <TableView layoutX="14.0" layoutY="60.0" prefHeight="629.0" prefWidth="922.0">
+                              <TableView layoutX="14.0" layoutY="60.0" prefHeight="460.0" prefWidth="733.0">
                                 <columns>
-                                  <TableColumn fx:id="column_SearchID" prefWidth="97.77777481079102" text="Search ID#" />
-                                  <TableColumn fx:id="column_Keyword" prefWidth="105.77777099609375" text="Keyword" />
-                                    <TableColumn fx:id="column_DateIdentified" prefWidth="118.22222900390625" text="Date Identified" />
-                                    <TableColumn fx:id="column_Title" prefWidth="118.6666259765625" text="Title" />
-                                    <TableColumn fx:id="column_Type" prefWidth="95.11111450195312" text="Type" />
-                                    <TableColumn fx:id="column_PublicationDate" prefWidth="126.22222900390625" text="Publication Date" />
-                                    <TableColumn fx:id="column_SerialNumber" prefWidth="140.0" text="Serial Number" />
-                                    <TableColumn fx:id="column_Link" prefWidth="120.888916015625" text="Link" />
+                                  <TableColumn fx:id="column_SearchID" prefWidth="85.33340454101562" text="Search ID#" />
+                                  <TableColumn fx:id="column_Keyword" prefWidth="72.88885498046875" text="Keyword" />
+                                    <TableColumn fx:id="column_DateIdentified" prefWidth="100.4444580078125" text="Date Identified" />
+                                    <TableColumn fx:id="column_Title" prefWidth="84.88885498046875" text="Title" />
+                                    <TableColumn fx:id="column_Type" prefWidth="79.11114501953125" text="Type" />
+                                    <TableColumn fx:id="column_PublicationDate" prefWidth="139.555419921875" text="Publication Date" />
+                                    <TableColumn fx:id="column_SerialNumber" prefWidth="103.555419921875" text="Serial Number" />
+                                    <TableColumn fx:id="column_Link" prefWidth="65.33333333333337" text="Link" />
                                 </columns>
                               </TableView>
                               <Button fx:id="btn_ReturnToHome" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#action_ReturnToHome" text="Return to Home" />

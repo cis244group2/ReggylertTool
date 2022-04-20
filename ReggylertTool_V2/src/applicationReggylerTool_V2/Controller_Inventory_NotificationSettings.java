@@ -1,8 +1,12 @@
 package applicationReggylerTool_V2;
 
+import java.io.IOException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -10,17 +14,21 @@ import javafx.stage.Stage;
 
 public class Controller_Inventory_NotificationSettings {
 	
-	@FXML
+	private Stage stage;
+	private Scene scene;
+	private Parent root;
+	
+    @FXML
     private Button button_AddNewRecipient;
 
     @FXML
     private Button button_RemoveRecipient;
 
     @FXML
-    private Button button_ReturnHome;
+    private Button button_UpdateRecipient;
 
     @FXML
-    private Button button_UpdateRecipient;
+    private Button button_notsetReturnHome;
 
     @FXML
     private TableColumn<?, ?> column_RecipientEmail;
@@ -38,37 +46,21 @@ public class Controller_Inventory_NotificationSettings {
 
     @FXML
     void action_RemoveRecipient(ActionEvent event) {
-    	
+
     }
-    
+
+    @FXML
+    void action_notsetReturnHome(ActionEvent event) throws IOException {
+		Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+
+    }
+
     @FXML
     void add_UpdateRecipient(ActionEvent event) {
-
-    }
-
-    @FXML
-    void action_ReturnHome(ActionEvent event) {
-    	
-    	Stage primaryStage = (Stage) button_ReturnHome.getScene().getWindow();
-    	
-    	try {
-			 
-			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
-			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
-			 Stage stage = new Stage();
-			 stage.setTitle("Keyword Inventory");
-			 stage.setScene(scene);
-			 
-			 stage.setOnHidden(e -> primaryStage.show());
-			 
-			 stage.show();
-			 
-			 primaryStage.hide();
-
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
 
     }
 }
