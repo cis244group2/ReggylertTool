@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
@@ -14,6 +15,11 @@ import javafx.scene.control.Button;
 
 
 public class Main extends Application {
+	
+	private Stage stage;
+	private Scene scene;
+	private Parent root;
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -37,20 +43,11 @@ public class Main extends Application {
 
 	 @FXML
 	 void action_OpenRT(ActionEvent event) throws IOException {
-		 		 
-		 try {
-			 
-			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
-			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
-			 Stage stage = new Stage();
-			 stage.setTitle("Home Page");
-			 stage.setScene(scene);
-			 stage.show();
-
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
-	    }
+			Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+			scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
 	
+	 }
 }
