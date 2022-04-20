@@ -31,6 +31,8 @@ public class Controller_HomePage {
     @FXML
     void action_homeAccountSettings(ActionEvent event) {
     	
+    	Stage primaryStage = (Stage) button_homeAccountSettings.getScene().getWindow();
+    	
     	try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
@@ -39,7 +41,12 @@ public class Controller_HomePage {
 			 Stage stage = new Stage();
 			 stage.setTitle("Keyword Inventory");
 			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
 			 stage.show();
+			 
+			 primaryStage.hide();
 
 			} catch(Exception e) {
 				e.printStackTrace();
@@ -50,6 +57,8 @@ public class Controller_HomePage {
     @FXML
     void action_homeKeywordInventory(ActionEvent event) {
     	
+    	Stage primaryStage = (Stage) button_homeKeywordInventory.getScene().getWindow();
+    	
     	try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
@@ -58,7 +67,12 @@ public class Controller_HomePage {
 			 Stage stage = new Stage();
 			 stage.setTitle("Keyword Inventory");
 			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
 			 stage.show();
+			 
+			 primaryStage.hide();
 
 			} catch(Exception e) {
 				e.printStackTrace();
@@ -95,6 +109,9 @@ public class Controller_HomePage {
     @FXML
     void action_homeSearchSummary(ActionEvent event) {
     	
+    	
+    	Stage primaryStage = (Stage) button_homeSearchSummary.getScene().getWindow();
+    	
     	try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
@@ -103,12 +120,17 @@ public class Controller_HomePage {
 			 Stage stage = new Stage();
 			 stage.setTitle("Keyword Inventory");
 			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
 			 stage.show();
+			 
+			 primaryStage.hide();
 
 			} catch(Exception e) {
 				e.printStackTrace();
 			}
-
+    	
     }
 
 }

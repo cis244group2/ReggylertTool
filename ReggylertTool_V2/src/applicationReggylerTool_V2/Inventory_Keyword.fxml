@@ -28,10 +28,10 @@
                                     <TableColumn fx:id="column_KeywordStatus" prefWidth="104.88882446289062" text="Status" />
                                 </columns>
                               </TableView>
-                              <Button fx:id="button_ReturnToHome" layoutX="690.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_ReturnToHome" text="Return to Home" />
-                              <Button fx:id="button_AddKeyword" layoutX="21.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_AddKeyword" text="Add New Keyword" />
-                              <Button fx:id="button_UpdateKeyword" layoutX="146.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_UpdateKeyword" text="Update Existing Keyword" />
-                              <Button fx:id="button_RemoveKeyword" layoutX="307.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_RemoveKeyword" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
+                              <Button fx:id="button_keyinvReturnToHome" layoutX="690.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_keyinvReturnToHome" text="Return to Home" />
+                              <Button fx:id="button_keyinvAddKeyword" layoutX="21.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />
+                              <Button fx:id="button_keyinvUpdateKeyword" layoutX="146.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_keyinvUpdateKeyword" text="Update Existing Keyword" />
+                              <Button fx:id="button_keyinvRemoveKeyword" layoutX="307.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_keyinvRemoveKeyword" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
                            </children>
                         </AnchorPane>
                   </content>

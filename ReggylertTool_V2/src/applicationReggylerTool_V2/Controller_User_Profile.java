@@ -28,20 +28,27 @@ public class Controller_User_Profile {
     @FXML
     void action_profileReturnHome(ActionEvent event) {
     	
+    	Stage primaryStage = (Stage) button_profileReturnHome.getScene().getWindow();
+    	
     	try {
 			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
 			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
 			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
 			 Stage stage = new Stage();
-			 stage.setTitle("Keyword Inventory");
+			 stage.setTitle("Home Page");
 			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
 			 stage.show();
+			 
+			 primaryStage.hide();
 
 			} catch(Exception e) {
 				e.printStackTrace();
 			}
-
-    }
+    	
+       }
 
 }

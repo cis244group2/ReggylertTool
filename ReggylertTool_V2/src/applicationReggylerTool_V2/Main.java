@@ -12,7 +12,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
 
-
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {

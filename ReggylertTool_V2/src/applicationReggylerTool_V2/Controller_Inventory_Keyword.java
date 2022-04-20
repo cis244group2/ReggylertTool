@@ -11,16 +11,16 @@ import javafx.stage.Stage;
 public class Controller_Inventory_Keyword {
 
     @FXML
-    private Button button_AddKeyword;
+    private Button button_keyinvAddKeyword;
 
     @FXML
-    private Button button_RemoveKeyword;
+    private Button button_keyinvRemoveKeyword;
 
     @FXML
-    private Button button_ReturnToHome;
+    private Button button_keyinvReturnToHome;
 
     @FXML
-    private Button button_UpdateKeyword;
+    private Button button_keyinvUpdateKeyword;
 
     @FXML
     private TableColumn<?, ?> column_ControlStandardID;
@@ -41,36 +41,45 @@ public class Controller_Inventory_Keyword {
     private TableColumn<?, ?> column_PriorityRating;
 
     @FXML
-    void action_AddKeyword(ActionEvent event) {
+    void action_keyinvAddKeyword(ActionEvent event) {
 
     }
 
     @FXML
-    void action_RemoveKeyword(ActionEvent event) {
+    void action_keyinvkeyinvRemoveKeyword(ActionEvent event) {
 
     }
+    
+    @FXML
+    void action_keyinvUpdateKeyword(ActionEvent event) {
+
+    }
+    
 
     @FXML
-    void action_ReturnToHome(ActionEvent event) {
-    	// for test
+    void action_keyinvReturnToHome(ActionEvent event) {
+    	
+    	
+    	Stage primaryStage = (Stage) button_keyinvReturnToHome.getScene().getWindow();
+    	
     	try {
+			 
 			 FXMLLoader fxmlLoader = new FXMLLoader();
-			 fxmlLoader.setLocation(getClass().getResource("Inventory_Search.fxml"));
-			 Scene scene = new Scene(fxmlLoader.load(), 945, 742);
+			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
+			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
 			 Stage stage = new Stage();
-			 stage.setTitle("test");
+			 stage.setTitle("Keyword Inventory");
 			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
 			 stage.show();
+			 
+			 primaryStage.hide();
 
 			} catch(Exception e) {
 				e.printStackTrace();
 			}
-
+    	
     }
-
-    @FXML
-    void action_UpdateKeyword(ActionEvent event) {
-
-    }
-
 }

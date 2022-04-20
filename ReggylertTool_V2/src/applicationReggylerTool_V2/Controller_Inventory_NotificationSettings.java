@@ -2,8 +2,11 @@ package applicationReggylerTool_V2;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
+import javafx.stage.Stage;
 
 public class Controller_Inventory_NotificationSettings {
 	
@@ -37,16 +40,35 @@ public class Controller_Inventory_NotificationSettings {
     void action_RemoveRecipient(ActionEvent event) {
     	
     }
-
-    @FXML
-    void action_ReturnHome(ActionEvent event) {
-
-    }
-
+    
     @FXML
     void add_UpdateRecipient(ActionEvent event) {
 
     }
 
-	
+    @FXML
+    void action_ReturnHome(ActionEvent event) {
+    	
+    	Stage primaryStage = (Stage) button_ReturnHome.getScene().getWindow();
+    	
+    	try {
+			 
+			 FXMLLoader fxmlLoader = new FXMLLoader();
+			 fxmlLoader.setLocation(getClass().getResource("HomePage_RT.fxml"));
+			 Scene scene = new Scene(fxmlLoader.load(), 813, 678);
+			 Stage stage = new Stage();
+			 stage.setTitle("Keyword Inventory");
+			 stage.setScene(scene);
+			 
+			 stage.setOnHidden(e -> primaryStage.show());
+			 
+			 stage.show();
+			 
+			 primaryStage.hide();
+
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+
+    }
 }
