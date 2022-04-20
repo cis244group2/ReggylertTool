@@ -9,6 +9,7 @@ public class User {
 	private String userPassword;
 	private String userCompany;
 	private Date userAccountCreateDate;
+	private String testpush;
 	
 	User() {
 	}
