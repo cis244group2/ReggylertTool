@@ -10,6 +10,7 @@ public class User {
 	private String userCompany;
 	private Date userAccountCreateDate;
 	private String testpush;
+	private String testpush2;
 	
 	User() {
 	}
