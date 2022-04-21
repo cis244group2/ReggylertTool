@@ -3,8 +3,9 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
@@ -12,24 +13,29 @@
    <children>
       <VBox prefHeight="258.0" prefWidth="574.0">
          <children>
-            <TitledPane animated="false" prefHeight="259.0" prefWidth="471.0" text="Recipient Record">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
-                     <children>
-                        <Label layoutX="24.0" layoutY="44.0" text="Recipient First Name:" />
-                        <Label layoutX="24.0" layoutY="76.0" text="Recipient Last Name:" />
-                        <Label layoutX="24.0" layoutY="109.0" text="Recipient Email Address:" />
-                        <TextField fx:id="field_recipientFirstName" layoutX="170.0" layoutY="40.0" prefHeight="25.0" prefWidth="232.0" />
-                        <TextField fx:id="field_recipientLastName" layoutX="170.0" layoutY="72.0" prefHeight="25.0" prefWidth="232.0" />
-                        <TextField fx:id="field_recipientEmail" layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
-                        <Button fx:id="button_recipientSubmit" layoutX="56.0" layoutY="184.0" mnemonicParsing="false" onAction="#button_recipientFirstName" prefHeight="23.0" prefWidth="65.0" text="Submit" />
-                        <Label layoutX="24.0" layoutY="141.0" text="Status:" />
-                        <ChoiceBox fx:id="field_recipientStatus" layoutX="170.0" layoutY="137.0" prefHeight="25.0" prefWidth="231.0" />
-                     </children>
-                  </AnchorPane>
-              </content>
-            </TitledPane>
+            <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Recipient Record">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
          </children>
       </VBox>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
+         <children>
+            <Label layoutX="24.0" layoutY="44.0" text="Recipient First Name:" />
+            <Label layoutX="24.0" layoutY="76.0" text="Recipient Last Name:" />
+            <Label layoutX="24.0" layoutY="109.0" text="Recipient Email Address:" />
+            <TextField fx:id="field_recipientFirstName" layoutX="170.0" layoutY="40.0" prefHeight="25.0" prefWidth="232.0" />
+            <TextField fx:id="field_recipientLastName" layoutX="170.0" layoutY="72.0" prefHeight="25.0" prefWidth="232.0" />
+            <TextField fx:id="field_recipientEmail" layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
+            <Button fx:id="button_recipientSubmit" layoutX="56.0" layoutY="184.0" mnemonicParsing="false" onAction="#button_recipientFirstName" prefHeight="23.0" prefWidth="65.0" text="Submit" />
+            <Label layoutX="24.0" layoutY="141.0" text="Status:" />
+            <ChoiceBox fx:id="field_recipientStatus" layoutX="170.0" layoutY="137.0" prefHeight="25.0" prefWidth="231.0" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
