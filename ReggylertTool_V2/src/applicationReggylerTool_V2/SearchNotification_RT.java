@@ -23,7 +23,7 @@ public class SearchNotification_RT {
 	  String from = USERNAME;
       String login = PASS;
       String[] to = { RECIPIENT1 }; //recipient email addresses
-      String subject = "Reggylert Search Notification (" + date + ")";
+      String subject = "Reggylert Search Notification";
       String body = "Date: " + date + 
     		  "\n\nHello! Here are your Reggylert notifications you have subscribed to."; 
       // field_recipientFirstName + " " + field_recipientFirstName + "'s Notifications";
