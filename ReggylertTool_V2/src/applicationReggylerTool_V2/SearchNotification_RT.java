@@ -1,4 +1,5 @@
-/* Send email
+/* 
+ * Send email
  * SMTP server details: https://support.google.com/a/answer/176600
  * "Other setup options" > "Use the Gmail SMTP server"
  * Before pushing, make sure PASS = PUTPASSWORD
@@ -17,6 +18,7 @@ public class SearchNotification_RT {
 	private static String USERNAME = "cis244group2@gmail.com"; 
 	private static String PASS = "PUTPASSWORD"; //put in password here in PUTPASSWORD
 	private static String RECIPIENT1 = "jnguyen52@student.ccc.edu"; //field_recipientEmail;
+	//private static String PROFESSOR = "htruong2@ccc.edu";
 	
   public static void main(String[] args) {
 	  Date date = new Date();
