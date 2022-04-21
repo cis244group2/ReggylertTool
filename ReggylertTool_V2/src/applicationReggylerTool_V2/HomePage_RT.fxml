@@ -22,7 +22,7 @@
                   <Label fx:id="field_homeUserName" layoutX="23.0" layoutY="119.0" text="User: " />
                   <Button fx:id="button_homeKeywordInventory" layoutX="356.0" layoutY="144.0" mnemonicParsing="false" onAction="#action_homeKeywordInventory" text="Keyword Inventory" />
                   <Button fx:id="button_homeNotificationSettings" layoutX="356.0" layoutY="199.0" mnemonicParsing="false" onAction="#action_homeNotificationSettings" text="Notification Settings" />
-                  <Button fx:id="button_homeSearchSummary" layoutX="356.0" layoutY="270.0" mnemonicParsing="false" onAction="#action_homeSearchSummary" text="Search Summary" />
+                  <Button fx:id="button_homeSearchSummary" layoutX="356.0" layoutY="253.0" mnemonicParsing="false" onAction="#action_homeSearchSummary" text="Search Summary" />
                </children>
             </AnchorPane>
          </children></VBox>
