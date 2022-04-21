@@ -43,7 +43,7 @@ public class Main extends Application {
 
 	 @FXML
 	 void action_OpenRT(ActionEvent event) throws IOException {
-			Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("User_Login.fxml"));
 			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 			scene = new Scene(root);
 			stage.setScene(scene);

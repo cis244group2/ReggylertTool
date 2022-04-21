@@ -22,7 +22,7 @@
                         <TextField fx:id="field_loginEmail" layoutX="170.0" layoutY="58.0" prefHeight="25.0" prefWidth="232.0" />
                         <PasswordField fx:id="field_loginPassword" layoutX="170.0" layoutY="91.0" prefHeight="25.0" prefWidth="232.0" />
                         <Button fx:id="button_loginCreateAccount" layoutX="53.0" layoutY="186.0" mnemonicParsing="false" onAction="#action_loginCreateAccount" prefHeight="25.0" prefWidth="139.0" text="Create New Account" />
-                        <Button fx:id="button_loginLogin" layoutX="53.0" layoutY="137.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="78.0" text="Log in">
+                        <Button fx:id="button_loginLogin" layoutX="53.0" layoutY="137.0" mnemonicParsing="false" onAction="#action_loginLogin" prefHeight="37.0" prefWidth="78.0" text="Log in">
                            <font>
                               <Font size="14.0" />
                            </font>

@@ -16,7 +16,7 @@ public class SECProposedRuleEntry {
 	public SECProposedRuleEntry(String title, String link, String serialNumber, Date publicationDate) {
 		this.title = title;
 		this.link = link;
-		this.serialNumber = serialNumber;
+		this.serialNumber = serialNumber; // primary key
 		this.publicationDate = publicationDate;
 		this.type = "SEC";
 	}
