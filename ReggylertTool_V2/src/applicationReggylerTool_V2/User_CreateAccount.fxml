@@ -4,7 +4,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -13,27 +12,23 @@
    <children>
       <VBox prefHeight="258.0" prefWidth="574.0">
          <children>
-            <TitledPane animated="false" prefHeight="259.0" prefWidth="471.0" text="Create New Account">
-               <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
-                     <children>
-                        <Label layoutX="24.0" layoutY="29.0" text="Email" />
-                        <TextField fx:id="field_userEmail" layoutX="170.0" layoutY="25.0" prefHeight="25.0" prefWidth="232.0" />
-                        <Label layoutX="24.0" layoutY="62.0" text="Password" />
-                        <PasswordField fx:id="field_userPassword" layoutX="170.0" layoutY="58.0" prefHeight="25.0" prefWidth="232.0" />
-                        <Label layoutX="24.0" layoutY="95.0" text="Confirm Password" />
-                        <PasswordField fx:id="field_userConfirmPassword" layoutX="170.0" layoutY="91.0" prefHeight="25.0" prefWidth="232.0" />
-                        <Button fx:id="button_userCreateAccount" layoutX="53.0" layoutY="136.0" mnemonicParsing="false" onAction="#action_userCreateAccount" prefHeight="37.0" prefWidth="78.0" text="Create">
-                           <font>
-                              <Font size="14.0" />
-                           </font>
-                        </Button>
-                        <Button fx:id="button_userBackToLogin" layoutX="53.0" layoutY="186.0" mnemonicParsing="false" onAction="#action_userBackToLogin" prefHeight="25.0" prefWidth="97.0" text="Back to Log In" />
-                        <AnchorPane layoutX="-2.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="31.0" prefWidth="534.0" />
-                     </children>
-                  </AnchorPane>
-               </content>
-            </TitledPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="29.0" text="Email" />
+                  <TextField fx:id="field_userEmail" layoutX="170.0" layoutY="25.0" prefHeight="25.0" prefWidth="232.0" />
+                  <Label layoutX="24.0" layoutY="62.0" text="Password" />
+                  <PasswordField fx:id="field_userPassword" layoutX="170.0" layoutY="58.0" prefHeight="25.0" prefWidth="232.0" />
+                  <Label layoutX="24.0" layoutY="95.0" text="Confirm Password" />
+                  <PasswordField fx:id="field_userConfirmPassword" layoutX="170.0" layoutY="91.0" prefHeight="25.0" prefWidth="232.0" />
+                  <Button fx:id="button_userCreateAccount" layoutX="53.0" layoutY="136.0" mnemonicParsing="false" onAction="#action_userCreateAccount" prefHeight="37.0" prefWidth="78.0" text="Create">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button_userBackToLogin" layoutX="53.0" layoutY="186.0" mnemonicParsing="false" onAction="#action_userBackToLogin" prefHeight="25.0" prefWidth="97.0" text="Back to Log In" />
+                  <AnchorPane layoutX="-2.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="31.0" prefWidth="534.0" />
+               </children>
+            </AnchorPane>
          </children>
       </VBox>
    </children>
