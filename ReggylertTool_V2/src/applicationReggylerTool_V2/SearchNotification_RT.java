@@ -14,12 +14,12 @@ import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.Transport;
 
-public class SearchNotification_RT {
+//try to encapsulate, don't use static
+public class SearchNotification_RT {	
 	private static String USERNAME = "cis244group2@gmail.com"; 
 	private static String PASS = "PUTPASSWORD"; //put in password here in PUTPASSWORD
 	private static String RECIPIENT1 = "jnguyen52@student.ccc.edu"; //field_recipientEmail;
-	//private static String PROFESSOR = "htruong2@ccc.edu";
-	
+
   public static void main(String[] args) {
 	  Date date = new Date();
 	  String from = USERNAME;
