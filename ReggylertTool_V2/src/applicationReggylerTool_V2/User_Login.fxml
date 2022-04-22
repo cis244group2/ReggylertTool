@@ -33,6 +33,7 @@
                         </Label>
                      </children>
                   </AnchorPane>
+                  <Label id="lbConfirm" fx:id="lbConfirm" layoutX="170.0" layoutY="118.0" />
                </children>
             </AnchorPane>
          </children>
