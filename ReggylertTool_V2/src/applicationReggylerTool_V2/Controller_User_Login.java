@@ -9,18 +9,27 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import java.sql.*;
 
 public class Controller_User_Login {
 	
 	private Stage stage;
 	private Scene scene;
 	private Parent root;
+	private Controller_User_CreateAccount controller=new Controller_User_CreateAccount();
+	
 
     @FXML
     private Button button_loginCreateAccount;
+    
+     @FXML
+    private Label lbConfirm;
+    
 
     @FXML
     private Button button_loginLogin;
@@ -41,13 +50,37 @@ public class Controller_User_Login {
     }
     
     @FXML
-    void action_loginLogin(ActionEvent event) throws IOException {  	
-    	
-		Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
+    void action_loginLogin(ActionEvent event) throws IOException, ClassNotFoundException, SQLException, InterruptedException {  	
+    loginUser(event);
+    }
+    public synchronized void
+    loginUser(ActionEvent event) throws SQLException, IOException, ClassNotFoundException, InterruptedException {
+        // Execute a statement
+        controller.initializedb();
+
+
+        String email = field_loginEmail.getText().trim();
+        String password = field_loginPassword.getText().trim();
+        controller.statementLoging.setString(1, email);
+        controller.statementLoging.setString(2, password);
+
+        ResultSet rst=controller.statementLoging.executeQuery();
+        if (rst.next()){
+            loadHomepage(rst.getString(1), event);
+        }
+        else{
+            lbConfirm.setTextFill(Color.RED);
+           lbConfirm.setText("Your Username or Password is incorrect!");
+        }
+    }
+    void loadHomepage(String name, ActionEvent event) throws IOException {
+    	Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
+    	
     }
+   
 
 }
