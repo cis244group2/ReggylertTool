@@ -17,7 +17,6 @@ public class Controller_HomePage {
 	
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 
     @FXML
     private Button button_homeAccountSettings;

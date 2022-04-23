@@ -16,7 +16,6 @@ public class Controller_User_Profile {
 	
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 
     @FXML
     private Button button_profileReturnHome;

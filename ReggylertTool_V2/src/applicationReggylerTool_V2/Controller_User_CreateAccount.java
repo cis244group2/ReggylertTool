@@ -19,7 +19,6 @@ public class Controller_User_CreateAccount {
 	
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 	private PreparedStatement statement;
 	public PreparedStatement statementLoging;
 

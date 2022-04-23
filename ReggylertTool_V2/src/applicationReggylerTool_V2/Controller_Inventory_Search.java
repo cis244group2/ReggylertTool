@@ -16,7 +16,6 @@ public class Controller_Inventory_Search {
 	
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 
     @FXML
     private Button btn_ReturnToHome;

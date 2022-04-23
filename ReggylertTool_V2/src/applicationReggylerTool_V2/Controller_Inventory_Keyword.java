@@ -16,7 +16,6 @@ public class Controller_Inventory_Keyword {
 
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 	
     @FXML
     private Button button_keyinvAddKeyword;

@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -18,7 +17,6 @@ public class Main extends Application {
 	
 	private Stage stage;
 	private Scene scene;
-	private Parent root;
 	
 	@Override
 	public void start(Stage primaryStage) {
