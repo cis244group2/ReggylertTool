@@ -1,0 +1,1610 @@
+Conformed to Federal Register version
+SECURITIES AND EXCHANGE COMMISSION
+17 CFR Part 240
+[Release No. 34-94212; File No. S7-07-22]
+RIN 3235-AN03
+The Commission’s Whistleblower Program Rules
+AGENCY: Securities and Exchange Commission.
+ACTION: Proposed rule.
+SUMMARY: The Securities and Exchange Commission (“Commission” or “SEC”) is proposing
+for public comment amendments to the Commission’s rules implementing its whistleblower
+program. The Securities Exchange Act of 1934 (“Exchange Act”) provides for, among other
+things, the issuance of monetary awards to any eligible whistleblower who voluntarily provides
+the SEC with original information about a securities law violation that leads to the SEC’s success
+in obtaining a monetary order of more than a million dollars in a covered judicial or
+administrative action brought by the SEC (“covered action”). If an eligible whistleblower
+qualifies for an award, Section 21F requires an award that is at least 10 percent, but no more than
+30 percent, of the amount of the monetary sanctions collected in the covered action. The receipt
+of an award in a covered action also enables a whistleblower to qualify for an award in
+connection with judicial or administrative actions based on the whistleblower’s same original
+information and brought by the U.S. Department of Justice (“DOJ”) and certain other statutorily
+identified agencies or entities (“related actions”). The proposed rules would make two
+substantive changes to the Commission’s whistleblower rules that implement the whistleblower
+program, as well as several conforming amendments and technical corrections.
+DATES: Comments should be received on or before April 11, 2022.
+ADDRESSES: Comments may be submitted by any of the following methods:
+Electronic Comments
+• Use the Commission’s internet comment form
+(https://www.sec.gov/rules/submitcomments.htm); or
+• Send an email to rule-comments@sec.gov. Please include File Number S7-07-22 on the
+subject line; or
+Paper Comments
+• Send paper comments to, Secretary, Securities and Exchange Commission, 100 F
+Street NE, Washington, DC 20549-1090.
+All submissions should refer to File Number S7-07-22. This file number should be included on
+the subject line if e-mail is used. To help us process and review your comments more efficiently,
+please use only one method of submission. The Commission will post all comments on the
+Commission’s website (http://www.sec/gov/rules/proposed.shtml). Typically, comments are
+also available for website viewing and printing in the Commission’s Public Reference Room,
+100 F Street NE, Washington, DC 20549, on official business days between the hours of 10 a.m.
+and 3 p.m. Operating conditions may limit access to the Commission’s public reference room.
+All comments received will be posted without change. Persons submitting comments are
+cautioned that we do not redact or edit personal identifying information from comment
+submissions. You should submit only information that you wish to make available publicly.
+FOR FURTHER INFORMATION CONTACT: Emily Pasquinelli, Office of the
+Whistleblower, Division of Enforcement, at (202) 551-5973; Hannah W. Riedel, Office of the
+General Counsel, at (202) 551-7918, Securities and Exchange Commission, 100 F Street NE,
+Washington, DC 20549.
+SUPPLEMENTARY INFORMATION: The Commission is proposing to amend the rules set
+forth in the table below.
+Amendments
+Commission Reference CFR Citation (17 CFR)
+Rule 21F-3 § 240.21F-3
+Rule 21F-4 § 240.21F-4
+Rule 21F-6 § 240.21F-6
+Rule 21F-8 § 240.21F-8
+Rule 21F-10 § 240.21F-10
+Rule 21F-11 § 240.21F-11
+Table of Contents
+I. Introduction
+A. The Whistleblower Award Program
+B. Overview of the Proposed Rules
+II. Discussion of Proposed Rules
+A. Proposed Amendment to Exchange Act Rule 21F-3(b) defining a “comparable”
+whistleblower award program for related actions
+1. The Comparability Approach
+2. Whistleblower’s Choice Option
+3. Other alternatives
+B. Proposed Amendment to Exchange Act Rule 21F-6 regarding size of award
+C. Proposed Technical Amendments to Rule 21F-4(c) and Rule 21F-8(e)
+III. General Request for Public Comment
+IV. Economic Analysis
+A. Economic Baseline
+B. Proposed Rules
+1. Proposed Rule 21F-3(b)(3)
+2. Proposed Rule 21F-6
+C. Additional Alternatives
+D. Effects of the Proposed Rules on Efficiency, Competition, and Capital Formation
+V. Small Business Regulatory Enforcement Fairness Act
+VI. Regulatory Flexibility Act Certification
+VII. Statutory Basis
+I. Introduction
+A. The Whistleblower Award Program
+Section 21F of the Exchange Act, among other things, directs that the Commission pay
+awards, subject to certain limitations and conditions, to whistleblowers who voluntarily provide
+the Commission with original information about a violation of the federal securities laws and
+regulations that leads to the successful enforcement of a covered action and certain related
+actions brought by other statutorily identified authorities.
+1 Section 21F provides that an award
+must be at least 10 percent, but no more than 30 percent, of the amount of the monetary sanctions
+collected in the action for which the award is granted.2
+ Whistleblower awards are paid from a
+dedicated Investor Protection Fund (“IPF”) created by Congress.
+3
+In May 2011, the Commission adopted a comprehensive set of rules to implement the
+whistleblower program.4
+ Those rules, which were codified at 17 CFR 240.21F-1 through
+240.21F-17, provide the operative definitions, requirements, and processes related to the
+whistleblower program. In June 2018, the Commission proposed amendments to the rules
+(“Proposing Release” or “2018 Proposal”).
+5
+ After reviewing the numerous public comments that
+ 1 15 U.S.C. 78u-6(a)(5) (“The term ‘related action’, when used with respect to any judicial or
+administrative action brought by the Commission under the securities laws, means any judicial or
+administrative action brought by an entity described in subclauses (I) through (IV) of subsection
+(h)(2)(D)(i) [of the Exchange Act] that is based upon the original information provided by a
+whistleblower . . . that led to the successful enforcement of the Commission action.”).
+2 See 15 U.S.C. 78u-6(b).
+3 The IPF, which was established as part of the whistleblower program, is a statutorily
+established fund within the U.S. Department of the Treasury from which Commission
+whistleblower awards are paid. See Exchange Act Section 21F(g)(3), 15 U.S.C. 78u-6. The IPF
+operates under a continuing appropriation and has a statutorily created self-replenishing process.
+Id.
+4 Securities Whistleblower Incentives and Protections, Release No. 34-64545, 76 FR 34300
+(June 13, 2011). See also Proposed Rules for Implementing the Whistleblower Provisions of
+Section 21F of the Securities Exchange Act of 1934, 75 FR 70502 (Nov. 17, 2010).
+5 Whistleblower Program Rules, Release No. 34-83557, 83 FR 34702 (proposed June 28, 2018)
+were received in response to the 2018 Proposal, the Commission adopted various amendments to
+the whistleblower program rules (referred to interchangeably as “Adopting Release,” “Final
+Rule,” and “2020 Amendments”)6 in September 2020.
+7
+
+Two of the rules amended in September 2020 are the subject of this proposing release.
+The first is 17 CFR 240.21F-3(b)(3) (Rule 21F-3(b)(3)), which addresses situations in which the
+SEC’s whistleblower program and at least one other whistleblower program may apply to the
+same related action. The 2020 Amendments authorized the Commission to determine, based on
+the facts and circumstances of the claims and misconduct at issue in the potential related action
+(among other factors), whether the Commission’s whistleblower program or the alternative
+whistleblower program has the more “direct or relevant connection to the [non-Commission]
+action.”8
+ If the Commission determines that the other program has the more direct or relevant
+connection, the Commission will not deem the action a related action. Any award to be made on
+the action must come from the other whistleblower program.
+The second rule that is the subject of this proposing release is Rule 21F-6, which
+concerns the Commission’s discretion to apply award factors and set award amounts. Before the
+2020 Amendments, the rule text (with the exception of Rule 21F-6(a)(3)) did not explicitly
+address whether the Commission could consider the potential dollar amount of an award when
+setting awards; rather, the rule text generally referred to setting awards as a percentage of the
+monetary sanctions recovered.9
+ The 2020 Amendments added language to Rule 21F-6 stating
+
+(17 CFR 240.21F-1 through 240.21F-18).
+6 Whistleblower Program Rules, Release No. 34-89963, 85 FR 70898 (Sept. 23, 2020) (17 CFR
+240.21F-1 through 17 CFR 240.21F-18).
+7 These amendments included a new rule 17 CFR 240.21F-18.
+8 See Rule 21F-3(b)(3)(i) through (ii).
+9 See Proposing Release, 83 FR 34704.
+that the Commission has discretion to consider the dollar amount of a potential award when
+making an award determination.
+10
+B. Overview of the Proposed Rules
+The Commission is considering further revising Rule 21F-3(b)(3) and Rule 21F-6, as
+well as making some related conforming modifications to Rules 21F-10 and 21F-11 and
+technical amendments to Rule 21F-4(c) and Rule 21F-8(e). These proposed rule changes are
+being offered for public comment to help ensure that eligible, meritorious whistleblowers are
+appropriately rewarded for their efforts and that our rules do not inadvertently create
+disincentives to reporting potential securities-law violations to the Commission.
+11 The
+Commission anticipates that all of the proposed rule changes, if adopted, would apply to all new
+whistleblower award applications filed after the effective date of the amended final rules, as well
+as all whistleblower award applications that are pending and have not been the subject of a final
+order of the Commission by the effective date.
+1. Allowing awards for related actions where an alternative award program could yield
+an award that is meaningfully lower than the Commission’s whistleblower program would allow.
+The Commission is proposing to amend Rule 21F-3(b)(3) to revise the scope of potential related
+actions (i.e., the non-Commission actions) that could be covered by the SEC’s whistleblower
+program in situations where another award program might also apply to that same action.
+ 10 See Adopting Release, 85 FR 70910 (“To clarify the Commission’s discretionary authority, we
+are modifying Rule 21F-6 to state that the Commission may consider the factors, and only the
+factors set forth in in Rule 21F-6, in relation to the facts and circumstances of each case in
+setting the dollar or percentage amount of the award. This new language, by expressly referring
+to setting the dollar or percentage amount of the award, makes clear that the Commission and the
+Claims Review Staff (CRS) may, in applying the Award Factors specified in Rule 21F-6(a) and
+(b) and setting the Award Amount, consider the potential dollar amount that corresponds to the
+application of any of the factors.”) (internal footnotes omitted).
+11 In anticipation of the current proposal, the Commission released a statement on August 5,
+2021, that identifies procedures that are available to whistleblowers with claims pending
+while the current rulemaking is ongoing. Release No. 34-81207 (Aug. 5, 2021), available at
+https://www.sec.gov/rules/policy/2021/34-92565.pdf.
+Currently, Rule 21F-3(b)(3) provides that if another award program might apply to an action,
+then the Commission will deem the action a potential related action (and process the application
+further to determine if an award is appropriate) only if the SEC’s whistleblower program has the
+“more direct or relevant connection” to the action (relative to the other program’s connection to
+the action).12 Under the proposed amendments to Rule 21F-3(b)(3) (see Part II(A)(1) below), if
+a claimant files a related-action award application, and the alternative award program is not
+comparable, either because the statutory award range is more limited, or because awards are
+subject to an award cap (and the non-Commission action otherwise satisfies the criteria in Rule
+21F-3(b)(1)), the Commission would treat the non-Commission action as a related action
+covered by the SEC’s program (assuming the other criteria of Rule 21F-3(b) are met) regardless
+of whether the alternative award program has a more direct or relevant connection to the
+action.
+13 The Comparability Approach would also provide, however, that the Commission
+would deem a matter eligible for related-action status without regard to which program has the
+more direct and relevant connection to the action, if the maximum award in the related action
+would not exceed $5 million. (As discussed in Part II(A)(1)-(2), the Commission is also
+requesting public comment on several other alternative approaches, including an option that
+would allow a meritorious whistleblower to decide whether to receive a related-action award
+from the Commission or the authority administering the other award program; the whistleblower
+would not be required to select which program to receive the award from until both programs
+had determined the award amount they would pay.)
+ 12 Under Rule 21F-3(b)(3) as currently drafted, if the Commission fails to find that its program
+has the more direct or relevant connection to the action, then the Commission will deny the
+related-action award claim. The claimant is then left to pursue any claim for a whistleblower
+award with the other award program.
+13 See, e.g., 12 U.S.C. 4205(d)(1) (establishing a whistleblower award program in connection
+with the Financial Institutions Reform, Recovery, and Enforcement Act of 1989, but capping
+awards at $1.6 million).
+2. Clarifying the Commission’s use of discretion to consider dollar amounts when
+determining awards. The Commission is also proposing for public comment a new paragraph
+(d) to Rule 21F-6, which would affirm the Commission’s statutory authority to consider the
+dollar amount of a potential award when determining the award amount, but clarifies that the
+Commission may exercise its discretion to use that authority for the limited purpose of increasing
+the award amount and may not use it for the purpose of decreasing an award (either when
+applying the award factors under Rule 21F-6(b) or otherwise).
+3. Conforming and technical amendments. In addition to the above substantive
+amendments, the Commission is proposing minor modifications to Exchange Act Rules 21F-10
+and 21F-11 so that those rules conform to the proposed changes discussed above.
+14 Further, the
+Commission is proposing technical revisions to Rule 21F-4(c) and to Rule 21F-8 to correct errors
+in the rule text.
+II. Discussion of Proposed Amendments
+A. Proposed Amendment to Exchange Act Rule 21F-3(b) defining a
+“comparable” whistleblower award program for related actions
+Under Exchange Act Section 21F(b), a whistleblower who obtains an award based on a
+Commission covered action also may be eligible for an award based on monetary sanctions that
+are collected in a related action. Exchange Act Section 21F(a)(5) and Exchange Act Rule 21F3(b)(1) provide that a related action is a judicial or administrative action that is:
+(i) Brought by DOJ, an appropriate regulatory authority (as defined in Exchange Act
+Rule 21F-4(g)), a self-regulatory organization (as defined in Exchange Act Rule 21F-4(h)), or a
+state attorney general in a criminal case;
+ 14 See infra notes 24 and 57.
+(ii) Based on the same original information that the whistleblower voluntarily
+provided both to the Commission and to the authority or entity that brought the related action;15
+and
+(iii) Resolved in favor of the authority or entity that brought the action, and the
+whistleblower’s information led to the successful resolution.16
+In September 2020, the Commission adopted a new Exchange Act Rule 21F-3(b)(3) to
+address situations where both the Commission’s whistleblower program and at least one other,
+separate whistleblower award program might apply (hereinafter “the Multiple-Recovery
+Rule”).17 As the Commission explained, the potential for another whistleblower award program
+to apply to a potential related action—and the accompanying risk of multiple recoveries—had
+become increasingly apparent over the course of the Commission’s decade of experience
+implementing and administering the award program.18
+The Multiple-Recovery Rule authorizes the Commission to pay an award on an action
+potentially covered by a second award program only if the Commission determines that the
+SEC’s whistleblower program has a more direct or relevant connection to the action than the
+other award program. To assess whether a potential related action has a more “direct or
+ 15 A matter will qualify as a related action even if the whistleblower did not provide the original
+information to the other authority or entity if the Commission itself provided the whistleblower’s
+original information to the authority or entity. Cf. 17 CFR 240.21F-7(a)(2) (Rule 21F-7(a)(2)).
+16 Exchange Act Rule 21F-3(b)(2) provides that essentially the same criteria that are used to
+assess whether a whistleblower should receive an award in connection with a Commission
+covered action will be applied to determine whether the whistleblower should also receive an
+award in connection with the potential related action.
+17 The Commission stated that the purpose of Rule 21F-3(b)(3) was to prevent multiple
+recoveries, see Adopting Release, 85 FR 70908, and cited as the basis for adopting such rules the
+provision in Exchange Act Section 21F(b)(1) that states awards are to be made based on
+“regulations prescribed by the Commission,” the specific rulemaking authority of Exchange Act
+Section 21F(j) to issue rules governing the whistleblower program, and the Commission’s
+general rulemaking authority in Exchange Act Section 23(a), see id. at 70902 & n.20.
+18 See id. at 70908.
+relevant” connection to the SEC’s program or the other potentially applicable program, the
+Multiple-Recovery Rule provides that the Commission will consider: (i) the relative extent to
+which the misconduct charged in the potential related action implicates the public policy
+interests underlying the federal securities laws (such as investor protection) rather than other
+law-enforcement or regulatory interests; (ii) the degree to which the monetary sanctions imposed
+in the potential related action are attributable to conduct that also underlies the federal securities
+law violations that were the subject of the Commission’s covered action; and (iii) whether the
+potential related action involves state-law claims, as well as the extent to which the state may
+have a whistleblower award program that potentially applies to that type of law-enforcement
+action.
+Another provision of the Multiple-Recovery Rule directs that if a related-action claimant
+has already received an award from another program, that claimant will not receive an award
+from the Commission. Relatedly, the Multiple-Recovery Rule provides that if a related-action
+claimant was denied an award from the other program, the claimant will not be able to readjudicate any fact decided against him or her by the other program. And if the Commission
+decides that the SEC’s whistleblower program has the more direct or relevant connection to the
+potential related action, the Multiple-Recovery Rule provides that no payment will be made on
+the award unless the claimant promptly and irrevocably waives any claim to an award from the
+other program.
+In adding the Multiple-Recovery Rule to Exchange Act Rule 21F-3(b), the Commission
+explained that it was “codif[ying] the approach the Commission has previously taken where
+another award program is available in connection with an action for which a related-action award
+is sought.”19 Further, the Commission explained that permitting multiple recoveries on the same
+related action could be viewed as inconsistent with congressional intent in two respects. First, it
+ 19 Id.
+could result in a whistleblower recovering in excess of the 30 percent ceiling that Congress has
+established for federal whistleblower award programs in the modern era.20 Second, the relatedaction component of the SEC’s Whistleblower Program is structured under Section 21F of the
+Exchange Act as a supplemental component of the program. If the Commission is able to bring a
+successful covered action based on the whistleblower’s original information, then the
+whistleblower is given an opportunity to obtain additional financial rewards for the ancillary
+recoveries that may be collected in a related action based on that same original information. But
+the Commission explained that neither the text nor the legislative history of Section 21F
+indicated that Congress intended this ancillary component of the SEC’s whistleblower program
+to displace or otherwise operate as an alternative to a more directly relevant award program that
+may be specifically tailored to apply to a specific type or class of actions. The Commission also
+observed that in situations where another program would apply, the other award program should
+provide a sufficient financial incentive to encourage individuals to report misconduct without the
+need for any additional incentive from the related-action component of the Commission’s
+whistleblower program.21
+Since the Multiple-Recovery Rule was adopted, the Commission has received (or
+otherwise learned of the potential for) a number of whistleblower award applications involving
+potential related actions that implicate (or may implicate) at least one other award program. Of
+particular significance, some of these recent matters concern the whistleblower award program
+that is administered in connection with the Financial Institutions Reform, Recovery and
+Enforcement Act of 1989 (“FIRREA”), which has a statutory cap of only $1.6 million (“FIRREA
+ 20 The Commission further explained that it was unaware of any time in the modern era in which
+legislation had authorized the federal government to share with a whistleblower more than 30
+percent of its monetary recovery from a successful action.
+21 See 85 FR 70909.
+awards program”).
+22 As suggested above, an important consideration underlying the adoption of
+the Multiple-Recovery Rule was that—even with the Commission’s determination not to pay on
+potential related actions that have a more direct or relevant connection to an alternative award
+program—the adoption of the Multiple-Recovery rule would not appreciably impact a potential
+whistleblower’s financial incentive to come forward. As the Commission explained, this is
+because potential “whistleblowers would still stand to receive an award” from the Commission
+on the covered action and from the other program on the potential related action.
+23 This
+assumption may not be justified, however, under limited circumstances in which an alternate
+whistleblower program provides significantly fewer financial incentives than the Commission’s
+program. This seems most likely where the other award program has either a much lower award
+range than the Commission’s program or has an absolute dollar ceiling for all awards.
+Relatedly, we are concerned that the Multiple-Recovery Rule as currently structured
+creates a risk that two otherwise similarly situated meritorious whistleblowers whose tips led to
+comparably successful Commission and related actions would receive meaningfully different
+awards based solely on the award program to which the actions in question were more directly
+related or relevant. This potential for disparate treatment seems needlessly unfair given that the
+potential disparate results are not compelled by the statute, would not be connected to any
+relevant differences in either the claimants’ own efforts or the facts of the underlying related
+actions (such as the amounts collected, which are relevant to calculating the money paid to
+whistleblowers under Section 21F(b) of the Exchange Act), and would not be grounded in any
+obvious SEC policy goals or programmatic considerations.
+ 22 See Attorney General Holder’s Remarks on Financial Fraud Prosecutions at NYU School of
+Law (Sept. 17, 2014) (referring to this $1.6 million cap as a “paltry sum” that “is unlikely to
+induce an employee to risk his or her lucrative career in the financial sector” by reporting
+financial crimes).
+23 See 85 FR 70908.
+Based on the foregoing concerns, the Commission is offering for public comment several
+proposals to change Rule 21F-3(b)(3). The principal proposal being offered is the
+“Comparability Approach” (see Part II(A)(1) below). The Comparability Approach would retain
+the current rule but would make certain narrowly tailored amendments to address the fairness
+concerns identified above. The Comparability Approach would also allow the Commission to
+deem a matter eligible for related-action status in any case in which the maximum award that the
+Commission could pay on that action would not exceed $5 million, without assessing which of
+the two comparable whistleblower programs had the more direct and relevant connection to the
+action.
+Another alternative being offered for public comment is the “Whistleblower’s Choice
+Option” (see Part II(A)(2) below). It would involve a repeal of current Rule 21F-3(b)(3) in
+favor of an approach that would no longer permit the Commission the exclusive authority to
+forgo processing an otherwise meritorious award claim simply because another award program
+may have a more direct or relevant connection to the underlying action.24
+Finally, the Commission is offering for public comment the “Offset Approach” and the
+“Topping Off Approach” (see Part II(A)(3) below). Under the Offset Approach, Rule 21F3(b)(3) would be repealed in its entirety in favor of a rule that would allow the Commission to
+make an award irrespective of the potential that another award program might apply, but to
+prevent a double recovery the Commission would offset from the Commission’s award any
+amount that other program paid on the action. Under the Topping-Off Approach, the current
+ 24 The Commission intends to make a clarifying amendment to Exchange Act Rule 21F-11(c) so
+that it states that the Office of the Whistleblower is authorized to contact the agency or entity
+administering an alternative award program to ensure that the related-action award claimant has
+fully complied with the terms of Exchange Act Rule 21F-3(b)(3) when a second, alternative
+award program is implicated by an underlying action. If the Commission is ultimately unable to
+receive the information that it needs to ensure to its satisfaction that the claimant has fully
+complied with Rule 21F-3(b)(3), this can be a basis for denying the award claim. The
+authorization that would be expressly added to Rule 21F-11(c) by the proposed amendment
+follows presently from the operation of existing Rule 21F-3(b)(3) and the proposed amendment
+would merely confirm that authority.
+Rule 21F-3(b)(3) framework would be retained but the Commission would be granted the
+discretion to “top off” a covered-action award—that is, increase the award amount on the
+Commission’s own covered action (up to a total award of 30 percent)—if the Commission, in its
+discretion, concludes that the other whistleblower program’s award for the non-SEC action was
+inadequate.
+1. The Comparability Approach
+The Comparability Approach primarily focuses on situations where the maximum
+potential award that the alternative award program could authorize for an action would be an
+amount meaningfully lower than the maximum related-action award the Commission could grant
+(i.e., 30 percent “in total, of what has been collected of the monetary sanctions imposed”) either
+because the program involves a different award range or because it imposes a statutory award
+cap.
+25 An example of an award program that lacks a range comparable to the Commission’s
+program is the Indiana securities-law whistleblower award program; under the Indiana program,
+ 25 The proposed rule would also provide that a program would not be deemed comparable if
+awards under that program are entirely discretionary. Our own experience with a discretionary
+award program prior to the enactment of Exchange Act Section 21F’s mandatory award program
+leads us to have significant concerns that discretionary programs may not have the same
+programmatic importance to agencies, and may not be administered with the same rigor, as
+mandatory award programs. See Office of the Inspector General, Assessment of the SEC’s
+Bounty Program, Report No. 474 (March 29, 2009), at 4-5, available at
+www.sec.gov/about/offices/oig/reports/audits/2010/474.pdf (stating that the Commission made
+five awards totaling less than $160,000 over the 20-year period from 1989 until 2009 under its
+former insider-trading “bounty program” for which “bounty determinations, including whether,
+to whom, or in what amount to make payments, [were] within the sole discretion of the SEC”).
+That prior experience also suggests to us that discretionary programs may garner lower levels of
+interest from the public because of the additional uncertainty of receiving an award. See id.
+(explaining that the “Commission ha[d] not received a large number of applications from
+individuals seeking a bounty” and that the program was “not widely recognized inside or outside
+the Commission”). Together these factors may substantially reduce the willingness of
+whistleblowers to blow the whistle. See Letter from Kohn, Kohn & Colapinto, LLP, Comment
+offered in connection with Proposing Release No. 34-83557 regarding Related Actions and
+Proposed Rule 21F-3(b)(4) (Sept. 10, 2020), available at https://www.sec.gov/comments/s7-16-
+18/s71618-7797952-223596.pdf (stating that discretionary award programs do “not meet the
+same standards” that Exchange Act Section 21F establishes). To forestall this risk, we think it
+appropriate to deem discretionary programs presumptively lacking sufficient comparability to
+our own program for purposes of Proposed Rule 21F-3(b)(3).
+whistleblower awards may not exceed 10 percent of the money collected in a state securities-law
+enforcement action.26 Examples of award programs that have low statutory caps are the
+FIRREA award program,
+27 which has a $1.6 million cap,28 and the program administered in
+connection with the Major Frauds Act, which has a cap of $250,000.
+29
+The Comparability Approach would address situations involving similar low award caps
+by generally excluding them from the Multiple-Recovery Rule.
+30 Specifically, under the
+Comparability Approach, the Multiple-Recovery Rule would not apply if the maximum potential
+award that the other program could grant in connection with a related action would be
+meaningfully lower than the maximum amount the Commission could award to that
+whistleblower on that same action.31 To implement this modification, the opening sentence of
+ 26 See Indiana Code 23-19-7-1 et seq.
+27 FIRREA authorizes DOJ to sue for civil penalties when a person engages in certain criminal
+conduct, including mail, wire, and bank fraud. A court may impose penalties up to $1 million
+per violation or $5 million for a continuing violation. 12 U.S.C. 1833a(b)(1) and (2). Further, a
+court may award greater penalties depending on the amount of the violator’s gain or victims’
+losses that are connected to the FIRREA violations. Id. at 1833a(b)(3) (providing that a court
+may impose higher pecuniary penalties if either the amount of the wrongdoer’s pecuniary gain
+from the FIRREA violation or the amount of the pecuniary loss to a victim exceeds the penalty
+amounts specified in the statute, although any penalty may not exceed the total amount of the
+wrongdoer’s gains or the victims’ losses).
+28 Under the FIRREA award program a whistleblower is entitled to between 20 percent and 30
+percent of the first $1 million recovered pursuant to the execution of a judgment, order, or
+settlement, between 10 percent and 20 percent of the next $4 million recovered, and between 5
+percent and 10 percent of the next $5 million recovered. Id. at 4205(d)(1)(A)(i). Thus, awards
+under this program are effectively capped at $1.6 million (i.e., 30 percent of $1 million
+[$300,000] plus 20 percent of the next $4 million [$800,000], plus 10 percent of the next $5
+million [$500,000] but nothing beyond that). Id. at 4205(d)(2).
+29 18 U.S.C. 1031(g).
+30 The FIRREA award program and the Major Fraud Act award program are discretionary, and
+thus would be excluded under the Comparability Approach for this additional reason, see supra
+note 25. As a result, the low-award caps that those programs establish are referenced here purely
+for illustrative purposes.
+31 In assessing comparability, the Commission intends to compare the total amount that the other
+award program could award to all eligible whistleblowers for the potential related action to the
+total amount that the Commission’s award program could make to those individuals based on
+Rule 21F-3(b)(3) would be amended to provide that the rule does not apply unless the other
+whistleblower program is a “comparable whistleblower program.”32 “Comparable whistleblower
+program” would be defined in a new paragraph (b)(3)(iv)(A) of Rule 21F-3 to mean an award
+program that does not have an award range or award cap that would restrict the total maximum
+potential award from that program to an amount that is meaningfully lower than the maximum
+potential award to all eligible claimants (in dollar terms) that the Commission could make on the
+particular action.33 Taken together, these proposed amendments if adopted would mean that
+when the Commission determines that another award program fails to qualify as a “comparable
+award program,” Rule 21F-3(b)(3) would not apply and could not be used as a basis for denying
+an award on the potential related action.34
+In addition, the Comparability Approach would provide that, after determining that the
+two programs are comparable, the Commission would deem a matter eligible for related-action
+
+that same potential related action.
+32 The words “another whistleblower program” in the opening sentence of Rule 21F-3(b)(3)
+would be replaced with “comparable whistleblower program.”
+33 As discussed supra in note 25, an award program would not be comparable if it were
+discretionary instead of mandatory. To effectuate this, new paragraph (b)(3)(iv)(A) would also
+provide that an award program is not comparable if the authority or entity administering the
+other program possesses sole discretion to deny an award notwithstanding the fact that a
+whistleblower otherwise satisfies the established eligibility requirements and award criteria.
+34 The Commission has not proposed to include eligibility criteria or award conditions in the
+assessment of an award program’s comparability to the Commission’s. This is because other
+authorities that are administering whistleblower programs may shape those programs through
+eligibility criteria and award conditions that reflect each agency’s own policy choices (or in some
+instances Congress’s policy choices), just as many of the Commission’s own eligibility criteria
+and award conditions reflect important policy considerations. But the Commission also
+recognizes that there could be some instances where the lack of comparability between the
+eligibility criteria and award conditions of the Commission’s whistleblower program and those
+of another agency’s whistleblower program could create an undue burden or significant hardship
+to the claimant. When these instances arise, the Commission could employ its discretionary
+waiver authority under Section 36(a) of the Exchange Act to include the related action within the
+scope of the Commission’s award program if the particular facts and circumstances warrant
+doing so. The flexibility that Section 36(a) provides seems particularly well suited in these
+instances given the myriad and varied competing interests that may be implicated.
+status without regard to which program has the more direct and relevant connection to the action
+if the maximum award the Commission could have to pay in the related action would not exceed
+$5 million.35 This condition would be satisfied in any case where 30 percent of the monetary
+sanctions ordered to be collected by the other agency is $5 million or less; if so, then the action
+would be eligible to qualify as a related action under the Commission’s program. Similar to
+what the Commission explained when in 2020 it adopted the $5 million award presumption in
+Rule 21F-6(c), we believe that permitting an action to automatically qualify as a related action
+under these circumstances would help save whistleblowers time and effort, as well as
+Commission staff. Whistleblowers who must file an award application with another wholly
+unrelated program are likely to incur additional burdens in doing so, including familiarizing
+themselves with any potentially applicable rules. When the maximum award amount based on
+the monetary sanctions paid out in the action would not exceed $5 million, we think it is
+reasonable to allow the whistleblower to pursue any related-action claim with the Commission
+(via a process with which the whistleblower will be familiar given the whistleblower’s previous
+filing of a covered-action award). Additionally, because the Comparability Approach would
+require Commission resources to assess award comparability in each related-action claim that
+potentially implicates an alternative award program, the $5 million threshold would help
+promote the timely administration and efficiency of the award process.
+We do not think this $5 million threshold would impose an undue strain on the staff to
+process a related-action award to a final order, nor do we think it will pose risks to the solvency
+ 35 The Commission has chosen to base the $5 million threshold on the maximum potential award
+that the Commission could be required to pay, rather than rely on the monetary sanctions that
+have been collected and are likely to be collected in the future. Our experience demonstrates that
+we often do not have the same visibility into the likelihood of collecting an award in another
+agency’s action that we do in the context of our own SEC actions, particularly given that a
+determination would potentially be required prior to the exhaustion of the other agency’s
+collection efforts. Therefore, for purposes of administrative efficiency, we believe it is
+appropriate to use an objective reference point which will be available at the time the
+Commission is determining whether to grant a related-action award.
+of the IPF. In order for a whistleblower to obtain the benefit of this new $5 million threshold
+provision, however, the whistleblower will need to make an irrevocable waiver of any claim to
+an award from the other program and otherwise comply with the other procedural obligations
+that would be imposed by amended Rule 21F-3(b)(3).
+Below is a decision tree that outlines how the Commission would apply the
+Comparability Approach described above:
+Step 1. Determine whether another whistleblower program that might apply to a
+potential related (non-SEC) action for which a claimant is seeking an award.
+• If yes, continue to step 2.
+• If no, the matter would be treated as a potential related action and the
+Commission would process the claimant’s award application against the
+general award criteria and eligibility requirements of the whistleblower rules.
+Step 2. If there is another program that applies to the potential related action, determine
+whether it is a “comparable award program.”36
+• If the other award program is comparable, proceed to step 3.
+• If the other program is not comparable, the matter would be treated as a
+potential related action and the Commission would process the claimant’s
+award application against the general award criteria and eligibility
+requirements of the whistleblower rules.
+ 36 As proposed, a “comparable award program” would be a whistleblower award program
+administered by an authority or entity other than the SEC: (i) that “does not have an award range
+that could operate in a particular action to yield an award for a claimant that is meaningfully
+lower (when assessed against the maximum and minimum potential awards that program would
+allow) than the award range that the Commission’s program could yield (i.e., 10 to 30 percent of
+collected monetary sanctions)”; (ii) that “does not have a cap that could operate in a particular
+action to yield an award for a claimant that is meaningfully lower than the maximum award the
+Commission could grant for the action (i.e., 30 percent of collected monetary sanctions in the
+related action)”; and (iii) in which the authority or entity administering the program does not
+have discretion to “deny an award notwithstanding the fact that a whistleblower otherwise
+satisfies the established eligibility requirements and award criteria.”
+Step 3. If the program is comparable, then determine whether either: (1) the absolute
+maximum payout the Commission could make on the potential related action is $5
+million or less (i.e., 30 percent of the monetary sanctions ordered is $5 million or less); or
+(2) the SEC’s award program has the more direct or relevant connection to the action
+(relative to the other program) based on the facts and circumstances of the action.
+• If the answer to both (1) and (2) in step 3 is “no,” then the matter is not a
+related action.
+• If the answer to (1) and/or (2) in step 3 is “yes,” the matter would be treated
+as a potential related action and the Commission would process the claimant’s
+award application against the general award criteria and eligibility
+requirements of the whistleblower rules.
+Beyond the proposed changes discussed above, Rule 21F-3 would be revised to include a
+new paragraph (b)(3)(iv)(B) providing that the Commission will make a determination about
+comparability on a case-by-case basis. Further, a new paragraph (b)(3)(iv)(C) would be added to
+Rule 21F-3 to state that if the Commission grants an award on a related-action application that
+involves an alternative program that is not comparable, the claimant must, within 60 calendar
+days of receiving notice of the award, make an irrevocable waiver of any claim to an award from
+the other program.
+Relatedly, a new paragraph (b)(3)(iv)(D) would be added to Rule 21F-3 to afford the
+Commission robust authority to ensure that an irrevocable waiver has been made. New
+paragraph (3)(b)(iv)(D) would make clear that a claimant whose related-action award application
+is subject to the provisions of Rule 21F-3 has the affirmative obligation to demonstrate to the
+satisfaction of the Commission that the claimant has complied with the terms and conditions of
+the proposed rule regarding an irrevocable waiver. Proposed paragraph (b)(3)(iv)(D) would also
+amend Rule 21F-3 to provide that a claimant must take all steps necessary to authorize the
+administrators of the other award program to confirm to staff in the Office of the Whistleblower
+(or in writing to the claimant or the Commission) that an irrevocable waiver has been made
+Further, a new paragraph (b)(3)(v) would be added to Rule 21F-3 to require a claimant to
+promptly notify the Office of the Whistleblower that they are seeking or have sought an award
+for a potential related action from another award program.37 And a paragraph (b)(3)(vi) would
+be added to advise claimants that the failure to comply with any of the conditions or
+requirements of an amended Rule 21F-3(b)(3) “may” result in the Commission deeming the
+claimant ineligible for the related action at issue.
+Finally, the Commission contemplates that the Comparability Approach would apply as
+follows in situations where two or more whistleblowers who were not acting jointly contributed
+to the success of a related action.38 If the Commission determined that the other agency’s award
+program was not comparable or that the maximum award payable would not exceed $5 million,
+each whistleblower would be able to determine separately whether to proceed under the
+Commission’s program or the other award program. Further, as is the case with all related-
+ 37 In addition to the changes discussed above, Rule 21F-3(b)(3)(iii) would be amended so that the
+existing reference to a “prompt, irrevocable waiver” specifies that the waiver must be made
+within 60 calendar days of the claimant receiving notice of the Commission’s award
+determination. This change would ensure that the timing for an irrevocable waiver is consistent
+throughout Rule 21F-3(b)(3). Further, certain stylistic and clarifying modifications would be
+made to the existing three sentences of Rule 21F-3(b)(3)(iii), and each of these revised sentences
+would be broken out into new paragraphs (b)(3)(iii)(A) through (C). Finally, the Commission is
+proposing to revise the first sentence of Rule 21F-3(b)(3)(iii). In its current form, that sentence
+provides that the Commission will not issue an award determination for a potential related action
+if another program has already issued an award determination to the claimant based on that
+action. The Commission is proposing to replace that sentence with a new paragraph
+(b)(3)(iii)(A) that would provide that the Commission’s ability to discontinue processing a
+claimant’s related-action award application is triggered only by the claimant’s receipt of any
+payment from the other program. This modification would strike a better balance in terms of
+fairness to claimants because the receipt of a payment from the other program is an action that a
+claimant has control over, but a claimant often will have little control over the processing time
+for award applications.
+38 See generally Section 21F(a)(6) of the Exchange Act (referring to “2 or more individuals
+acting jointly” to provide information to the Commission).
+action claims involving multiple, independent whistleblowers, each claimant’s application would
+be assessed separately to determine whether the applicant qualifies for an award. And in
+determining the appropriate award amount for any meritorious whistleblower who has elected to
+proceed under our program, the award guidelines and considerations specified in 17 CFR
+240.21F-5 (Rule 21F-5) and Rule 21F-6 would be used. In making its award assessment for any
+whistleblower proceeding under the SEC’s program, the Commission may consider the relative
+contributions of any whistleblower who opted to proceed under the alternative whistleblower
+program rather than the Commission’s program. That said, in no event would the total award
+paid out on a related action to all the meritorious whistleblowers who proceed under the
+Commission’s program be less than 10 percent or greater than 30 percent of the total monetary
+sanctions collected in the related action.39
+2. Whistleblower’s Choice Option
+As an alternative to either maintaining Rule 21F-3(b)(3) in its current form or modifying
+it as described above (Comparability Approach), the Commission is requesting public comment
+on a third approach, the Whistleblower’s Choice Option. Under this option, the Commission
+would process an application for a related-action award without regard to whether a separate
+award program might also apply to that action and irrespective of the whistleblower’s decision to
+apply for an award from the other award program. Under the Whistleblower’s Choice Option,
+the Commission would process the related-action award application just as it does for relatedaction applications that do not implicate separate award programs. And if both the Commission
+and the other program grant an award, the Whistleblower’s Choice Option would allow the
+whistleblower to determine which award to accept. For example, if a whistleblower received
+separate award offers from the Commission and the Internal Revenue Service of the United
+ 39 Individuals who work jointly to provide the Commission with information are treated as a
+single unit for assessing eligibility requirements, applying the award criteria, and determining a
+specific award amount. Consistent with this approach, such individuals would have to determine
+jointly whether to proceed under the Commission’s program or the other program.
+States (“IRS”) on the same underlying action, the whistleblower would be able to consider both
+programs’ award offers and select the higher offer.
+A revised rule embodying the Whistleblower’s Choice Option would not permit the
+claimant to receive payment on both awards; the meritorious whistleblower would need to make
+a choice between the two awards. To ensure that the claimant would not receive payment on the
+same action from both programs, this proposed alternative would require that a claimant identify
+any award program other than the SEC’s to which the claimant had applied. Before receiving
+any payment from the Commission on a related-action award, the claimant would be required to
+irrevocably waive any award (or claim to an award) from the other program.
+The critical feature of the Whistleblower’s Choice Option is that—unlike Rule 21F3(b)(3) in its current form or as modified to incorporate the Comparability Approach discussed
+above—the claimant, not the Commission, would decide which program should pay any award
+for a potential related action. The Commission would not account for the existence of another
+potentially applicable award program in its assessment of the claimant’s award eligibility or
+award offer. Rather, the Commission would consider the existence of the alternative award
+program only at the payment stage, when it would be required to determine that the
+whistleblower had irrevocably waived any and all rights to an award from the other program
+before making the related-action award payment.
+A potential benefit of the Whistleblower’s Choice Option is that the Commission and the
+staff would no longer be required to determine which award program has a more “direct or
+relevant” connection to the related action. Such determination can entail difficult assessments,
+the resolution of which can increase overall award processing time.
+There are countervailing considerations that—at least preliminarily—may militate in
+favor of the Comparability Approach. First, under the Whistleblower’s Choice Option,
+whistleblowers who apply to both programs would get two separate opportunities to demonstrate
+that they should receive an award.40 This could produce a situation in which the Commission
+and another agency made conflicting factual determinations after reviewing the same related
+action. Separately, irrespective of whether another whistleblower award program has a more
+direct or relevant connection to a matter upon which a whistleblower is seeking a related-action
+award, a whistleblower could attempt to use the Commission’s Whistleblower Program to
+overcome or avoid the failure to satisfy a significant eligibility requirement imposed by the other
+program.
+Second, the Whistleblower’s Choice Option could slow the overall processing of award
+claims given the limited staff resources and the likelihood that this approach would increase the
+staff’s administrative workload.41 Unlike either existing Rule 21F-3(b)(3) or the approach
+contemplated by the Comparability Approach, the Whistleblower’s Choice Option could require
+the Commission to fully process every application for a related-action award that also implicates
+a second award program. Under Rule 21F-3(b)(3)’s existing framework, by contrast, the staff is
+not required to work with officials at the authority or entity that handled the underlying action to
+develop an administrative record regarding the claimant’s contributions to the other action.
+Rather, under the existing framework, the Commission first analyzes the relative relationship of
+each award program to the underlying action and, if it determines that the Commission’s award
+program lacks the more direct or relevant connection to the action, it issues a final order on this
+ground. This approach avoids the more time consuming and challenging work often involved
+ 40 The Commission has previously articulated a view that a whistleblower should not have
+multiple bites at the adjudicatory apple. See, e.g., 83 FR 34711; 76 FR 34305.
+41 Processing claims for related-action awards generally takes longer than the processing of
+award claims for SEC covered actions. This is because Commission staff must often
+communicate with, and obtain information from, staff from the other agency to determine
+whether the claimant voluntarily provided new information that led to the other agency’s
+enforcement action in order to determine if the claimant is eligible for a related-action award.
+Commission staff must also obtain appropriate documentation from the other agency to confirm
+collections in the related action and prepare an accompanying declaration from a staff attorney
+memorializing for the record the relevant information regarding the related action.
+with understanding the whistleblower’s contribution to the potential related action and assessing
+whether the various conditions for an award have been satisfied. But if the Whistleblower’s
+Choice Option were adopted to replace the current framework, it would displace the threshold
+“direct or relevant” inquiry and the staff would generally process each related-action application
+on the merits of the whistleblower’s claim to an award.
+To implement the Whistleblower’s Choice Option, the current version of Rule 21F3(b)(3) would be repealed in its entirety and replaced by a new Rule 21F-3(b)(3) that would
+specify the “terms and conditions” that would apply whenever at least one other award program
+potentially applied to an action. Paragraph (b)(3)(i) of the revised rule would provide that if the
+Commission determines that a claimant qualifies for an award for the related action, any
+payment of that award by the Commission would be conditioned on that claimant making an
+irrevocable waiver of any award or potential award from the other program. Paragraph (b)(3)(i)
+would also prohibit the Commission from considering the existence of the alternative program or
+the amount of that program’s award (if one has already been issued) in its own consideration of
+the claimant’s right to a related-action award or its determination about the proper amount of any
+award. Paragraph (b)(3)(ii) would provide that the Commission will not make an award on a
+related action (or pay on an award if one has already been issued), if the claimant receives any
+payment from the other award program. Paragraph (b)(3)(iii) would require that the claimant
+make an irrevocable waiver of any award from the other program within 60 calendar days of the
+later of either a claimant learning of the Commission’s award amount or a claimant learning of
+the other program’s award offer. Further, new paragraph (b)(3)(iv) of Proposed Rule 21F3(b)(3) would provide that a claimant must comply with the irrevocable-waiver requirement of
+paragraph (b)(3)(i) of the proposed revised rule.42 A proposed paragraph (b)(3)(v) of a revised
+ 42 Placing this affirmative obligation on claimants would help ensure that those subject to Rule
+21F-3(b)(3) are adhering to the terms and requirements of the proposed rule. The proposed rule
+language to achieve this would be nearly identical to comparable language in the Comparative
+Approach detailed in Part II(A), supra. This rule text would provide that a claimant must take all
+Rule 21F-3(b)(3) would impose an affirmative obligation on a claimant seeking a related-action
+award to promptly notify the Office of the Whistleblower if that claimant was seeking an award
+on that same action from another agency. A proposed paragraph (b)(3)(vi) would be added to
+advise claimants that the failure to comply with any of the conditions or requirements of an
+amended Rule 21F-3(b)(3) may result in the Commission deeming the claimant ineligible for the
+related-action at issue.
+Finally, the Commission contemplates that the Whistleblower’s Choice Approach would
+apply as follows in situations where two or more whistleblowers who were not acting jointly
+contributed to the success of a related action and subsequently filed award applications with the
+Commission.43 As is the case with all related-action claims involving multiple, independent
+whistleblowers, each claimant’s application will be assessed independently of any other’s to
+determine whether the claimant qualifies for an award. Assuming there are two or more
+meritorious whistleblowers, the Commission would, consistent with its general practice, include
+within its award determinations consideration of each whistleblower’s relative contributions to
+the success of the related action (with the total award no lower than 10 percent and no greater
+than 30 percent of monetary sanctions collected in the related action). Each whistleblower
+would then be able to determine whether to accept the Commission’s award determination or
+instead waive the award determination and take an award from the other program.44 Thus, for
+
+steps necessary to authorize the administrators of the other award program to confirm to staff in
+the Office of the Whistleblower (or in writing to the claimant or the Commission) that an
+irrevocable waiver has been made.
+43 See generally Section 21F(a)(6) of the Exchange Act (referring to “2 or more individuals
+acting jointly” to provide information to the Commission).
+44 Individuals who work jointly to provide the Commission with information are treated as a
+single unit for assessing eligibility requirements, applying the award criteria, and determining a
+specific award amount. Consistent with this approach, under the Whistleblower’s Choice
+Option, such individuals would have to determine jointly whether to accept an award from the
+Commission or to waive the Commission’s award determination in favor of the other program’s
+award determination.
+example, if the Commission made an award of 10 percent to one whistleblower and 20 percent to
+another, if the first whistleblower waived the SEC’s award and accepted an award from the other
+program, the second would be free to accept the SEC’s 20 percent award.45
+3. Other alternatives
+In addition to the Comparability Approach and the Whistleblower’s Choice Option, there
+are two other potential alternative approaches on which the Commission seeks comment: the
+Offset Approach; and, the Topping-Off Approach. Both would involve replacing the MultipleRecovery Rule. Under both of these two approaches, a whistleblower would be permitted to
+receive a payment from both the Commission’s program and another entity’s whistleblower
+program; the Commission would not require whistleblowers to waive their claims to awards
+from another program as a pre-condition to recovering under the Commission’s program.46 As
+discussed below, both raise potential administrative issues that might counsel against their
+adoption.
+Under the Offset Approach, the Commission would determine the award percentage it
+would otherwise pay on the related action but would offset from the Commission’s total award
+payment the dollar amount the whistleblower receives for the related action from the other
+ 45 A decision by one whistleblower to reject an SEC award offer would not impact the award
+amount offered or paid to any other whistleblowers. The award amounts offered to each
+whistleblower would not depend on whether any of the whistleblowers opted to decline the
+Commission’s award offer. This means, among other things, that the 30-percent presumption
+established by Rule 21F-6(c) would not be applied to revise a whistleblower award upward as a
+result of another whistleblower’s determination to decline an award from the Commission’s
+program. Proceeding in this way is consistent with the provision of the proposed rule that states
+the “Commission shall proceed to process the application without regard to the existence of the
+alternative award program,” which includes any decisions the another whistleblower makes
+about taking an award offered by that other program in lieu of an award offered by the
+Commission’s program.
+46 Similar to the Whistleblower’s Choice Option, these alternatives would begin with the
+Commission determining its award percentage applicable to the related action, and would
+proceed if an award from another program was lower than what would have been awarded by the
+Commission on the related action had the other program not existed.
+program’s award.47 Put differently, the Offset Approach would require the Commission to make
+a related-action award even if another agency had already paid an award on that same action, but
+the Commission could reduce the amount it paid on its related-action award by the amount that
+the other agency paid. The fact that the whistleblower might receive an award from another
+program would have no bearing on the Commission’s actual award determination; it would be
+relevant only when the Commission offset the award amount at the time of payment.48
+Under the Topping-Off Approach, the current Rule 21F-3(b)(3) framework would be
+retained but the Commission would be granted the discretion to enhance or “top off” a coveredaction award—that is, increase the award amount on the Commission’s own covered action (up
+to a total award amount of 30 percent)—if the Commission concluded that the other
+whistleblower program’s award for the non-SEC action was inadequate for any reason. A
+potential concern with this approach is that, as a practical matter, the Commission’s ability to
+enhance or “top off” a covered-action award to provide a whistleblower relief from a deficient
+award issued by another program for a non-SEC action would be limited in many instances. For
+ 47 The effect on the IPF from the “Offset Approach” would be difficult to assess with any
+confidence. Relative to the Comparability Approach, the Offset Approach could potentially
+increase the money paid from the IPF in some cases if a comparable program were to produce a
+meaningfully smaller than expected award and, as a result, an offset payment. However, in other
+instances, the Offset Approach could reduce the burden on the IPF, because the Commission
+would potentially be sharing responsibility with another award program for that related action.
+48 Pursuant to Exchange Act Section 21F(b), the Commission shall pay an award to one or more
+meritorious whistleblowers of “not less than 10 percent, in total, of what has been collected of
+the monetary sanctions imposed in the [Commission’s] action or related actions[.]” Under the
+Offset Approach, it is possible that the Commission’s portion of the award payment could place
+the Commission in the position of making a related-action award that is less than 10 percent of
+the total amount collected. Alternatively, it could also result in a total reward to the claimant
+(when combined with the payment from the other program) that exceeds 30 percent. As an
+illustration, if another program makes a 22 percent award on a related action, and if the
+Commission determines to provide an additional reward on top of the amount the other program
+will pay, then the Commission would be presented with the following dilemma: If the
+Commission’s award is 8 percent or less, there would appear to be a conflict with Section 21F’s
+10 percent statutory minimum. But if the Commission makes an award greater than 8 percent,
+the total payout would exceed the 30 percent statutory cap. For these reasons, the Commission
+has not designated the Offset Approach as one of the principal approaches under consideration.
+example, when the covered-action award already (i.e., prior to any enhancement to account for a
+deficient award from the other program for the non-SEC action) is at or near the statutory
+maximum 30 percent award authorized under Section 21F(b), the Commission would not have
+the ability to grant a significant percentage enhancement. Similarly, if the monetary sanctions
+collected in the Commission’s action are relatively small compared to the size of the related
+action’s collected sanctions (e.g., a relatively small covered action involving $10 million in
+collected sanctions versus a much larger non-SEC action involving $100 million in collected
+sanctions), then the Commission’s ability to provide relief by topping off the covered action may
+be limited because of the sheer size of the related-action relative to the Commission’s action.
+Finally, both of these alternatives raise the concern that they would add significant delays
+to the Commission’s ability to make timely award determinations whenever an action implicates
+another award program. This is because (unlike the Comparability Approach or the
+Whistleblower’s Choice Option) the Offset Approach and the Topping-Off Approach would
+delay the Commission’s ability to pay the final award amount to a meritorious whistleblower
+until after the other entity’s award process has been completed.
+Request for Comment
+1. Do any of the approaches discussed above implicate additional considerations that the
+Commission has not addressed in this proposing release but that you believe should be factored
+into the Commission’s deliberations relating to potential amendments to Rule 21F-3(b)(3)? For
+example, should the proposals identify the potential consequences that might result if a claimant
+fails to comply with the requirements of any amended rule?
+2. The Commission outlines above how it contemplates dealing with instances involving
+multiple whistleblowers under the Comparability Approach and the Whistleblower’s Choice
+Option. If the Comparability Approach is adopted, is the Commission’s proposed approach for
+addressing awards in the context of related actions involving multiple whistleblowers
+appropriate? Similarly, if the Whistleblower’s Choice Option is adopted, is the Commission’s
+proposed approach for addressing awards in the context of related actions involving multiple
+whistleblowers appropriate? Please explain. Should the Commission consider alternative
+approaches for dealing with related actions involving multiple whistleblowers under the
+Comparability Approach and Whistleblower’s Choice Approach? Please explain and identify
+any alternatives that you believe the Commission should consider.
+3. Is the $5 million threshold proposed as part of the Comparability Approach the
+appropriate figure? Should the threshold be higher or lower? Please explain.
+4. The initial set of whistleblower program rules adopted in May 2011 included a nowrepealed version of Rule 21F-3(b)(3) that dealt only with the potential that a claimant could
+receive awards for the same related action from the Commission and the Commodity Futures
+Trading Commission (“CFTC”), whose new whistleblower program, like the SEC’s, was
+authorized by the Dodd-Frank Act and includes a related-action supplemental component.
+Under that original version of Rule 21F-3(b)(3), the Commission stated that it would not pay an
+award on a related action if the CFTC had already made an award on that action, nor would the
+Commission allow the whistleblower to re-adjudicate any factual issues decided against the
+whistleblower as part of the CFTC’s final order denying an award.49 Should the Commission
+reconsider this original version of Rule 21F-3(b)(3) instead of adopting one of the alternative
+options proposed in this release? If so, please explain why and what revisions to the original
+version might be appropriate.50
+ 49 The 2011 adopting release explained that False Claims Act qui-tam suits are legally excluded
+from a related-action recovery under the Commission’s whistleblower program. See 76 FR
+34305. This interpretation remains in effect and is not a subject of this proposing release or
+otherwise opened for reconsideration as part of this ongoing rulemaking process. Id.
+50 See Letter from Kohn, Kohn & Colapinto, LLP, Comment offered in connection with
+Proposing Release No. 34-83557 regarding Related Actions and Proposed Rule 21F-3(b)(4)
+(Sept. 10, 2020) (recommending that the Commission expand the 2011 version of Rule 21F3(b)(3) that “prohibit[ed] double awards under the [Commodity Exchange Act] to include other
+similar whistleblower reward laws”).
+5. Proposed Rule 21F-3(b)(3)(iii)(A) directs that the Commission shall not make a relatedaction award to a claimant (or any payment on a related-action award if the Commission has
+already made an award determination) if the claimant has already received any payment from the
+other program for that potential related action. Rather than cut off the potential for an award
+payment from the SEC in this situation, should the Commission consider adopting in this limited
+situation some form of an offset mechanism similar to the Offset Approach discussed above?
+Please explain.
+6. Instead of the current Rule 21F-3(b)(3) and the alternatives discussed above (including
+the alternative referenced in the prior question and the alternatives discussed in Part II(A)(3)),
+should the Commission consider a different approach, such as: (i) leaving the text of Rule 21F3(b)(3) unchanged; or (ii) adopting a hybrid approach that would implement the Whistleblower’s
+Choice option below a maximum potential award threshold, and above that threshold retain the
+current Rule 21F-3(b)(3) framework that considers which program has the more direct or
+relevant connection to the action? Please identify the alternative approach that you support,
+explain why you believe that approach should be adopted, and explain how the specific approach
+you support should work.
+7. As described above, the Comparability Approach would apply in any situation where
+another award program (were it to apply) has an award range or an award cap that would yield an
+award “meaningfully” lower than the amount the Commission’s program would likely offer (but
+above a $5 million maximum award that might be paid by the Commission). As discussed, the
+Comparability Approach would also apply where awards under another award program are
+discretionary rather than mandatory. In assessing whether an award from another award program
+(greater than the $5 million threshold) would be “meaningfully lower” than the maximum
+amount that might be awarded under the Commission’s award program, should the Commission
+establish a fixed dollar or percentage difference as an alternative to the “meaningfulness”
+standard? If so, please explain why a uniformly applied fixed dollar or percentage amount would
+be better. If possible, please also identify the dollar or percentage amount of the potential
+difference that the Commission should use to determine that the other program’s award is not
+meaningfully lower, and please explain why that dollar or percentage amount is appropriate.
+8. If the Comparability Approach is adopted, should the Commission also incorporate
+eligibility and award conditions into the definition of “comparable whistleblower program”?51
+For example, should comparability include consideration of the absence of robust confidentiality
+protections or anonymity provisions similar to those under which the Commission’s
+whistleblower program operates?52 Are there other factors that the Commission should take into
+account to determine if another whistleblower program is comparable to the Commission’s
+award program? With respect to the foregoing, if you believe that additional factors should be
+added to assess a program’s comparability, please identify those factors and explain why they
+should be considered in determining whether another award program is comparable.
+9. Both the Comparability Approach and the Whistleblower’s Choice Option would require
+that a claimant irrevocably waive and promptly forgo an award from the other potentially
+relevant award program. Should the Commission take additional steps to ensure that claimants
+are put on notice of the potential consequences of falsely representing that they have waived an
+award from the alternative program? If so, please explain why this is uniquely important in this
+context and what approach the Commission should take (such as, for example, requiring
+claimants to explicitly acknowledge that providing false information to the Commission could
+constitute a violation of Section 1001 of Title 18 of the United States Code (and any other
+applicable provisions))?
+ 51 See supra note 34 (explaining the Commission’s rationale for not including eligibility criteria
+and award conditions in the assessment of the other award program’s comparability).
+52 See, e.g., Section 21F(h)(2) (heightened confidentiality protections); Exchange Act Rule 21F7, 17 CFR 240.21F-7 (confidentiality and anonymity protections).
+10. Are the time limits imposed by the Comparability Approach and Whistleblower’s Choice
+Option appropriate? Should these time periods be longer or shorter and, if so, what would be
+appropriate time periods? Please explain.
+B. Proposed Amendment to Exchange Act Rule 21F-6 regarding size of award
+Rule 21F-6 identifies the criteria that the Commission may consider when determining
+the amount of an award.53 The 2020 Amendments added language to Rule 21F-6 clarifying that
+it was within the Commission’s discretion to consider the dollar amount of an award when
+making an award determination.54 Before this amendment, the rule (with one exception, see
+infra footnote 58 and accompanying text) referred to the Commission making award
+determinations by considering percentage adjustments to increase and decrease the award
+ 53 In deciding whether to increase the amount of an award, Rule 21F-6(a) identifies the following
+relevant considerations: (1) “the significance of the information provided by a whistleblower to
+the success of the Commission action or related action”; (2) “the degree of assistance provided
+by the whistleblower and any legal representative of the whistleblower in the Commission action
+or related action”; and (3) the “programmatic interest in deterring violations of the securities
+laws by making awards to whistleblowers who provide information that leads to the successful
+enforcement” of the securities laws. And in deciding whether to decrease the amount of an
+award, Rule 21F-6(b) permits the Commission to consider: (1) the “culpability or involvement
+of the whistleblower in matters associated” with the covered action or related action; (2)
+“whether the whistleblower unreasonably delayed in reporting the suspected securities
+violations”; and (3) “in cases where the whistleblower interacted with his or her entity’s internal
+compliance or reporting system, whether the whistleblower undermined the integrity of such
+system.”
+54 See Rule 21F-6 (“In exercising its discretion to determine the appropriate award, the
+Commission may consider the following factors (and only the following factors) in relation to
+the facts and circumstances of each case in setting the dollar or percentage amount of the
+award.”). The 2020 Amendments explicitly acknowledge the Commission’s discretion to
+consider the dollar amount of a potential award when applying the award factors specified in
+paragraphs (a) and (b) of Rule 21F-6. See, e.g., Adopting Release, 85 FR 70909-10 (“The
+Commission has had and continues to have broad discretion in applying the Award Factors and
+setting the Award Amount, including the discretion to consider and apply the Award Factors in
+percentage terms, dollar terms or some combination thereof.”); id. at n.102 (“When applying the
+award factors specified in Rule 21F-6 and determining the award dollar and percentage amounts
+set forth in the preliminary determination, the award factors may be considered by the SEC staff
+and the Commission in dollar terms, percentage terms or some combination thereof.”).
+amount, and neither unambiguously provided that the Commission could consider dollar
+amounts nor prohibited it from doing so when assessing the various award factors.
+55
+The Commission proposes a targeted revision to further clarify how it may use its
+discretion to consider the dollar amount of a potential award when applying the award factors
+specified in paragraphs (a) and (b) of Rule 21F-6. Specifically, the Commission is proposing a
+new paragraph (d) for Rule 21F-6 that would do two things. First, it would provide that the
+Commission “shall not” use the dollar amount of a potential award when applying the factors
+specified in paragraphs (a) and (b), or in any other way, to lower a potential award.
+56 Second,
+new paragraph (d) would provide that the Commission may consider the dollar amount of a
+potential award for the limited purpose of increasing the award amount.57 Several factors
+counsel in favor of this proposal.
+First, the SEC’s ongoing experience with whistleblower awards has demonstrated that
+the discretionary authority to decrease awards based on potential dollar size is unnecessary. In
+the history of the Commission’s whistleblower program, to the extent that the Commission has
+considered the dollar amount of an award as part of the award analysis under Rule 21F-6, the
+ 55 The Commission has previously explained that the statutory framework that Section 21F
+establishes can be read to allow the Commission to consider the dollar amount of a potential
+award. Proposing Release, 83 FR 34714 n.105. Indeed, the language in Section 21F refers to the
+“amount of the award,” which affords the Commission discretion to set the awards based on a
+consideration of the appropriate dollar amount that should be paid (provided that this dollar
+amount is between 10 percent and 30 percent of the collected monetary sanctions). Id.
+56 If Rule 21F-3(b)(3) were amended to adopt the Offset Approach or Topping-Off Approach
+discussed above in Part II(A)(3), the Commission, when applying either of those approaches,
+may need to consider the dollar amount of awards, and thus the Commission anticipates that any
+amended Rule 21F-3(b)(3) adopting either of those approaches might require a corresponding
+amendment to Rule 21F-6(d).
+57 The Commission is also proposing to modify Rule 21F-10(e) and Rule 21F-11(e) to make
+clear that, in applying the award factors specified in Rule 21F-6 and determining the award
+dollar and percentage amounts set forth in the preliminary determination, the award factors may
+be considered by the SEC staff and the Commission in dollar terms “subject to the limitations
+imposed by Rule 21F-6(d).” The Commission is also proposing to revise the text of Rule 21F11(a) to improve its readability and clarity (with no substantive modification of the provision).
+Commission has generally done so to increase the amount of an award in connection with
+applying the “law enforcement interest” factor in Rule 21F-6(a)(3).
+58 By contrast, the
+Commission has not considered the dollar amount to lower any awards since the rule was
+amended.
+59
+Second, it has been the Commission’s experience that large awards in particular
+generate public interest and in so doing increases the instances of whistleblowers coming
+forward to report securities-law violations.60 In this way, large awards directly serve the
+ 58 As the Commission explained in the 2020 Adopting Release, “the Commission’s longstanding interpretation of Rule 21F6(a)(3)—law enforcement interest—already specifically
+references the Commission’s discretion to consider the monetary sanctions and the potential
+Award Amount when assessing that factor[.]” See 85 FR 70910. See also 83 FR 34712; 76 FR
+34331, 34366. Rule 21F-6(a)(3) allows the Commission to consider the degree to which a
+potential award will “enhance[] the Commission’s ability to enforce the federal securities laws
+and protect[] investors” and “encourage[] the submission of high quality information from
+whistleblowers by appropriately rewarding” them. Rule 21F-6(a)(3)(i)-(ii).
+59 And since that time, the Commission has granted some of the highest awards in the program’s
+history, including two awards at or above $110 million, without any suggestion that the award
+should be, or was being, lowered as a result of its dollar size. See Press Release, 2021-177,
+SEC Surpasses $1 Billion in Awards to Whistleblowers with Two Awards Totaling $114 Million
+(Sept. 15, 2021), available at https://www.sec.gov/news/press-release/2021-177
+(“[W]histleblower’s $110 million award consists of an approximately $40 million award in
+connection with an SEC case and an approximately $70 million award arising out of related
+actions by another agency”); Press Release, SEC Issues Record $114 Million Whistleblower
+Award (Oct. 22, 2020), available at https://www.sec.gov/news/press-release/2020-266 (“The
+$114 million award consists of an approximately $52 million award in connection with the SEC
+case and an approximately $62 million award arising out of the related actions by another
+agency.”).
+60 The Commission’s whistleblower program was enacted to incentivize individuals to submit
+tips to the Commission with the ultimate goal of more effectively and efficiently detecting,
+preventing, and addressing securities law violations. This goal is evident in the title of the
+statutory provision. See Securities Whistleblower Incentives and Protection, 15 U.S.C. 78u-6
+(emphasis added). Moreover, Section 21F(c)(1)(B)(i)(III) of the Exchange Act requires the
+Commission to take “the programmatic interest in deterring violations of the securities laws by
+making awards to whistleblowers who provide information that leads to the successful
+enforcement of such laws.” See also Rule 21F-6(a)(3) (restating the “programmatic interest”
+award factor).
+purpose of the whistleblower program (and by extension the interests of the investing public) by
+incentivizing whistleblowers to report violations to the Commission.61
+Third, the Commission is concerned that discretionary authority to consider the dollar
+amount of potential awards clarified in the 2020 Amendments could create uncertainty about,
+and thereby decrease confidence in, the award process itself. The Commission’s internal awardreview process is thorough and robust. For example, award recommendations to the
+Commission are based on the collective views of the members of the Commission’s Office of the
+Whistleblower and Claims Review Staff (which has historically been composed of senior career
+staff members in the Division of Enforcement), and those recommendations are separately
+reviewed by Enforcement’s Office of Chief Counsel and the Commission’s Office of the General
+Counsel before they are submitted to the Commission. But in order to ensure whistleblowers
+feel safe providing information to the Commission, and because the Commission must comply
+with statutory confidentiality protections to avoid disclosing the identity of whistleblowers, it
+does not discuss the details of how that award-review process produces final award
+determinations in individual cases.62 Indeed, publicly available award determination orders
+often affirm that the Commission considered the Rule 21F-6 criteria without flagging specific
+factual considerations or award factors on which the Commission relied, or revealing the actual
+percentage awarded (instead, the award is generally presented as a dollar figure).63
+ 61 See Whistleblower Awards Process and Statistics, available at
+https://www.sec.gov/page/whistleblower-100 million.
+62 See 21F(h)(2) of the Exchange Act, 15 U.S.C. 78u-6(h)(2) (imposing heightened
+confidentiality requirements in order to protect the identity of whistleblowers). Id. The SEC is
+required to keep a whistleblower’s identity confidential unless and until it is required to be
+disclosed to a defendant in a public proceeding or unless the SEC deems it necessary to share it
+with certain other authorities (in which case those authorities must keep it confidential). Id.
+63 The Commission’s long-standing general practice in public whistleblower award orders is to
+describe awards in actual dollar amount, rather than percentages (which are generally redacted).
+Adopting Release, 85 FR 70910. This practice has been followed for the common-sense reason
+that actual dollar figures—not abstract percentages—are most likely to advance the
+Because public information regarding how the Commission applies award factors in
+practice is limited, the Commission perceives a risk that merely maintaining the authority to
+lower awards based on the dollar amount of the award may create the misimpression that the
+Commission is regularly exercising such authority—and this could in turn potentially deter
+individuals from reporting misconduct.64 The proposed amendment should foreclose that risk by
+expressly stating that the Commission may not consider the dollar amount of an award for the
+purpose of potentially lowering the award amount.65
+Request for Comment
+11. Are there additional considerations that the Commission should assess in deciding
+whether to adopt any changes to Rule 21F-6, including proposed Rule 21F-6(d)?
+
+whistleblower award program’s goal of incentivizing potential whistleblowers. Id.
+64 In reality, both the size and frequency of awards have increased since the 2020 Amendments.
+See supra note 59 and accompanying text (noting that, since the 2020 Amendments, the
+Commission has granted some of the highest awards in the program’s history, including two
+awards at or above $110 million, without any suggestion that the award should be, or was
+being, lowered as a result of its dollar size). In 2020, the program awarded approximately
+$175 million to 39 individuals—at that time both the highest dollar amount and the highest
+number of individuals awarded in a given fiscal year in the program’s history—triple the
+number of individuals awarded in 2018, the next-highest fiscal year, when the Commission
+awarded 13 individuals. See SEC 2020 REPORT ON WHISTLEBLOWER PROGRAM at 2, available
+at https://www.sec.gov/files/2020 Annual Report_0.pdf. Likewise, in 2020, the Commission
+received a 31 percent increase in tips from 2018, the second-highest tip year. Id. This trend
+continued—and accelerated—through 2021. Indeed, the Commission made more whistleblower
+awards in 2021 than in all prior years combined, awarding approximately $564 million to 108
+individuals. See SEC 2021 REPORT ON WHISTLEBLOWER PROGRAM at 1, 10, available at
+https://www.sec.gov/files/owb-2021-annual-report.pdf.
+65 The proposed amendment would permit the Commission to increase the dollar amount of an
+award when considering any of the positive award factors in Rule 21F-6(a). This authority does
+not impact, and in fact is separate and distinct from, the maximum-award presumption that Rule
+21F-6(c) establishes. See Adopting Release, 85 FR 70899 (“[W]ith a focus on increased
+transparency, efficiency and clarity, we are adding a specific provision to Rule 21F-6 that will
+create a presumption that, when (1) the statutory maximum authorized Award Amount is $5
+million or less and (2) the negative Award Factors are not present, the Award Amount will be set
+at the statutory maximum, subject to the Commission’s discretion to apply certain exclusions.”).
+12. Are there other or different revisions to Rule 21F-6 that the Commission should consider
+to clarify that the Commission will not lower an award based on the potential dollar amount of
+the award? For example, should the Commission consider removing the reference to “dollar . . .
+amount of the award” entirely from the introductory paragraph of Rule 21F-6? Please explain
+why this approach or any other alternative approach should be adopted and explain how the
+specific approach recommended would work.
+13. Instead of completely eliminating the Commission’s ability to consider the dollar amount
+of an award when assessing whether to lower a potential award, should the Commission retain
+this authority for a subset of awards (e.g., for related-action awards, given that they are an
+ancillary component of the program, or for awards where the whistleblower engaged in culpable
+conduct or obstructed the Commission’s process in some fashion)? Please identify the approach
+that you would follow and explain the basis for your recommendation if it differs from the
+approach the Commission has proposed.
+C. Proposed Technical Amendments to Rule 21F-4(c) and Rule 21F-8(e)66
+Rule 21F-4(c) was adopted by the Commission in 2011 as part of the original set of
+whistleblower program rules to list the three ways a whistleblower’s information can have “led
+to” the success of an action.67 There is a scrivener’s error at the end of Rule 21F-4(c)(2) that the
+Commission is proposing to correct to enhance the readability and grammatical consistency of
+Rule 21F-4(c). Specifically, the Commission would insert a semicolon and the word “or” at the
+end of Rule 21F-4(c)(2) to replace the period that is currently there.
+Rule 21F-8(e) was adopted by the Commission in the 2020 whistleblower rule
+amendments to authorize a permanent bar against any individual who submits three or more
+ 66 The Commission is not reopening any aspect of Rule 21F-4(c) or Rule 21F-8(e) for public
+comment on other potential revisions, including potential substantive revisions, beyond the
+technical revisions proposed herein.
+67 See 76 FR 34365. See also id. at 34357 n.438.
+award applications that are frivolous or lack a colorable connection between the tip and the
+action.68 In this context, paragraph (e)(3) provides a whistleblower with notice and an
+opportunity to withdraw up to three such award applications, which, if withdrawn, would not be
+considered by the Commission in determining whether to exercise its authority to impose such a
+permanent bar.69 Moreover, paragraph (e)(4) provides a whistleblower with notice and an
+opportunity to withdraw all such frivolous or noncolorable award applications that were filed
+before the effective date of the new permanent bar provisions.70
+As adopted in 2020, the second sentence of Rule 21F-8(e)(4)(ii) states that the procedures
+in Rule 21F-8(e)(3) shall apply to any award application that is pending as of the effective date
+of the rule and that is determined to be a frivolous or noncolorable application. The sentence
+was in error, as paragraphs (e)(3)(i) through (iii) affords claimants notice and an opportunity to
+withdraw only three applications, whereas paragraph (e)(4) by its terms applies “to all award
+applications pending as of the effective date of paragraph (e) of this section” and affords
+claimants notice and an opportunity to withdraw all such pending award applications.71 Given
+this scrivener’s error, the Commission is proposing a technical amendment to delete the second
+sentence of Rule 21F-8(e)(4)(ii).
+III. General Request for Public Comment
+We request and encourage any interested person to submit comments on any aspect of the
+proposed rule amendments, interpretations, or other items specified above, including the
+ 68 See Adopting Release, 85 FR 70920-22.
+69 See id. at 70920.
+70 See id. at 70921-22.
+71 The discussion in the adopting release for the 2020 Amendments is silent about this sentence,
+further indicating that it was a scrivener’s error. See id.
+economic analysis contained below (especially if accompanied by supporting data and analysis
+of the issues addressed therein).
+Finally, other than the items specifically identified in this release, persons wishing to
+comment are expressly advised that the Commission is not proposing any other changes to the
+whistleblower program rules (i.e., 17 CFR 240.21F-1 through 240.21F-18 (Exchange Act Rules
+21F-1 through 21F-18)), nor is the Commission otherwise reopening any of those rules for
+comment.72
+IV. Economic Analysis
+The Commission is sensitive to the economic consequences of its rules, including the
+benefits, costs, and effects on efficiency, competition, and capital formation. Section 23(a)(2)73
+of the Exchange Act requires the Commission, in promulgating rules under the Exchange Act, to
+consider the impact that any rule may have on competition and prohibits the Commission from
+adopting any rule that would impose a burden on competition not necessary or appropriate in
+furtherance of the purposes of the Exchange Act. Further, Section 3(f) of the Exchange Act74
+requires the Commission, when engaging in rulemaking where it is required to consider or
+determine whether an action is necessary or appropriate in the public interest, to consider, in
+addition to the protection of investors, whether the action will promote efficiency, competition,
+and capital formation.
+This economic analysis concerns the proposed amendments to Exchange Act Rule 21F-3
+and Rule 21F-6. As discussed above, the proposed amendments to Rule 21F-3(b)(3) would
+allow awards for related actions if an alternative whistleblower program has an award range or
+award cap that would restrict the maximum potential award from that other program to an
+ 72 See Proposing Release, 83 FR 34734.
+73 15 U.S.C. 78w(a)(2).
+74 15 U.S.C. 78c(f).
+amount that is meaningfully lower than the maximum potential award that the Commission could
+make. The proposed amendment to Rule 21F-6 would eliminate the Commission’s discretion to
+consider the dollar amounts to reduce an award. Although the impact of the proposed
+amendments is expected to be small, to the extent that there is an impact, the amendments could
+increase the size of some whistleblower awards and therefore the incentives for whistleblowers
+to submit tips.
+The benefits and costs discussed below are difficult to quantify. For example, we do not
+have a way of estimating quantitatively the extent to which the proposed rules could affect our
+enforcement program by altering whistleblowing incentives. Similarly, we are unable to
+quantify any costs (or benefit) to the whistleblower program’s IPF associated with the
+Comparability Approach or the three other approaches discussed above for amending Rule 21F-
+(b)(3). Therefore, the discussion of economic effects of the proposed amendments is qualitative
+in nature.
+A. Economic Baseline
+To examine the potential economic effects of the amendments, we employ as a baseline
+the set of rules that implement the SEC’s whistleblower program as amended in September
+2020.
+75 Over the past 10 years, the whistleblower program has been an important component of
+the Commission’s efforts to detect wrongdoing and protect investors in the marketplace,
+particularly where fraud is concealed or difficult to find. The program has received a high
+number of submissions from whistleblowers and it has also produced substantial awards.76 Both
+ 75 Earlier this year, the Commission issued a statement identifying procedures that could be used
+by whistleblower award program during an Interim Policy-Review Period. Release No. 34-
+81207 (Aug. 5, 2021), available at https://www.sec.gov/rules/policy/2021/34-92565.pdf. These
+procedures are considered in the economic baseline.
+76 In fiscal year (FY) 2021, the Commission awarded approximately $564 million to 108
+individuals—both the largest dollar amount and the largest number of individuals awarded in a
+single fiscal year. The program was also very active in FY 2020, awarding approximately $175
+million to 39 individuals. See supra note 59.
+the number of submissions and the number and dollar amount of awards per year have increased
+considerably since the program was initiated.77
+Whistleblower programs, and the SEC’s whistleblower program in particular, have been
+studied by economists who report findings consistent with award programs being effective at
+contributing to the discovery of violations. For example, a recent publication reports that, among
+other benefits, “[w]histleblower involvement [in the enforcement process] is associated with
+higher monetary penalties for targeted firms and employees.”78 In addition, current working
+papers report that the SEC’s whistleblower program deters aggressive (i.e., potentially
+misleading) financial reporting79 and insider trading.80
+B. Proposed Rules
+1. Proposed Rule 21F-3(b)(3)
+The proposed rule amendments may affect SEC whistleblower awards in cases where
+there is a potential related action that could be covered by another whistleblower program.
+ 77 See SEC 2020 REPORT ON WHISTLEBLOWER PROGRAM, at 9-16; U.S. SEC. & EXCH. COMM’N,
+DIV. OF ENF. 2020 ANN. REP., pp. 9-16 (November 2, 2020), available at
+https://www.sec.gov/files/enforcement-annual-report-2020.pdf.
+78 Andrew C. Call, et al., Whistleblowers and Outcomes of Financial Misrepresentation
+Enforcement Actions, 56 J. ACCT. RES. 123, 126 (2018). See also Philip Berger, et al., Did the
+Dodd-Frank Whistleblower Provision Deter Accounting Fraud? (Jan. 2021) (unpublished
+manuscript) available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3059231
+(“[F]ind[ing] that exposure to Dodd-Frank reduces the likelihood of accounting fraud of
+treatment firms by 17% relative to control firms.”); Alexander Dyck, et al., Who Blows the
+Whistle on Corporate Fraud?, 65 J. FIN. 2213, 2215 (2010) (“[A] strong monetary incentive to
+blow the whistle does motivate people with information to come forward.”).
+79 See Christine Weidman & Chummei Zhu, Do the SEC Whistleblower Provisions of Dodd
+Frank Deter Aggressive Financial Reporting (Feb. 24, 2020) (unpublished manuscript),
+available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3105521. See also Jaron H.
+White, The Deterrent Effect of Employee Whistleblowing on Firms’ Financial Misreporting and
+Tax Aggressiveness, 92 ACCT. REV., 247-80 (2017).
+80 See Jacob Raleigh, The Deterrent Effect of Whistleblowing on Insider Trading (Sept. 29, 2021)
+(unpublished manuscript), available at
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3672026.
+Turning first to the Comparability Approach, it would authorize the Commission to make awards
+in particular situations where, under the Multiple-Recovery Rule, another award program would
+otherwise apply if that program has the more direct or relevant relationship to the underlying
+(non-Commission) related action.81 The Comparability Approach would do this by authorizing
+the Commission to make an award irrespective of the related action’s relative relationship to the
+two award programs if the other award program is discretionary, or structured to provide
+meaningfully smaller awards than the maximum potential award that could be granted by the
+SEC’s program, or if the maximum total award amount that the Commission could pay is less
+than or equal to $5 million. The Whistleblower’s Choice Option, by contrast, would allow the
+Commission to make an award irrespective of the existence of another program and allow the
+whistleblower to decide whether to accept the Commission’s award or the other program’s
+award. While the two approaches are structured differently, the end result is that both the
+Comparability Approach and the Whistleblower’s Choice Option may increase the total dollar
+award amount for a whistleblower compared to the baseline. Thus both options could increase
+the incentives for whistleblowers.
+82
+The Whistleblower’s Choice Option might have a slightly different incentive effect, since
+a comparison would be made between realizable award amounts rather than analysis of award
+structures.83 To the extent that a whistleblower prefers to exercise discretion over the selection
+ 81 It would be difficult to predict with any degree of certainty how often the Comparability
+Approach would be relevant, particularly as whistleblower programs change, and new
+whistleblower programs are implemented. That said, as discussed above, the Commission has
+seen an increase in the number of award matters that would potentially implicate the
+Comparability Approach.
+82 See infra notes 84 and 85.
+83 In theory, the Whistleblower’s Choice Option could result in a larger award than the
+Comparability Approach. For example, a comparable program, such as the CFTC’s program,
+might potentially determine an award amount at 20 percent. If, in that case, the Commission
+would have exercised its discretion to determine an award at 30 percent for the related action, the
+whistleblower would receive a larger amount under the Whistleblower’s Choice Option than
+under the Comparability Approach.
+of awards for the same related action, the whistleblower may prefer the Whistleblower’s Choice
+Option because the whistleblower would have an opportunity to make a decision in every
+instance where another award program might apply. In contrast, the Comparability Approach
+would not offer the whistleblower the opportunity to exercise discretion.
+To the extent that these amendments increase the willingness of some individuals to
+come forward with information about potential securities law violations, this could, in turn,
+increase Commission enforcement activity and deter wrongdoing. The effects of the rule
+changes are expected to be small, due to the limited circumstances under which they would
+apply, and because there are many factors, including non-pecuniary incentives, that motivate
+whistleblowers.84 Although the effects may be small, economic research suggests that changes
+in whistleblowing incentives may have an effect on the frequency of whistleblowing activity.85
+Because these amendments may increase the amounts paid to whistleblowers under
+certain circumstances, there may be costs associated with the proposed changes. One possibility
+is that the IPF would be depleted.86 For example, assume the DOJ collected $1.5 billion on a
+related action. If there were a meritorious whistleblower involved who was entitled to an award,
+then even a mid-range 20 percent award would require the Commission to pay the whistleblower
+$300 million, an amount that could well exhaust the IPF.
+87 An award that exhausted the IPF
+ 84 The complex mix of pecuniary and non-pecuniary elements that motivate whistleblowers were
+described in the economic analysis for the 2020 Adopting Release for Rule 21F-3(b)(3), section
+VI.B.2, see Adopting Release, 85 FR 70937.
+85 See Andrew C. Call, et al., Rank and File Employees and the Discovery of Misreporting: The
+Role of Stock Options, 62 J. ACCT. & ECON. 277, 297-99 (2016). See also Jonas Heese &
+Gerardo Perez-Cavazos, The Effect of Retaliation Costs on Employee Whistleblowing, 71 J.
+ACCT. & ECON. 101385 (2021).
+86 17 CFR 240.21F-14(d) (Exchange Act Section 21F-14(d)), which describes the procedures
+applicable to the payment of awards, indicates that if there are insufficient amounts available in
+the IPF to pay the entire amount of an award within a reasonable period of time, then the balance
+of the payment shall be paid when amounts become available. These procedures specify the
+relative priority of competing claims.
+87 See generally Exchange Act Section 21F(g)(3)(A). At the end of FY 2021, the IPF’s balance
+could produce additional effects that would depend on the size of the shortfall and the SEC
+whistleblower awards that would otherwise be issued and paid during the shortfall period.88
+In addition, we expect that these proposals would increase the administrative costs for the
+SEC’s whistleblower program. For example, the Comparability Approach would require the
+Commission to compare whistleblower programs based on the expected award amounts from
+those programs. However, we believe these costs would be small relative to the baseline, and, to
+the extent that the program structures are stable, the comparisons may not need to be repeated for
+each case. In contrast, the Whistleblower’s Choice Option could be expected to increase the
+administrative costs relative to the baseline more than the Comparability Approach because it
+would require the Commission to determine whether an award should be granted in each case
+where there is a related action and a separate whistleblower program.89 As described above, the
+increase in administrative costs is expected to be greater for the Whistleblower’s Choice Option
+than for the Comparability Approach.
+2. Proposed Rule 21F-6
+The proposed rule change would eliminate the Commission’s discretionary authority to
+consider dollar amounts in reducing awards while retaining the Commissions’ discretionary
+authority to consider dollar amounts to increase awards. The 2020 amendments that include
+express language to authorize the Commission to consider, in its discretion, the dollar amount of
+an award when making an award determination may have increased whistleblowers’ uncertainty
+relating to the program and thus potentially reduced their willingness to report potential
+
+was $144,442,134. To date, the largest amount the award fund has ever had is approximately
+$453 million. See 2013 ANNUAL REPORT TO CONGRESS ON THE DODD-FRANK WHISTLEBLOWER
+PROGRAM available at https://www.sec.gov/files/annual-report-2013.pdf.
+88 See supra note 3. See also Exchange Act Section 21F(c)(1)(B)(ii).
+89 The award presumption established by Rule 21F-6(c) could help limit the overall
+administrative costs, however. See Adopting Release, 85 FR 70911 (discussing potential “gains
+in efficiency from streamlining the award determination process” when the $5 million award
+presumption would apply during the award-calculation phase).
+misconduct. To the extent that the 2020 amendments have created uncertainty that may have
+diminished a whistleblower’s willingness to come forward, eliminating this discretionary
+authority would reduce uncertainty and thus potentially encourage more whistleblowing.
+However, we cannot determine with any reasonable degree of certainty if the proposed revisions
+to Rule 21F-6 would affect a whistleblower’s willingness to report a potential securities law
+violation. To the extent that the Commission would have exercised the discretion to lower award
+amounts, the amendments to Rule 21F-6 would increase program costs by any such amounts.90
+C. Additional Alternatives
+As discussed above, the Offset Approach and the Topping-Off Approach are alternatives
+that may also increase whistleblower award incentives. For example, under certain
+circumstances, the Offset Approach may produce award amounts in related actions that are
+comparable, if not identical, to the awards produced under the Comparability Approach and the
+Whistleblower’s Choice Approach. In contrast, the Topping-Off Approach may result in smaller
+changes in the award amounts.91
+As also discussed above, both of these approaches would likely increase the
+Commission’s award-processing time, because the Commission’s final award-amount
+determinations would be dependent on the completion resolution of the award process by the
+entity or authority administering the other award program. Additional delays may adversely
+affect whistleblower incentives. As a result, despite the generally positive expected impact on
+award amounts, the net impact on whistleblower incentives from the Offset Approach and the
+ 90 Similar to the proposed amendments to Rule 21F-3(b)(3), to the extent that program costs
+increase as a result of these proposed amendments, there would be an increase in the possibility
+that the IPF would be depleted. As described above, an award that exhausted the IPF could
+produce additional effects that would depend on the size of the shortfall and the SEC
+whistleblower awards that would otherwise be issued and paid during the shortfall period. See
+supra notes 86 through 88 and accompanying text.
+91 As described above, the Topping-Off Approach would not allow the Commission to provide
+an increase to the covered-action in those instances where the Commission grants an award at the
+30 percent statutory cap, which occurs in a substantial portion of cases.
+Topping-Off Approach is ambiguous.
+D. Effects of the Proposed Rules on Efficiency, Competition, and Capital
+Formation
+As discussed earlier, the Commission is sensitive to the economic consequences of its
+rules, including the effects on efficiency, competition, and capital formation. The Commission
+believes that the proposed amendments would make incremental changes to its whistleblower
+program. Thus, the Commission does not anticipate the effects on efficiency, competition, and
+capital formation to be significant.
+The proposed rules could have a positive indirect impact on investment efficiency and
+capital formation by increasing the incentives of potential whistleblowers to provide information
+on possible violations. To the extent that increased whistleblowing incentives stemming from
+the proposed rules result in more timely reporting of useful information on possible violations or
+the reporting of higher quality information on possible violations, the Commission’s enforcement
+activities could become more effective. More effective enforcement could lead to earlier
+detection of violations and increased deterrence of potential future violations, which could
+improve price efficiency and assist in a more efficient allocation of investment funds. Securities
+frauds, for example, can cause inefficiencies in the economy by diverting investment funds from
+legitimate, productive uses.92
+Request for Comment
+The Commission seeks commenters’ views and suggestions on all aspects of its economic
+analysis of the proposed amendments. In particular, the Commission asks commenters to
+consider the following questions:
+ 92 See Adopting Release, 76 FR 34362.
+14. Are there costs and benefits associated with the proposed amendments that the
+Commission has not identified? If so, please identify them and, if possible, offer ways of
+estimating these costs and benefits.
+15. Are there effects on efficiency, competition, and capital formation stemming from the
+proposed amendments that the Commission has not identified? If so, please identify them and
+explain how the identified effects result from one or more amendments.
+V. Small Business Regulatory Enforcement Fairness Act
+For purposes of the Small Business Regulatory Enforcement Fairness Act of 1996
+(“SBREFA”),93 the Commission solicits data to determine whether the proposed rule
+amendments constitute a “major” rule. Under SBREFA, a rule is considered “major” where, if
+adopted, it results or is likely to result in:
+• An annual effect on the economy of $100 million or more (either in the form of an
+increase or a decrease);
+• A major increase in costs or prices for consumers or individual industries; or
+• Significant adverse effects on competition, investment, or innovation.
+Commenters should provide empirical data on: (a) the potential annual effect on the
+economy; (b) any increase in costs or prices for consumers or individual industries; and (c) any
+potential effect on competition, investment or innovation.
+VI. Regulatory Flexibility Act Certification
+Section 603(a) of the Regulatory Flexibility Act94 requires the Commission to undertake
+an initial regulatory flexibility analysis of the proposed rules unless the Commission certifies that
+ 93 Pub. L. 104-121, tit. II, 110 Stat 857 (1996).
+94 5 U.S.C. 603(a).
+the proposed rules, if adopted, would not have a significant economic impact on a substantial
+number of small entities.95
+Small entity is defined in Section 601(6) of Title 5 of the U.S. Code to mean “small
+business,” “small organization,” and “small governmental jurisdiction” (see Section 601(3)
+through (5)). The definition of “small entity” does not include individuals. The proposed rules
+apply only to an individual, or individuals acting jointly, who provide information to the
+Commission relating to the violation of the securities laws. Companies and other entities are not
+eligible to participate in the whistleblower award program as whistleblowers. Consequently, the
+persons that would be subject to the proposed rules are not “small entities” for purposes of the
+Regulatory Flexibility Act.
+For the reasons stated above, the Commission certifies, pursuant to 605(b) of Title 5 of
+the U.S. Code that the proposed rules if adopted would not have a significant economic impact
+on a substantial number of small entities.
+Solicitation of Comments: We encourage the submission of comments with respect to any
+aspect of this Regulatory Flexibility Act Certification. To the extent that commenters believe
+that the proposed rules if adopted might have a covered impact, we ask they describe the nature
+of any impact and provide empirical data supporting the extent of the impact. We will place any
+such comments in the same public file as comments on the proposed amendments themselves.
+VII. Statutory Basis
+The Commission proposes the rule amendments contained in this document under the
+authority set forth in Sections 3(b), 21F, and 23(a) of the Exchange Act.
+List of Subjects in 17 CFR Part 240
+Securities, Whistleblowing.
+ 95 5 U.S.C. 605(b).
+Text of the Proposed Amendments
+For the reasons set out in the preamble, title 17, chapter II of the Code of Federal
+Regulations is proposed to be amended as follows:
+PART 240 - GENERAL RULES AND REGULATIONS, SECURITIES EXCHANGE ACT
+OF 1934
+1. The authority citation for part 240 continues to read, in part, as follows:
+Authority: 15 U.S.C. 77c, 77d, 77g, 77j, 77s, 77z-2, 77z-3, 77eee, 77ggg, 77nnn, 77sss,
+77ttt, 78c, 78c-3, 78c-5, 78d, 78e, 78f, 78g, 78i, 78j, 78j-1, 78k, 78k-1, 78l, 78m, 78n, 78n-1,
+78o, 78o-4, 78o-10, 78p, 78q, 78q-1, 78s, 78u-5, 78w, 78x, 78dd, 78ll, 78mm, 80a-20, 80a-23,
+80a-29, 80a-37, 80b-3, 80b-4, 80b-11, and 7201 et seq., and 8302; 7 U.S.C. 2(c)(2)(E); 12 U.S.C.
+5221(e)(3); 18 U.S.C. 1350; Pub. L. 111-203, 939A, 124 Stat. 1376 (2010); and Pub. L. 112-106,
+sec. 503 and 602, 126 Stat. 326 (2012), unless otherwise noted.
+* * * * *
+Section 240.21F is also issued under Pub. L. 111-203, §922(a), 124 Stat. 1841 (2010).
+* * * * *
+Option 1
+2. Amend § 240.21F-3 by:
+a. Revising paragraphs (b)(3) introductory text and (b)(3)(i) and (iii); and
+b. Adding paragraphs (b)(3)(iv), (v), and (vi).
+The revisions and additions read as follows:
+§ 240.21F-3 Payment of awards.
+* * * * *
+(b) * * *
+(3) The following provision shall apply where a claimant’s application for a potential
+related action may also involve a potential recovery from a comparable whistleblower award
+program (as defined in paragraph (b)(3)(iv) of this section) for that same action.
+(i) Notwithstanding paragraph (b)(1) of this section, if a judicial or administrative action
+is subject to a separate monetary award program established by the Federal Government, a state
+government, or a self-regulatory organization (SRO), the Commission will only potentially
+qualify for related-action status if either:
+(A) The Commission finds that the maximum total award that could potentially be paid
+by the Commission would not exceed $5 million; or
+(B) The Commission finds (based on the facts and circumstances of the action) that the
+Commission’s whistleblower program has the more direct or relevant connection to that action.
+* * * * *
+(iii) The conditions in paragraphs (b)(3)(iii)(A) through (C) of this section apply to a
+determination under paragraph (b)(3)(ii) of this section.
+(A) The Commission shall not make a related-action award to a claimant (or any payment
+on a related-action award if the Commission has already made an award determination) if the
+claimant receives any payment from the other program for that action.
+(B) If a claimant was denied an award by the other award program, the claimant will not
+be permitted to readjudicate any issues before the Commission that the governmental/SRO entity
+responsible for administering the other whistleblower award program resolved, pursuant to a
+final order of such government/SRO entity, against the claimant as part of the award denial.
+(C) If the Commission makes an award before an award determination is finalized by the
+governmental/SRO entity responsible for administering the other award program, the award shall
+be conditioned on the claimant making an irrevocable waiver of any claim to an award from the
+other award program. The claimant’s irrevocable waiver must be made within 60 calendar days
+of the claimant receiving notification of the Commission’s final order.
+(iv) The provisions of paragraphs (b)(3)(iv)(A) through (D) of this section apply to
+program comparability determinations.
+(A) For purposes of paragraph (b)(3) of this section, a comparable whistleblower award
+program is an award program that satisfies the following criteria:
+(1) The award program is administered by an authority or entity other than the
+Commission;
+(2) The award program does not have an award range that could operate in a particular
+action to yield an award for a claimant that is meaningfully lower (when assessed against the
+maximum and minimum potential awards that program would allow) than the award range that
+the Commission’s program could yield (i.e., 10 to 30 percent of collected monetary sanctions);
+and
+(3) The award program does not have a cap that could operate in a particular action to
+yield an award for a claimant that is meaningfully lower than the maximum award the
+Commission could grant for the action (i.e., 30 percent of collected monetary sanctions in the
+related action).
+(4) The authority or entity administering the program may not in its sole discretion deny
+an award notwithstanding the fact that a whistleblower otherwise satisfies the established
+eligibility requirements and award criteria.
+(B) The Commission shall make a determination on a case-by-case basis whether an
+alternative award program is a comparable award program for purposes of the particular action
+on which the claimant is seeking a related-action award with respect to paragraphs
+(b)(3)(iv)(A)(1) through (3) of this section.
+(C) If the Commission determines that an alternative award program is not comparable,
+the Commission shall condition its award on the meritorious whistleblower making within 60
+calendar days of receiving notification of the Commission’s final award an irrevocable waiver of
+any claim to an award from the other award program.
+(D) A whistleblower whose related-action award application is subject to the provisions
+of paragraph (b)(3) of this section (including a whistleblower whose related-action award
+application implicates another award program that does not qualify as a comparable program as a
+result of paragraph (b)(3)(iv)(A) of this section) has the affirmative obligation to demonstrate
+that the whistleblower has complied with the terms and conditions of this section regarding an
+irrevocable waiver. This shall include taking all steps necessary to authorize the administrators
+of the other program to confirm to staff in the Office of the Whistleblower (or in writing to the
+claimant or the Commission) that an irrevocable waiver has been made.
+(v) A claimant seeking a related-action award also has an affirmative obligation to
+promptly inform the Office of the Whistleblower if the claimant applies for an award on the
+same action from another award program.
+(vi) The Commission may deem a claimant ineligible for a related-action award if any of
+the conditions and requirements of paragraph (b)(3) of this section in connection with that related
+action are not satisfied.
+Option 2
+3. Amend § 240.21F-3 by revising paragraph (b)(3) to read as follows:
+§ 240.21F-3 Payment of awards.
+* * * * *
+(b) * * *
+(3) The following terms and conditions apply whenever an award claimant’s application
+for an award in connection with a related action may also involve a potential recovery from
+another whistleblower award program for that same action.
+(i) If the Commission determines that the claimant qualifies for an award for the related
+action, any payment of that award shall be conditioned on the claimant making an irrevocable
+waiver of any award or potential award from the other award program. In determining whether a
+claimant qualifies for an award on a related action (and in setting the amount of any award), the
+Commission shall process the application without regard to the existence of the alternative award
+program or any award determination that the alternative program reaches.
+(ii) The Commission shall not make a related-action award to a claimant (or any payment
+on an award if the Commission has already made an award determination) if the claimant has
+received at any point prior to the Commission making any payment on a related-action award
+any payment from the other program for that action.
+(iii) To receive payment from the Commission for a related-action award, a claimant
+must make an irrevocable waiver of any award from the other program within 60 calendar days
+of receiving a final notification from both award programs regarding the award amounts.
+(iv) A claimant subject to paragraph (b)(3) of this section has the affirmative obligation to
+demonstrate to the satisfaction of the Commission that the claimant has complied with the terms
+and conditions of this section regarding an irrevocable waiver. This may include taking all steps
+necessary to authorize the administrators of the other program to confirm to staff in the Office of
+the Whistleblower (or in writing to the claimant or the Commission) that an irrevocable waiver
+has been made.
+(v) A claimant seeking a related-action award has an affirmative obligation to promptly
+notify the Office of the Whistleblower in writing if the claimant applies for an award on the same
+action from another award program.
+(vi) The Commission may deem a claimant ineligible for a related-action award if any of
+the conditions and requirements of paragraph (b)(3) of this section in connection with that related
+action are not satisfied.
+4. Amend § 240.21F-4 by revising paragraph (c)(2) to read as follows:
+§ 240.21F-4 Other definitions.
+* * * * *
+(c) * * *
+(2) You gave the Commission original information about conduct that was already under
+examination or investigation by the Commission, the Congress, any other authority of the
+Federal Government, a state attorney general or securities regulatory authority, any selfregulatory organization, or the PCAOB (except in cases where you were an original source of
+this information as defined in paragraph (b)(5) of this section), and your submission significantly
+contributed to the success of the action; or
+* * * * *
+5. Amend § 240.21F-6 by adding paragraph (d) to read as follows:
+§ 240.21F-6 Criteria for determining amount of award.
+* * * * *
+(d) Consideration of the dollar amount of an award. When applying the award factors
+specified in paragraphs (a) and (b) of this section, the Commission may consider the dollar
+amount of a potential award for the limited purpose of increasing the award amount. The
+Commission shall not, however, use the dollar amount of a potential award as a basis to lower a
+potential award, including but not limited to in applying the factors specified in paragraphs (a)
+and (b) of this section.
+6. Amend § 240.21F-8 by revising paragraph (e)(4)(ii) to read as follows:
+§ 240.21F-8 Eligibility and forms.
+* * * * *
+(e) * * *
+(4) * * *
+(ii) If, within 30 calendar days of the Office of the Whistleblower providing the foregoing
+notification, you withdraw the relevant award application(s), the withdrawn award application(s)
+will not be considered by the Commission in determining whether to exercise its authority under
+paragraph (e) of this section.
+7. Amend § 240.21F-10 by revising paragraph (e) to read as follows:
+§ 240.21F-10 Procedures for making a claim for a whistleblower award in SEC actions
+that result in monetary sanctions in excess of $1,000,000.
+* * * * *
+(e) You may contest the Preliminary Determination made by the Claims Review Staff by
+submitting a written response to the Office of the Whistleblower setting forth the grounds for
+your objection to either the denial of an award or the proposed amount of an award. The
+response must be in the form and manner that the Office of the Whistleblower shall require. You
+may also include documentation or other evidentiary support for the grounds advanced in your
+response. In applying the award factors specified in § 240.21F-6, and determining the award
+dollar and percentage amounts set forth in the Preliminary Determination, the award factors may
+be considered by the SEC staff and the Commission in dollar terms, percentage terms or some
+combination thereof, subject to the limitations imposed by § 240.21F-6(d). Should you choose
+to contest a Preliminary Determination, you may set forth the reasons for your objection to the
+proposed amount of an award, including the grounds therefore, in dollar terms, percentage terms
+or some combination thereof.
+(1) Before determining whether to contest a Preliminary Determination, you may:
+(i) Within 30 calendar days of the date of the Preliminary Determination, request that the
+Office of the Whistleblower make available for your review the materials from among those set
+forth in § 240.21F-12(a) that formed the basis of the Claims Review Staff's Preliminary
+Determination.
+(ii) Within 30 calendar days of the date of the Preliminary Determination, request a
+meeting with the Office of the Whistleblower; however, such meetings are not required, and the
+office may in its sole discretion decline the request.
+(2) If you decide to contest the Preliminary Determination, you must submit your written
+response and supporting materials within 60 calendar days of the date of the Preliminary
+Determination, or if a request to review materials is made pursuant to paragraph (e)(1) of this
+section, then within 60 calendar days of the Office of the Whistleblower making those materials
+available for your review.
+* * * * * *
+8. Amend § 240.21F-11 by revising paragraphs (a), (c), and (e) to read as follows:
+§ 240.21F-11 Procedures for determining awards based upon a related action.
+(a) If you are eligible to receive an award following a Commission action that results in
+monetary sanctions totaling more than $1,000,000, you also may be eligible to receive an award
+in connection with a related action (as defined in § 240.21F-3).
+* * * * *
+(c) The Office of the Whistleblower may request additional information from you in
+connection with your claim for an award in a related action to demonstrate that you directly (or
+through the Commission) voluntarily provided the governmental/SRO entity (as specified in
+§ 240.21F-3(b)(1)) the same original information that led to the Commission’s successful
+covered action, and that this information led to the successful enforcement of the related action.
+Further, the Office of the Whistleblower, in its discretion, may seek assistance and confirmation
+from the governmental/SRO entity in making an award determination. Additionally, if your
+related-action award application might implicate a second whistleblower program, the Office of
+the Whistleblower is authorized to request information from you or to contact any authority or
+entity responsible for administering that other program, including disclosing the whistleblower’s
+identity if necessary, to ensure compliance with the terms of § 240.21F-3(b)(3).
+* * * * *
+(e) You may contest the Preliminary Determination made by the Claims Review Staff by
+submitting a written response to the Office of the Whistleblower setting forth the grounds for
+your objection to either the denial of an award or the proposed amount of an award. The
+response must be in the form and manner that the Office of the Whistleblower shall require. You
+may also include documentation or other evidentiary support for the grounds advanced in your
+response. In applying the award factors specified in § 240.21F-6, and determining the award
+dollar and percentage amounts set forth in the Preliminary Determination, the award factors may
+be considered by the SEC staff and the Commission in dollar terms, percentage terms or some
+combination thereof, subject to the limitations imposed by § 240.21F-6(d). Should you choose
+to contest a Preliminary Determination, you may set forth the reasons for your objection to the
+proposed amount of an award, including the grounds therefore, in dollar terms, percentage terms
+or some combination thereof.
+(1) Before determining whether to contest a Preliminary Determination, you may:
+(i) Within 30 calendar days of the date of the Preliminary Determination, request that the
+Office of the Whistleblower make available for your review the materials from among those set
+forth in § 240.21F-12(a) that formed the basis of the Claims Review Staff’s Preliminary
+Determination.
+(ii) Within 30 calendar days of the date of the Preliminary Determination, request a
+meeting with the Office of the Whistleblower; however, such meetings are not required, and the
+office may in its sole discretion decline the request.
+(2) If you decide to contest the Preliminary Determination, you must submit your written
+response and supporting materials within 60 calendar days of the date of the Preliminary
+Determination, or if a request to review materials is made pursuant to paragraph (e)(1) of this
+section, then within 60 calendar days of the Office of the Whistleblower making those materials
+available for your review.
+* * * * *
+By the Commission.
+Dated: February 10, 2022.
+Vanessa A. Countryman,
+Secretary.

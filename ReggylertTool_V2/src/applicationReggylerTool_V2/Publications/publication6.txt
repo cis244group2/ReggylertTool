@@ -1,0 +1,93 @@
+Conformed to Federal Register version
+SECURITIES AND EXCHANGE COMMISSION
+17 CFR Part 240
+[Release No. 34-94315; File No. S7-18-21]
+RIN 3235-AN01
+Reopening of Comment Period for Reporting of Securities Loans
+AGENCY: Securities and Exchange Commission.
+ACTION: Proposed rule; reopening of comment period.
+SUMMARY: On November 18, 2021, the Securities and Exchange Commission issued for
+comment a proposed rule under the Securities Exchange Act of 1934 (“Exchange Act”) in
+Release No. 34-93613 (Nov. 18, 2021), 86 FR 69802 (Dec. 8, 2021) regarding the reporting of
+securities loans. The Commission is reopening the comment period for the proposed rule in light
+of the proposed Exchange Act rule regarding short sale disclosure. In particular, the
+Commission is soliciting comment on any potential effects of the proposed Exchange Act rule
+regarding short sale disclosure that the Commission should consider in determining whether to
+adopt the proposed Exchange Act rule regarding the reporting of securities loans.
+DATE: The comment period for the proposed rule published in the Federal Register on
+December 8, 2021, at 86 FR 69802, is reopened. Comments should be received on or before
+April 1, 2022.
+ADDRESSES: Comments may be submitted by any of the following methods:
+Electronic comments:
+• Use the Commission’s internet comment form
+(http://www.sec.gov/rules/submitcomments.htm); or
+2
+• Send an email to rule-comments@sec.gov. Please include File Number S7-18-21
+on the subject line.
+Paper comments:
+• Send paper comments to Vanessa A. Countryman, Secretary, Securities and
+Exchange Commission, 100 F Street NE, Washington, DC 20549-1090.
+All submissions should refer to File Number S7-18-21. This file number should be
+included on the subject line if email is used. To help the Commission process and review your
+comments more efficiently, please use only one method of submission. The Commission will
+post all comments on the Commission’s website (http://www.sec.gov/rules/proposed.shtml).
+Comments are also available for website viewing and printing in the Commission’s Public
+Reference Room, 100 F Street NE, Washington, DC 20549 on official business days between the
+hours of 10 a.m. and 3 p.m. Operating conditions may limit access to the Commission’s Public
+Reference Room. All comments received will be posted without change. Persons submitting
+comments are cautioned that we do not redact or edit personal identifying information from
+comment submissions. You should submit only information that you wish to make available
+publicly.
+Studies, memoranda, or other substantive items may be added by the Commission or staff
+to the comment file during this rulemaking. A notification of the inclusion in the comment file
+of any such materials will be made available on our website. To ensure direct electronic receipt
+of such notifications, sign up through the “Stay Connected” option at www.sec.gov to receive
+notifications by email.
+FOR FURTHER INFORMATION CONTACT: Theresa Hajost, Special Counsel, John
+Guidroz, Branch Chief, Josephine J. Tao, Assistant Director, Office of Trading Practices,
+3
+Division of Trading and Markets, Securities and Exchange Commission, 100 F Street NE,
+Washington, DC 20549, at (202) 551-5777.
+SUPPLEMENTARY INFORMATION:
+I. Background
+In November 2021, the Commission issued for comment proposed 17 CFR 240.10c-1
+(“Rule 10c-1”), Reporting of Securities Loans, under the Exchange Act.1
+ The proposed rule is
+designed to increase the transparency and efficiency of the securities lending market by requiring
+any person that loans a security on behalf of itself or another person to report the material terms
+of those securities lending transactions and related information regarding the securities the
+person has on loan and available to loan to a registered national securities association
+(“RNSA”).
+2 The comment period for proposed Rule 10c-1 ended on January 7, 2022.
+II. Reopening of Comment Period
+On February 25, 2022, the Commission proposed 17 CFR 240.13f-2 (“Rule 13f-2”)3
+which is designed to provide greater transparency through the publication of short sale related
+data to investors and other market participants. Proposed Rule 13f-2 and related Proposed Form
+SHO would require that institutional money managers4 file via the Commission’s Electronic
+ 1 See Reporting of Securities Loans, Exchange Act Release 93613 (Nov. 18, 2021), 86 FR 69802 (Dec. 8, 2021).
+2 Proposed Rule 10c-1 would also require the RNSA to publicly disseminate certain information.
+3 Short Position and Short Activity Reporting by Institutional Investment Managers, Exchange Act Release 94313,
+Feb. 25, 2022.
+4 As defined in Section 13(f)(6)(A) of the Exchange Act and for purposes of proposed Rule 13f-2, “institutional
+investment manager” includes any person, other than a natural person, investing in or buying and selling securities
+for its own account, and any person exercising investment discretion with respect to the account of another person.
+15 U.S.C. 78m(f)(6)(A).
+4
+Data Gathering, Analysis, and Retrieval System (EDGAR), on a monthly basis, certain short sale
+related data, some of which would be aggregated and made public.5
+
+The Commission is reopening the comment period for proposed Rule 10c-1 so that
+commenters may consider whether there would be any effects of proposed Rule 13f-2 that the
+Commission should consider in connection with proposed Rule 10c-1.
+The Commission is reopening the comment period for proposed Rule 10c-1 Reporting of
+Securities Loans6 until April 1, 2022.
+By the Commission.
+Date: March 2, 2022.
+Eduardo A. Aleman,
+Deputy Secretary.
+ 5 In addition to proposed Rule 13f-2 and proposed Form SHO, the Commission proposed: (i) Rule 205, which would
+establish a new “buy to cover” order marking requirement for certain purchase orders; and (ii) proposed
+amendments to the national market system plan governing the Consolidated Audit Trail (“CAT”), which would
+require CAT reporting firms to report “buy to cover” order marking information and reliance on the bona fide
+market making exception in the Commission’s short sale rules.
+6 See Exchange Act Release No. 93613 (Nov. 18, 2021), 86 FR 69802 (Dec. 8, 2021).
