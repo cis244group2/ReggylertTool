@@ -64,7 +64,7 @@ public class Controller_HomePage {
 
     @FXML
     void action_homeLogout(ActionEvent event) {
-    	System.exit(0);
+    	System.exit(0); // update this to correct way to close app
     }
 
     @FXML

@@ -22,7 +22,6 @@ public class Controller_User_Login {
 	private Scene scene;
 	private Parent root;
 	private Controller_User_CreateAccount controller=new Controller_User_CreateAccount();
-	
 
     @FXML
     private Button button_loginCreateAccount;
@@ -30,7 +29,6 @@ public class Controller_User_Login {
      @FXML
     private Label lbConfirm;
     
-
     @FXML
     private Button button_loginLogin;
 

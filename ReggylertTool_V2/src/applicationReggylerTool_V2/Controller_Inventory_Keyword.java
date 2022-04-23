@@ -48,9 +48,13 @@ public class Controller_Inventory_Keyword {
     private TableColumn<?, ?> column_PriorityRating;
 
     @FXML
-    void action_keyinvAddKeyword(ActionEvent event) {
-
-    }
+    void action_keyinvAddKeyword(ActionEvent event) throws IOException {
+    	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();    
+		}
 
     @FXML
     void action_keyinvRemoveKeyword(ActionEvent event) {
@@ -58,14 +62,17 @@ public class Controller_Inventory_Keyword {
     }
     
     @FXML
-    void action_keyinvUpdateKeyword(ActionEvent event) {
-
+    void action_keyinvUpdateKeyword(ActionEvent event) throws IOException {
+    	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show(); 
     }
     
 
     @FXML
     void action_keyinvReturnToHome(ActionEvent event) throws IOException {
-    	
 		Parent root = FXMLLoader.load(getClass().getResource("HomePage_RT.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);

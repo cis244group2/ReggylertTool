@@ -39,8 +39,12 @@ public class Controller_Inventory_NotificationSettings {
     private TableColumn<?, ?> column_RecipientStatus;
 
     @FXML
-    void action_AddNewRecipient(ActionEvent event) {
-
+    void action_AddNewRecipient(ActionEvent event) throws IOException {
+    	Parent root = FXMLLoader.load(getClass().getResource("Record_NotificationRecipient.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show(); 
     }
 
     @FXML
@@ -59,7 +63,11 @@ public class Controller_Inventory_NotificationSettings {
     }
 
     @FXML
-    void add_UpdateRecipient(ActionEvent event) {
-
+    void add_UpdateRecipient(ActionEvent event) throws IOException {
+    	Parent root = FXMLLoader.load(getClass().getResource("Record_NotificationRecipient.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
     }
 }
