@@ -10,6 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Controller_HomePage {
@@ -35,6 +36,10 @@ public class Controller_HomePage {
 
     @FXML
     private Label field_homeUserName;
+    
+    @FXML
+    private Text username;
+
 
     @FXML
     void action_homeAccountSettings(ActionEvent event) throws IOException {
@@ -43,6 +48,10 @@ public class Controller_HomePage {
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
+    }
+    
+    public void setUsername(String name) {
+    	username.setText("Welcome " + name);
     }
 
     @FXML
