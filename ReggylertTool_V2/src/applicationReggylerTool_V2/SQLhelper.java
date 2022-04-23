@@ -19,7 +19,7 @@ public class SQLhelper {
 		Connection conn = null;
 		try {
 			String url = "jdbc:sqlite:" + this.getResource(this.dbname);
-
+			System.out.println(url);
 			conn = DriverManager.getConnection(url);
 
 		} catch (SQLException e) {
