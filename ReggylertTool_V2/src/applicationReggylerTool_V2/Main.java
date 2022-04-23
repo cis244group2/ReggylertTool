@@ -36,7 +36,6 @@ public class Main extends Application {
 		launch(args);
 	}
 	
-	
 	 @FXML
 	 private Button button_OpenRT;
 
