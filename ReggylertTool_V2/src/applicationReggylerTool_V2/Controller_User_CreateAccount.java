@@ -39,6 +39,12 @@ public class Controller_User_CreateAccount {
 
     @FXML
     private PasswordField field_userPassword;
+    
+    private CallBack callBack = null;
+	
+	public void setCallback(CallBack callBack) {
+		this.callBack = callBack;
+	}
 
     @FXML
     void action_userBackToLogin(ActionEvent event) throws IOException {
@@ -57,10 +63,9 @@ public class Controller_User_CreateAccount {
 
     @FXML
     void action_userCreateAccount(ActionEvent event) throws ClassNotFoundException, SQLException, IOException {
-    	
     	createUserAccount(event);
-
     }
+    
     // This method loads the jdbc class and create statement 
     public void initializedb() throws ClassNotFoundException, SQLException {
     	Class.forName("org.sqlite.JDBC");

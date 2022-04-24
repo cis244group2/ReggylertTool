@@ -20,12 +20,12 @@
                            <children>
                               <TableView fx:id="table_Keyword" layoutX="21.0" layoutY="90.0" prefHeight="432.0" prefWidth="705.0">
                                 <columns>
-                                  <TableColumn fx:id="column_Keyword" prefWidth="132.00005531311035" text="Keyword" />
-                                  <TableColumn fx:id="column_KeywordID" prefWidth="100.4444580078125" text="Keyword ID#" />
-                                    <TableColumn fx:id="column_PriorityRating" prefWidth="115.11106872558594" text="Priority Rating" />
-                                    <TableColumn fx:id="column_ControlStandardID" prefWidth="155.11111450195312" text="Control Standard ID#" />
-                                    <TableColumn fx:id="column_DateModified" prefWidth="130.6666259765625" text="Date Modified" />
-                                    <TableColumn fx:id="column_KeywordStatus" prefWidth="69.77779134114587" text="Status" />
+                                  <TableColumn fx:id="column_Keyword" prefWidth="132.00005531311035" text="keyword" />
+                                  <TableColumn fx:id="column_KeywordID" prefWidth="100.4444580078125" text="keywordid" />
+                                    <TableColumn fx:id="column_PriorityRating" prefWidth="115.11106872558594" text="priorityrating" />
+                                    <TableColumn fx:id="column_ControlStandardID" prefWidth="155.11111450195312" text="controlstandardid" />
+                                    <TableColumn fx:id="column_DateModified" prefWidth="130.6666259765625" text="datemodified" />
+                                    <TableColumn fx:id="column_KeywordStatus" prefWidth="69.77779134114587" text="status" />
                                 </columns>
                               </TableView>
                               <Button fx:id="button_keyinvReturnToHome" layoutX="624.0" layoutY="39.0" mnemonicParsing="false" onAction="#action_keyinvReturnToHome" text="Return to Home" />

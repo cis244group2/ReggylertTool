@@ -46,6 +46,7 @@ public class Controller_User_Login {
 
 	@FXML
 	void action_loginCreateAccount(ActionEvent event) throws IOException {
+				
 		Parent root = FXMLLoader.load(getClass().getResource("User_CreateAccount.fxml"));
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
@@ -83,6 +84,7 @@ public class Controller_User_Login {
 	}
 
 	void loadHomepage(String name, ActionEvent event) throws IOException {
+	
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage_RT.fxml"));
 		root = loader.load();
 		Controller_HomePage userProfile = loader.getController();
@@ -96,6 +98,11 @@ public class Controller_User_Login {
 
 	public String getUsername() {
 		return this.field_loginEmail.getText();
+	}
+	
+	FXMLLoader loadFxml(String filename) {
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
+		return loader;
 	}
 
 }

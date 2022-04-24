@@ -42,9 +42,7 @@ public class Controller_Record_Keyword {
     void action_SubmitKeyword(ActionEvent event) throws IOException {
     	
     	this.save_record();
-    	
-    	
-    	
+    	  	
 		Parent root = FXMLLoader.load(getClass().getResource("Inventory_Keyword.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
@@ -58,7 +56,6 @@ public class Controller_Record_Keyword {
     			this.field_Keyword.getText(), this.field_KeywordID.getText(), this.field_PriorityTierRating.getText(), this.field_ControlStandardID.getText(), this.field_DateModified.getText(), this.field_KeywordStatus.getText());
     	
     	try {
-//    		System.out.println(sql);
     		sqlHelper.execute(sql);
     		System.out.println("Recorded was added successfully");
     	}

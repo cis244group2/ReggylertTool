@@ -19,20 +19,15 @@ public class Main extends Application {
 		try {
 
 			FXMLLoader loader = this.loadFxml("User_Login.fxml");
-
 			AnchorPane root = (AnchorPane) loader.load();
-
 			Controller_User_Login login_ctl = loader.getController();
-
 			login_ctl.setCallback(new CallBack() {
 
 				@Override
 				public void handle(String text, ActionEvent ae) {
 					System.out.println("text: " + text);
 					System.out.println("get email via controller: " + login_ctl.getUsername());
-
 				}
-
 			});
 
 			Scene scene = new Scene(root, 755, 565);
@@ -47,7 +42,6 @@ public class Main extends Application {
 
 	FXMLLoader loadFxml(String filename) {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
-
 		return loader;
 	}
 
@@ -55,7 +49,6 @@ public class Main extends Application {
 		
 		String sql = "SELECT publication, link, note FROM sec_doc_data WHERE publication LIKE '%" + keyword + "%';";
 		ArrayList<SecDocData> al = get_sql_results(sql); 
-
 		return al;
 	}
 
