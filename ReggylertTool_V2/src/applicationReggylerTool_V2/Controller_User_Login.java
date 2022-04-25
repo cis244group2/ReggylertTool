@@ -75,7 +75,7 @@ public class Controller_User_Login {
 			loadHomepage(rst.getString(1), event);
 		} else {
 			lbConfirm.setTextFill(Color.RED);
-			lbConfirm.setText("Your Username or Password is incorrect!");
+			lbConfirm.setText("Your login credentials are incorrect. Please try again.");
 		}
 		
 		if(this.callBack != null) {
