@@ -13,7 +13,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
-import javafx.stage.Stage;import java.sql.*;
+import javafx.stage.Stage;
+import java.sql.*;
 
 public class Controller_User_CreateAccount {
 	
@@ -70,7 +71,7 @@ public class Controller_User_CreateAccount {
     public void initializedb() throws ClassNotFoundException, SQLException {
     	Class.forName("org.sqlite.JDBC");
     	System.out.println("Driver loaded");
-    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\paulo\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
+    	Connection connection = DriverManager.getConnection("jdbc:sqlite:V:\\TrumanCollege\\CISApps\\workspace-student\\ReggylertTool\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
     	System.out.println("Database connected");
     	
     	statement = connection.prepareStatement("insert into User( email, password)"
@@ -95,7 +96,7 @@ public class Controller_User_CreateAccount {
 	    	gotoLoginPage(event);
     	}
     	else {
-    		lbAlert.setText("Those Passwords didn't match.Try again.");
+    		lbAlert.setText("Those passwords did not match. Please try again.");
     		lbAlert.setTextFill(Color.RED);
    	}
     }
