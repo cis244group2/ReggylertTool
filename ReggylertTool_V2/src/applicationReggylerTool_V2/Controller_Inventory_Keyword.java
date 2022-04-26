@@ -105,19 +105,19 @@ public class Controller_Inventory_Keyword implements Initializable {
     
 //    String sqlKeywords = "SELECT id, keyword, keywordid, priorityrating, controlstandardid, datemodified, status FROM keywordinventory;";
     
-	public static ArrayList<Keyword> load_keywords(String sql) {
+	public static ObservableList<Keyword> load_keywords(String sql) {
 //		String sql = "SELECT publication, link, note FROM sec_doc_data WHERE publication LIKE '%" + keyword + "%';";
-		ArrayList<Keyword> al = get_sql_results(sql); 
+		ObservableList<Keyword> al = get_sql_results(sql); 
 		return al;
 	}
 
-	public static ArrayList<Keyword> get_sql_results(String sql) {
+	public static ObservableList<Keyword> get_sql_results(String sql) {
 		SQLhelper sqlHelper = new SQLhelper("Database_RT.db");
 		Connection conn = sqlHelper.getConnection();
 
 		ResultSet rs = sqlHelper.executeQuery(conn, sql);
 
-		ArrayList<Keyword> al = new ArrayList<Keyword>();
+		ObservableList<Keyword> al = FXCollections.observableArrayList();
 		try {
 			while (rs.next()) {
 				Keyword sdd = new Keyword( rs.getString("keyword")
@@ -138,26 +138,28 @@ public class Controller_Inventory_Keyword implements Initializable {
 		return al;
 	}
 	
-	String sqlKeywords = "SELECT keyword, keywordid, priorityrating, controlstandardid, datemodified, status FROM keywordinventory;";
-	ObservableList<Keyword> list = FXCollections.observableArrayList(get_sql_results(sqlKeywords));
+//	String sqlKeywords = "SELECT keyword, keywordid, priorityrating, controlstandardid, datemodified, status FROM keywordinventory;";
+//	ObservableList<Keyword> list = FXCollections.observableArrayList(get_sql_results(sqlKeywords));
 	
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourcebundle) {
-		column_Keyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
-		column_KeywordID.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
-		column_PriorityRating.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
-		column_ControlStandardID.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
-		column_DateModified.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
-		column_KeywordStatus.setCellValueFactory(new PropertyValueFactory<Keyword, String>(""));
+		String sql_data = "SELECT keyword, keywordid, priorityrating, controlstandardid, datemodified, status FROM keywordinventory;";
+		ObservableList<Keyword> list = FXCollections.observableArrayList(get_sql_results(sql_data));
+		
+		
+		column_Keyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keyword"));
+		column_KeywordID.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keywordID"));
+		column_PriorityRating.setCellValueFactory(new PropertyValueFactory<Keyword, String>("priorityRating"));
+		column_ControlStandardID.setCellValueFactory(new PropertyValueFactory<Keyword, String>("controlStd"));
+		column_DateModified.setCellValueFactory(new PropertyValueFactory<Keyword, String>("dateModified"));
+		column_KeywordStatus.setCellValueFactory(new PropertyValueFactory<Keyword, String>("status"));
 		
 		table_Keyword.setItems(list);
-		printtab();
+
 	}
 	
-	void printtab() {
-		System.out.println(String.valueOf(list));
-	}
+
 	
     
     
