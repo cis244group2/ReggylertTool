@@ -21,10 +21,11 @@ public class Controller_HomePage2 implements Initializable {
 	
 	private Stage stage;
 	private Scene scene;
-
-    @FXML
+	
+	// Buttons
+	@FXML
     private Button button_AddNewRecipient;
-    
+
     @FXML
     private Button button_Logout;
 
@@ -42,110 +43,138 @@ public class Controller_HomePage2 implements Initializable {
 
     @FXML
     private Button button_keyinvUpdateKeyword;
-
+    
+    
+    
+    // Recipient Table
     @FXML
-    private TableColumn<?, ?> column_ControlStandardID;
-
-    @FXML
-    private TableColumn<?, ?> column_DateIdentified;
-
-    @FXML
-    private TableColumn<?, ?> column_DateModified;
-
-    @FXML
-    private TableColumn<?, ?> column_Keyword;
-
-    @FXML
-    private TableColumn<?, ?> column_Keyword1;
-
-    @FXML
-    private TableColumn<?, ?> column_KeywordID;
-
-    @FXML
-    private TableColumn<?, ?> column_KeywordStatus;
-
-    @FXML
-    private TableColumn<?, ?> column_Link;
-
-    @FXML
-    private TableColumn<?, ?> column_PriorityRating;
-
-    @FXML
-    private TableColumn<?, ?> column_PublicationDate;
-
-    @FXML
-    private TableColumn<?, ?> column_SearchID;
-
-    @FXML
-    private TableColumn<?, ?> column_SerialNumber;
-
-    @FXML
-    private TableColumn<?, ?> column_Title;
-
-    @FXML
-    private TableColumn<?, ?> column_Type;
+    private TableColumn<Recipient, String> column_emailRecipient;
     
     @FXML
-    private TableColumn<?, ?> column_emailRecipient;
+    private TableColumn<Recipient, String> column_statusRecipient;
+    
+    @FXML
+    private TableColumn<Recipient, String> column_nameRecipient;
+    
+    @FXML
+    private TableView<Recipient> table_Recipient;
+    
+    
+    
+    // Keyword Inventory Table
+    @FXML
+    private TableColumn<Keyword, String> column_invControlStandardID;
+    
+    @FXML
+    private TableColumn<Keyword, String> column_invDateModified;
+    
+    @FXML
+    private TableColumn<Keyword, String> column_invKeyword;
 
     @FXML
-    private TableColumn<?, ?> column_nameRecipient;
+    private TableColumn<Keyword, String> column_invKeywordID;
 
     @FXML
-    private TableColumn<?, ?> column_statusRecipient;
+    private TableColumn<Keyword, String> column_invPriorityRating;
 
+    @FXML
+    private TableColumn<Keyword, String> column_invStatus;
+    
+    @FXML
+    private TableView<Keyword> table_Keyword;
+    
+    
+    
+    // Search Table 
+    @FXML
+    private TableColumn<Search, String> column_Link;
+
+    @FXML
+    private TableColumn<Search, String> column_PublicationDate;
+
+    @FXML
+    private TableColumn<Search, String> column_SerialNumber;
+
+    @FXML
+    private TableColumn<Search, String> column_searchDateIdentified;
+
+    @FXML
+    private TableColumn<Search, String> column_searchID;
+
+    @FXML
+    private TableColumn<Search, String> column_searchKeyword;
+
+    @FXML
+    private TableColumn<Search, String> column_searchTitle;
+
+    @FXML
+    private TableColumn<Search, String> column_searchType;
+    
+    @FXML
+    private TableView<Search> table_Search;
+    
+    
+
+    // Home Page User Name Label
     @FXML
     private Label field_homeUserName;
-
-    @FXML
-    private TableView<?> table_Keyword;
-    
-    @FXML
-    private TableView<?> table_Recipient;
-    
-    @FXML
-    private TableView<?> table_Search;
         
     public void setUsername(String name) {
-    	field_homeUserName.setText("Welcome " + name);
+    	field_homeUserName.setText(name);
     }
 
     @FXML
-    void action_AddNewRecipient(ActionEvent event) {
-
+    void action_AddNewRecipient(ActionEvent event) throws IOException {
+    	
+    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
+    	
+    	Parent root = FXMLLoader.load(getClass().getResource("Record_NotificationRecipient.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();  
     }
 
     @FXML
     void action_RemoveRecipient(ActionEvent event) {
+    	// ADD CODE FOR REMOVING SELECTED RECIPIENT FROM TABLE AND FOR REFRESH OF TABLE
+    }
+    
+    @FXML
+    void add_UpdateRecipient(ActionEvent event) {
+    	
+    	// UPDATE CODE TO LOAD SEPARATELY WITH RECIPIENT SELECTED ON TABLE
 
     }
 
     @FXML
     void action_keyinvAddKeyword(ActionEvent event) throws IOException {
+    	
+    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
+    	
     	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();  
-    }
-
-    @FXML
-    void action_keyinvRemoveKeyword(ActionEvent event) {
-
     }
 
     @FXML
     void action_keyinvUpdateKeyword(ActionEvent event) throws IOException {
+    	
+    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
+    	
     	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();  
     }
-
+    
     @FXML
-    void add_UpdateRecipient(ActionEvent event) {
-
+    void action_keyinvRemoveKeyword(ActionEvent event) {
+    	
+    	// ADD CODE FOR REMOVING SELECTED KEYWORD FROM TABLE AND FOR REFRESH OF TABLE
     }
     
     @FXML
@@ -156,6 +185,7 @@ public class Controller_HomePage2 implements Initializable {
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		
+		// ADD CODE FOR LOADING TABLES AND COLUMNS
 		
 	}
 

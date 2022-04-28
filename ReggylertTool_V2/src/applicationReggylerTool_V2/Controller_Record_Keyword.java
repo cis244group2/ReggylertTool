@@ -43,11 +43,6 @@ public class Controller_Record_Keyword {
     	
     	this.save_record();
     	  	
-		Parent root = FXMLLoader.load(getClass().getResource("Inventory_Keyword.fxml"));
-		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();
     }
     
     void save_record() {

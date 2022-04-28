@@ -52,12 +52,12 @@
                                              <children>
                                                 <TableView fx:id="table_Keyword" layoutY="79.0" prefHeight="567.0" prefWidth="1050.0">
                                                    <columns>
-                                                      <TableColumn fx:id="column_Keyword" minWidth="175.0" prefWidth="175.0" text="keyword" />
-                                                      <TableColumn fx:id="column_KeywordID" minWidth="175.0" prefWidth="175.0" text="keyword id" />
-                                                      <TableColumn fx:id="column_PriorityRating" minWidth="175.0" prefWidth="175.0" text="priority rating" />
-                                                      <TableColumn fx:id="column_ControlStandardID" minWidth="175.0" prefWidth="175.0" text="controlstandard id" />
-                                                      <TableColumn fx:id="column_DateModified" minWidth="175.0" prefWidth="175.0" text="date modified" />
-                                                      <TableColumn fx:id="column_KeywordStatus" minWidth="175.0" prefWidth="175.0" text="status" />
+                                                      <TableColumn fx:id="column_invKeyword" minWidth="175.0" prefWidth="175.0" text="keyword" />
+                                                      <TableColumn fx:id="column_invKeywordID" minWidth="175.0" prefWidth="175.0" text="keyword id" />
+                                                      <TableColumn fx:id="column_invPriorityRating" minWidth="175.0" prefWidth="175.0" text="priority rating" />
+                                                      <TableColumn fx:id="column_invControlStandardID" minWidth="175.0" prefWidth="175.0" text="controlstandard id" />
+                                                      <TableColumn fx:id="column_invDateModified" minWidth="175.0" prefWidth="175.0" text="date modified" />
+                                                      <TableColumn fx:id="column_invStatus" minWidth="175.0" prefWidth="175.0" text="status" />
                                                    </columns>
                                                 </TableView>
                                                 <Button fx:id="button_keyinvAddKeyword" layoutX="14.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />
@@ -97,11 +97,11 @@
                                        <children>
                                           <TableView fx:id="table_Search" prefHeight="645.0" prefWidth="1050.0">
                                              <columns>
-                                                <TableColumn fx:id="column_SearchID" prefWidth="131.25" text="Search ID#" />
-                                                <TableColumn fx:id="column_Keyword1" prefWidth="131.25" text="Keyword" />
-                                                <TableColumn fx:id="column_DateIdentified" prefWidth="131.25" text="Date Identified" />
-                                                <TableColumn fx:id="column_Title" prefWidth="131.25" text="Title" />
-                                                <TableColumn fx:id="column_Type" prefWidth="131.25" text="Type" />
+                                                <TableColumn fx:id="column_searchID" prefWidth="131.25" text="Search ID#" />
+                                                <TableColumn fx:id="column_searchKeyword" prefWidth="131.25" text="Keyword" />
+                                                <TableColumn fx:id="column_searchDateIdentified" prefWidth="131.25" text="Date Identified" />
+                                                <TableColumn fx:id="column_searchTitle" prefWidth="131.25" text="Title" />
+                                                <TableColumn fx:id="column_searchType" prefWidth="131.25" text="Type" />
                                                 <TableColumn fx:id="column_PublicationDate" prefWidth="131.25" text="Publication Date" />
                                                 <TableColumn fx:id="column_SerialNumber" prefWidth="131.25" text="Serial Number" />
                                                 <TableColumn fx:id="column_Link" prefWidth="131.25" text="Link" />

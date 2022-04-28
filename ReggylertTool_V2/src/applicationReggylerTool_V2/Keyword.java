@@ -2,7 +2,7 @@ package applicationReggylerTool_V2;
 
 import java.io.Serializable;
 
-public class Keyword implements Serializable {
+public class Keyword {
 	
 	private String keyword;
 	private String keywordID;
@@ -68,8 +68,6 @@ public class Keyword implements Serializable {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	
-	
-	
+		
 
 }
