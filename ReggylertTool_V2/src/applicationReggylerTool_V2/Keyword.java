@@ -1,7 +1,5 @@
 package applicationReggylerTool_V2;
 
-import java.io.Serializable;
-
 public class Keyword {
 	
 	private String keyword;

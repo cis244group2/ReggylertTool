@@ -15,6 +15,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class Controller_HomePage2 implements Initializable {
@@ -126,13 +127,9 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     void action_AddNewRecipient(ActionEvent event) throws IOException {
     	
+    	open_recipient_record();
     	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
     	
-    	Parent root = FXMLLoader.load(getClass().getResource("Record_NotificationRecipient.fxml"));
-		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();  
     }
 
     @FXML
@@ -143,6 +140,7 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     void add_UpdateRecipient(ActionEvent event) {
     	
+    	open_recipient_record();
     	// UPDATE CODE TO LOAD SEPARATELY WITH RECIPIENT SELECTED ON TABLE
 
     }
@@ -150,25 +148,20 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     void action_keyinvAddKeyword(ActionEvent event) throws IOException {
     	
+    	open_keyword_record();
+    	
     	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
     	
-    	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
-		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();  
+
     }
 
     @FXML
     void action_keyinvUpdateKeyword(ActionEvent event) throws IOException {
     	
-    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
+    	open_keyword_record();
     	
-    	Parent root = FXMLLoader.load(getClass().getResource("Record_Keyword.fxml"));
-		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-		scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();  
+    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
+    	 
     }
     
     @FXML
@@ -187,6 +180,32 @@ public class Controller_HomePage2 implements Initializable {
 		
 		// ADD CODE FOR LOADING TABLES AND COLUMNS
 		
+	}
+	
+	public void open_keyword_record() {
+    	try {
+	    	FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Record_Keyword.fxml"));
+	    	AnchorPane root = (AnchorPane) fxmlLoader.load();
+	        Stage stage = new Stage();
+	        stage.setScene(new Scene(root));  
+	        stage.show();
+
+	    } catch(Exception e) {
+	       e.printStackTrace();
+	      }		
+	}
+	
+	public void open_recipient_record() {
+    	try {
+	    	FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Record_NotificationRecipient.fxml"));
+	    	AnchorPane root = (AnchorPane) fxmlLoader.load();
+	        Stage stage = new Stage();
+	        stage.setScene(new Scene(root));  
+	        stage.show();
+
+	    } catch(Exception e) {
+	       e.printStackTrace();
+	      }		
 	}
 
 }
