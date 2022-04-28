@@ -7,10 +7,15 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
    <children>
       <SplitPane dividerPositions="0.24300111982082867" orientation="VERTICAL" prefHeight="895.0" prefWidth="1052.0">
         <items>
@@ -18,14 +23,40 @@
                <children>
                   <AnchorPane prefHeight="214.0" prefWidth="1050.0">
                      <children>
-                        <Label layoutX="6.0" prefHeight="106.0" prefWidth="536.0" text="Reggylert" textAlignment="CENTER" textFill="#f50606">
+                        <ImageView fitHeight="214.0" fitWidth="1050.0" opacity="0.9" pickOnBounds="true">
+                           <image>
+                              <Image url="@information%20technology.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="6.0" prefHeight="106.0" prefWidth="536.0" text="Reggylert" textAlignment="CENTER">
                            <font>
                               <Font name="Monotype Corsiva" size="96.0" />
                            </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.6685057471264368">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
                         </Label>
-                        <Label layoutX="14.0" layoutY="154.0" text="User : ">
+                        <Label layoutX="82.0" layoutY="141.0" text="User : " textFill="WHITE">
                            <font>
-                              <Font size="18.0" />
+                              <Font name="Lucida Bright Demibold Italic" size="18.0" />
                            </font>
                         </Label>
                         <Button fx:id="button_Logout" layoutX="925.0" layoutY="150.0" mnemonicParsing="false" onAction="#action_Logout" text="Log Out">
@@ -33,7 +64,10 @@
                               <Font size="16.0" />
                            </font>
                         </Button>
-                        <Label fx:id="field_homeUserName" layoutX="64.0" layoutY="159.0" />
+                        <Label fx:id="field_homeUserName" layoutX="140.0" layoutY="139.0" prefHeight="27.0" prefWidth="405.0" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Label>
                      </children>
                   </AnchorPane>
                </children>
@@ -52,12 +86,12 @@
                                              <children>
                                                 <TableView fx:id="table_Keyword" layoutY="79.0" prefHeight="567.0" prefWidth="1050.0">
                                                    <columns>
-                                                      <TableColumn fx:id="column_invKeyword" minWidth="175.0" prefWidth="175.0" text="keyword" />
-                                                      <TableColumn fx:id="column_invKeywordID" minWidth="175.0" prefWidth="175.0" text="keyword id" />
-                                                      <TableColumn fx:id="column_invPriorityRating" minWidth="175.0" prefWidth="175.0" text="priority rating" />
-                                                      <TableColumn fx:id="column_invControlStandardID" minWidth="175.0" prefWidth="175.0" text="controlstandard id" />
-                                                      <TableColumn fx:id="column_invDateModified" minWidth="175.0" prefWidth="175.0" text="date modified" />
-                                                      <TableColumn fx:id="column_invStatus" minWidth="175.0" prefWidth="175.0" text="status" />
+                                                      <TableColumn fx:id="column_Keyword" minWidth="175.0" prefWidth="175.0" text="keyword" />
+                                                      <TableColumn fx:id="column_KeywordID" minWidth="175.0" prefWidth="175.0" text="keyword id" />
+                                                      <TableColumn fx:id="column_PriorityRating" minWidth="175.0" prefWidth="175.0" text="priority rating" />
+                                                      <TableColumn fx:id="column_ControlStandardID" minWidth="175.0" prefWidth="175.0" text="controlstandard id" />
+                                                      <TableColumn fx:id="column_DateModified" minWidth="175.0" prefWidth="175.0" text="date modified" />
+                                                      <TableColumn fx:id="column_KeywordStatus" minWidth="175.0" prefWidth="175.0" text="status" />
                                                    </columns>
                                                 </TableView>
                                                 <Button fx:id="button_keyinvAddKeyword" layoutX="14.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />
@@ -97,11 +131,11 @@
                                        <children>
                                           <TableView fx:id="table_Search" prefHeight="645.0" prefWidth="1050.0">
                                              <columns>
-                                                <TableColumn fx:id="column_searchID" prefWidth="131.25" text="Search ID#" />
-                                                <TableColumn fx:id="column_searchKeyword" prefWidth="131.25" text="Keyword" />
-                                                <TableColumn fx:id="column_searchDateIdentified" prefWidth="131.25" text="Date Identified" />
-                                                <TableColumn fx:id="column_searchTitle" prefWidth="131.25" text="Title" />
-                                                <TableColumn fx:id="column_searchType" prefWidth="131.25" text="Type" />
+                                                <TableColumn fx:id="column_SearchID" prefWidth="131.25" text="Search ID#" />
+                                                <TableColumn fx:id="column_Keyword1" prefWidth="131.25" text="Keyword" />
+                                                <TableColumn fx:id="column_DateIdentified" prefWidth="131.25" text="Date Identified" />
+                                                <TableColumn fx:id="column_Title" prefWidth="131.25" text="Title" />
+                                                <TableColumn fx:id="column_Type" prefWidth="131.25" text="Type" />
                                                 <TableColumn fx:id="column_PublicationDate" prefWidth="131.25" text="Publication Date" />
                                                 <TableColumn fx:id="column_SerialNumber" prefWidth="131.25" text="Serial Number" />
                                                 <TableColumn fx:id="column_Link" prefWidth="131.25" text="Link" />
