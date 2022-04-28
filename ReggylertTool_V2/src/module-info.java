@@ -6,5 +6,5 @@ module ReggylertTool_V2 {
 	requires javafx.graphics;
 	requires javafx.base;
 	
-	opens applicationReggylerTool_V2 to javafx.graphics, javafx.fxml;
+	opens applicationReggylerTool_V2 to javafx.graphics, javafx.fxml, javafx.base;
 }

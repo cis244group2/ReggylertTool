@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class SQLhelper {
-	private String dbname = "Database_RT.db";
+	private String dbname = "";
 
 	public SQLhelper(String dbname) {
 		this.dbname = dbname;

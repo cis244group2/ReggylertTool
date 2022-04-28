@@ -1,39 +1,41 @@
 package applicationReggylerTool_V2;
 
+import javafx.beans.property.SimpleStringProperty;
+
 public class Recipient {
 	
-	private String recipientName;
-	private String recipientEmail;
-	private String recipientStatus;
+	private SimpleStringProperty recipientName;
+	private SimpleStringProperty recipientEmail;
+	private SimpleStringProperty recipientStatus;
 	
 	Recipient(String recipientName, String recipientEmail, String recipientStatus) {
-		this.recipientName = recipientName;
-		this.recipientEmail = recipientEmail;
-		this.recipientStatus = recipientStatus;
+		this.recipientName = new SimpleStringProperty(recipientName);
+		this.recipientEmail = new SimpleStringProperty(recipientEmail);
+		this.recipientStatus = new SimpleStringProperty(recipientStatus);
 	}
 
-	public String getRecipientName() {
+	public SimpleStringProperty getRecipientName() {
 		return recipientName;
 	}
 
 	public void setRecipientName(String recipientName) {
-		this.recipientName = recipientName;
+		this.recipientName = new SimpleStringProperty(recipientName);
 	}
 
-	public String getRecipientEmail() {
+	public SimpleStringProperty getRecipientEmail() {
 		return recipientEmail;
 	}
 
 	public void setRecipientEmail(String recipientEmail) {
-		this.recipientEmail = recipientEmail;
+		this.recipientEmail = new SimpleStringProperty(recipientEmail);
 	}
 
-	public String getRecipientStatus() {
+	public SimpleStringProperty getRecipientStatus() {
 		return recipientStatus;
 	}
 
 	public void setRecipientStatus(String recipientStatus) {
-		this.recipientStatus = recipientStatus;
+		this.recipientStatus = new SimpleStringProperty(recipientStatus);
 	}
 	
 }

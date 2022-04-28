@@ -1,70 +1,72 @@
 package applicationReggylerTool_V2;
 
+import javafx.beans.property.SimpleStringProperty;
+
 public class Keyword {
 	
-	private String keyword;
-	private String keywordID;
-	private String priorityRating;
-	private String controlStd;
-	private String dateModified;
-	private String status;
+	private SimpleStringProperty  keyword;
+	private SimpleStringProperty  keywordID;
+	private SimpleStringProperty  priorityRating;
+	private SimpleStringProperty  controlStd;
+	private SimpleStringProperty  dateModified;
+	private SimpleStringProperty  status;
 	
 	public Keyword(String keyword, String keywordID, String priorityRating, String controlStd, String dateModified,
 			String status) {
-		this.keyword = keyword;
-		this.keywordID = keywordID;
-		this.priorityRating = priorityRating;
-		this.controlStd = controlStd;
-		this.dateModified = dateModified;
-		this.status = status;
+		this.keyword = new SimpleStringProperty (keyword);
+		this.keywordID = new SimpleStringProperty (keywordID);
+		this.priorityRating = new SimpleStringProperty (priorityRating);
+		this.controlStd = new SimpleStringProperty (controlStd);
+		this.dateModified = new SimpleStringProperty (dateModified);
+		this.status = new SimpleStringProperty (status);
 	}
 
-	public String getKeyword() {
+	public SimpleStringProperty getKeyword() {
 		return keyword;
 	}
 
 	public void setKeyword(String keyword) {
-		this.keyword = keyword;
+		this.keyword = new SimpleStringProperty(keyword);
 	}
 
-	public String getKeywordID() {
+	public SimpleStringProperty getKeywordID() {
 		return keywordID;
 	}
 
 	public void setKeywordID(String keywordID) {
-		this.keywordID = keywordID;
+		this.keywordID = new SimpleStringProperty(keywordID);
 	}
 
-	public String getPriorityRating() {
+	public SimpleStringProperty getPriorityRating() {
 		return priorityRating;
 	}
 
 	public void setPriorityRating(String priorityRating) {
-		this.priorityRating = priorityRating;
+		this.priorityRating = new SimpleStringProperty(priorityRating);
 	}
 
-	public String getControlStd() {
+	public SimpleStringProperty getControlStd() {
 		return controlStd;
 	}
 
 	public void setControlStd(String controlStd) {
-		this.controlStd = controlStd;
+		this.controlStd = new SimpleStringProperty(controlStd);
 	}
 
-	public String getDateModified() {
+	public SimpleStringProperty getDateModified() {
 		return dateModified;
 	}
 
 	public void setDateModified(String dateModified) {
-		this.dateModified = dateModified;
+		this.dateModified = new SimpleStringProperty (dateModified);
 	}
 
-	public String getStatus() {
+	public SimpleStringProperty getStatus() {
 		return status;
 	}
 
 	public void setStatus(String status) {
-		this.status = status;
+		this.status = new SimpleStringProperty(status);
 	}
 		
 
