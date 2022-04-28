@@ -71,7 +71,7 @@ public class Controller_User_CreateAccount {
     public void initializedb() throws ClassNotFoundException, SQLException {
     	Class.forName("org.sqlite.JDBC");
     	System.out.println("Driver loaded");
-    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\paulo\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
+    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\jenin\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
     	System.out.println("Database connected");
     	
     	statement = connection.prepareStatement("insert into User( email, password)"
@@ -89,9 +89,10 @@ public class Controller_User_CreateAccount {
     	System.out.println(password1+"  "+ confirmPassword1);
     	
     	if(checkPassword(password1, confirmPassword1)) {
-    		statement.setString(1, email);
+	    	statement.setString(1, email);
     		statement.setString(2, password1);
-    	
+	    	//Email.accountCreationEmail(email); //trigger account confirmation email
+
 	    	int rset = statement.executeUpdate();
 	    	gotoLoginPage(event);
     	}
