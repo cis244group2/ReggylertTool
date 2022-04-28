@@ -21,7 +21,7 @@ public class Email {
 	
 	public Email() {
 		this.username = "cis244group2@gmail.com";
-		this.pass = "PUTPASSWORD"; //replace with password
+		this.pass = "putpassword"; //replace with password
 	}
 	
 	public Email(String username, String pass) {

@@ -89,9 +89,10 @@ public class Controller_User_CreateAccount {
     	System.out.println(password1+"  "+ confirmPassword1);
     	
     	if(checkPassword(password1, confirmPassword1)) {
-    		statement.setString(1, email);
+	    	statement.setString(1, email);
     		statement.setString(2, password1);
-    	
+	    	//Email.accountCreationEmail(email); //trigger account confirmation email
+
 	    	int rset = statement.executeUpdate();
 	    	gotoLoginPage(event);
     	}
