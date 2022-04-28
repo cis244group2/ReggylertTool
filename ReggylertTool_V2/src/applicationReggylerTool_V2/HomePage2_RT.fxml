@@ -15,7 +15,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
    <children>
       <SplitPane dividerPositions="0.24300111982082867" orientation="VERTICAL" prefHeight="895.0" prefWidth="1052.0">
         <items>
@@ -86,12 +86,12 @@
                                              <children>
                                                 <TableView fx:id="table_Keyword" layoutY="79.0" prefHeight="567.0" prefWidth="1050.0">
                                                    <columns>
-                                                      <TableColumn fx:id="column_Keyword" minWidth="175.0" prefWidth="175.0" text="keyword" />
-                                                      <TableColumn fx:id="column_KeywordID" minWidth="175.0" prefWidth="175.0" text="keyword id" />
-                                                      <TableColumn fx:id="column_PriorityRating" minWidth="175.0" prefWidth="175.0" text="priority rating" />
-                                                      <TableColumn fx:id="column_ControlStandardID" minWidth="175.0" prefWidth="175.0" text="controlstandard id" />
-                                                      <TableColumn fx:id="column_DateModified" minWidth="175.0" prefWidth="175.0" text="date modified" />
-                                                      <TableColumn fx:id="column_KeywordStatus" minWidth="175.0" prefWidth="175.0" text="status" />
+                                                      <TableColumn fx:id="column_invKeyword" minWidth="175.0" prefWidth="175.0" text="Keyword" />
+                                                      <TableColumn fx:id="column_invKeywordID" minWidth="175.0" prefWidth="175.0" text="Keyword ID#" />
+                                                      <TableColumn fx:id="column_invPriorityRating" minWidth="175.0" prefWidth="175.0" text="Piority Rating" />
+                                                      <TableColumn fx:id="column_invControlStandardID" minWidth="175.0" prefWidth="175.0" text="Control Standard ID" />
+                                                      <TableColumn fx:id="column_invDateModified" minWidth="175.0" prefWidth="175.0" text="Date Modified" />
+                                                      <TableColumn fx:id="column_invStatus" minWidth="175.0" prefWidth="175.0" text="Status" />
                                                    </columns>
                                                 </TableView>
                                                 <Button fx:id="button_keyinvAddKeyword" layoutX="14.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />

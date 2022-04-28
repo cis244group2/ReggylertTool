@@ -71,11 +71,11 @@ public class Controller_User_CreateAccount {
     public void initializedb() throws ClassNotFoundException, SQLException {
     	Class.forName("org.sqlite.JDBC");
     	System.out.println("Driver loaded");
-    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\galoe\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
+    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\paulo\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
     	System.out.println("Database connected");
     	
-    	//C:\Users\galoe\git\ReggylertTool\ReggylertTool_V2\src\applicationReggylerTool_V2\\Database_RT.db (Galo)
-    	//C:\\Users\\paulo\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db (Paulo)
+    	//C:\Users\galoe\git\ReggylertTool\ReggylertTool_V2\src\applicationReggylerTool_V2\Database_RT.db (Galo)
+    	//C:\Users\\paulo\git\ReggylertTool\ReggylertTool_V2\src\applicationReggylerTool_V2\Database_RT.db (Paulo)
     	
     	statement = connection.prepareStatement("insert into User( email, password)"
     			+ "values( ?, ?)"); 

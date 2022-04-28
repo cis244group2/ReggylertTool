@@ -21,48 +21,48 @@ public class Keyword {
 		this.status = new SimpleStringProperty (status);
 	}
 
-	public SimpleStringProperty getKeyword() {
-		return keyword;
+	public String getKeyword() {
+		return keyword.get();
 	}
 
 	public void setKeyword(String keyword) {
 		this.keyword = new SimpleStringProperty(keyword);
 	}
 
-	public SimpleStringProperty getKeywordID() {
-		return keywordID;
+	public String getKeywordID() {
+		return keywordID.get();
 	}
 
 	public void setKeywordID(String keywordID) {
 		this.keywordID = new SimpleStringProperty(keywordID);
 	}
 
-	public SimpleStringProperty getPriorityRating() {
-		return priorityRating;
+	public String getPriorityRating() {
+		return priorityRating.get();
 	}
 
 	public void setPriorityRating(String priorityRating) {
 		this.priorityRating = new SimpleStringProperty(priorityRating);
 	}
 
-	public SimpleStringProperty getControlStd() {
-		return controlStd;
+	public String getControlStd() {
+		return controlStd.get();
 	}
 
 	public void setControlStd(String controlStd) {
 		this.controlStd = new SimpleStringProperty(controlStd);
 	}
 
-	public SimpleStringProperty getDateModified() {
-		return dateModified;
+	public String getDateModified() {
+		return dateModified.get();
 	}
 
 	public void setDateModified(String dateModified) {
 		this.dateModified = new SimpleStringProperty (dateModified);
 	}
 
-	public SimpleStringProperty getStatus() {
-		return status;
+	public String getStatus() {
+		return status.get();
 	}
 
 	public void setStatus(String status) {

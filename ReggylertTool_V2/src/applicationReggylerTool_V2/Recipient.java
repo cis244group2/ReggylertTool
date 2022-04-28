@@ -2,6 +2,8 @@ package applicationReggylerTool_V2;
 
 import javafx.beans.property.SimpleStringProperty;
 
+//remove SimpleStringProperty ref from getters
+
 public class Recipient {
 	
 	private SimpleStringProperty recipientName;

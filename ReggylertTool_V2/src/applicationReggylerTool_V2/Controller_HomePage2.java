@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,6 +15,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -170,12 +173,29 @@ public class Controller_HomePage2 implements Initializable {
     void action_Logout(ActionEvent event) {
     	System.exit(0);
     }
+    
+    private ObservableList<Keyword> list = FXCollections
+			.observableArrayList(new Keyword("key1", "key1", "key1", "key1", "key1", "key1"));
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		
 		// ADD CODE FOR LOADING TABLES AND COLUMNS
 		
+		column_invKeyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keyword"));
+		column_invKeywordID.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keywordID"));
+		column_invDateModified.setCellValueFactory(new PropertyValueFactory<Keyword, String>("dateModified"));
+		column_invControlStandardID.setCellValueFactory(new PropertyValueFactory<Keyword, String>("controlStd"));
+		column_invPriorityRating.setCellValueFactory(new PropertyValueFactory<Keyword, String>("priorityRating"));
+		column_invStatus.setCellValueFactory(new PropertyValueFactory<Keyword, String>("status"));
+		
+		table_Keyword.setItems(list);
+
+		table_Keyword.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+		    if (newSelection != null) {
+		        System.out.println("test lang");
+		    }
+		});
 	}
 	
 	public void open_keyword_record() {
