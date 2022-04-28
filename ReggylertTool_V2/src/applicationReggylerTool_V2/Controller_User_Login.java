@@ -21,7 +21,6 @@ public class Controller_User_Login {
 	private Stage stage;
 	private Scene scene;
 	private Parent root;
-	private Controller_User_CreateAccount controller = new Controller_User_CreateAccount();
 
 	@FXML
 	private Button button_loginCreateAccount;
@@ -63,14 +62,19 @@ public class Controller_User_Login {
 	public void loginUser(ActionEvent event)
 			throws SQLException, IOException, ClassNotFoundException, InterruptedException {
 		// Execute a statement
-		controller.initializedb();
+		SQLhelper sqlHelper = new SQLhelper("Database_RT.db");
+		Connection connection =sqlHelper.getConnection();
+		
+		PreparedStatement statementLoging= connection.prepareStatement("select email, password from User where email = ? and password = ?");
+
 
 		String email = field_loginEmail.getText().trim();
 		String password = field_loginPassword.getText().trim();
-		controller.statementLoging.setString(1, email);
-		controller.statementLoging.setString(2, password);
+		statementLoging.setString(1, email);
+		statementLoging.setString(2, password);
 
-		ResultSet rst = controller.statementLoging.executeQuery();
+		ResultSet rst = statementLoging.executeQuery();
+		
 		if (rst.next()) {
 			loadHomepage(rst.getString(1), event);
 		} else {
@@ -81,6 +85,7 @@ public class Controller_User_Login {
 		if(this.callBack != null) {
 			this.callBack.handle(email, event);
 		}
+		sqlHelper.closeConnection(connection);
 	}
 
 	void loadHomepage(String name, ActionEvent event) throws IOException {
