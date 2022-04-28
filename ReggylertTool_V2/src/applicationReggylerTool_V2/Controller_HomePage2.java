@@ -180,8 +180,8 @@ public class Controller_HomePage2 implements Initializable {
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		
-		// ADD CODE FOR LOADING TABLES AND COLUMNS
 		
+		//Keyword Table
 		column_invKeyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keyword"));
 		column_invKeywordID.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keywordID"));
 		column_invDateModified.setCellValueFactory(new PropertyValueFactory<Keyword, String>("dateModified"));
@@ -196,6 +196,17 @@ public class Controller_HomePage2 implements Initializable {
 		        System.out.println("test lang");
 		    }
 		});
+		
+		
+		//Recipient Table
+		
+//		 column_emailRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientEmail"));
+//		 column_statusRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientStatus"));
+//		 column_nameRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientName"));
+		
+		
+		//Search Table
+		
 	}
 	
 	public void open_keyword_record() {

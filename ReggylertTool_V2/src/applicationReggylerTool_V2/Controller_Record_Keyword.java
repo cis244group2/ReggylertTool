@@ -35,7 +35,7 @@ public class Controller_Record_Keyword {
     	
     	this.save_record();
     	
-    	
+    	//set up the call back event for event to update table
     	  	
     }
     

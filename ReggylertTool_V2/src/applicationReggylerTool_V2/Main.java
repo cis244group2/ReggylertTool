@@ -20,6 +20,8 @@ public class Main extends Application {
 
 			FXMLLoader loader = this.loadFxml("User_Login.fxml");
 			AnchorPane root = (AnchorPane) loader.load();
+			
+			// follow format callback here
 			Controller_User_Login login_ctl = loader.getController();
 			login_ctl.setCallback(new CallBack() {
 

@@ -2,8 +2,6 @@ package applicationReggylerTool_V2;
 
 import javafx.beans.property.SimpleStringProperty;
 
-//remove SimpleStringProperty ref from getters
-
 public class Recipient {
 	
 	private SimpleStringProperty recipientName;
@@ -16,24 +14,24 @@ public class Recipient {
 		this.recipientStatus = new SimpleStringProperty(recipientStatus);
 	}
 
-	public SimpleStringProperty getRecipientName() {
-		return recipientName;
+	public String getRecipientName() {
+		return recipientName.get();
 	}
 
 	public void setRecipientName(String recipientName) {
 		this.recipientName = new SimpleStringProperty(recipientName);
 	}
 
-	public SimpleStringProperty getRecipientEmail() {
-		return recipientEmail;
+	public String getRecipientEmail() {
+		return recipientEmail.get();
 	}
 
 	public void setRecipientEmail(String recipientEmail) {
 		this.recipientEmail = new SimpleStringProperty(recipientEmail);
 	}
 
-	public SimpleStringProperty getRecipientStatus() {
-		return recipientStatus;
+	public String getRecipientStatus() {
+		return recipientStatus.get();
 	}
 
 	public void setRecipientStatus(String recipientStatus) {

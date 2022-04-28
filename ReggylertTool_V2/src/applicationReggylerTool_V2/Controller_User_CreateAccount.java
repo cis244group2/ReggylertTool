@@ -16,6 +16,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import java.sql.*;
 
+
 public class Controller_User_CreateAccount {
 	
 	private Stage stage;
@@ -42,6 +43,8 @@ public class Controller_User_CreateAccount {
     private PasswordField field_userPassword;
     
     private CallBack callBack = null;
+    
+    private SQLhelper sqlHelper = new SQLhelper("Database_RT.db");
 	
 	public void setCallback(CallBack callBack) {
 		this.callBack = callBack;
@@ -69,23 +72,18 @@ public class Controller_User_CreateAccount {
     
     // This method loads the jdbc class and create statement 
     public void initializedb() throws ClassNotFoundException, SQLException {
-    	Class.forName("org.sqlite.JDBC");
-    	System.out.println("Driver loaded");
-    	Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\paulo\\git\\ReggylertTool\\ReggylertTool_V2\\src\\applicationReggylerTool_V2\\Database_RT.db");
-    	System.out.println("Database connected");
     	
-    	//C:\Users\galoe\git\ReggylertTool\ReggylertTool_V2\src\applicationReggylerTool_V2\Database_RT.db (Galo)
-    	//C:\Users\\paulo\git\ReggylertTool\ReggylertTool_V2\src\applicationReggylerTool_V2\Database_RT.db (Paulo)
-    	
-    	statement = connection.prepareStatement("insert into User( email, password)"
-    			+ "values( ?, ?)"); 
+    	Connection connection = this.sqlHelper.getConnection();
+      	
+    	statement = connection.prepareStatement("insert into User( email, password) values( ?, ?)"); 
     	statementLoging= connection.prepareStatement("select email, password from User where email = ? and password = ?");
-    	
-    	
+    		
     }
     
     public void createUserAccount(ActionEvent event) throws ClassNotFoundException, SQLException, IOException {
     	initializedb();
+    	
+    	
     	String email = field_userEmail.getText().trim();
     	String password1 = field_userPassword.getText();
     	String confirmPassword1 = field_userConfirmPassword.getText();
@@ -108,6 +106,10 @@ public class Controller_User_CreateAccount {
     boolean checkPassword(String passWord, String confirmPassword) {
     	return passWord.equals(confirmPassword);
     }
+    
+	private String getResource(String resource) {
+		return getClass().getResource(resource).toString();
+	}
     
 
 }

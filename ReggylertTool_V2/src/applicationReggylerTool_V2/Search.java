@@ -2,8 +2,6 @@ package applicationReggylerTool_V2;
 
 import javafx.beans.property.SimpleStringProperty;
 
-//remove SimpleStringProperty ref from getters
-
 public class Search {
 	
 	private SimpleStringProperty searchID;
@@ -29,8 +27,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchID() {
-		return searchID;
+	public String getSearchID() {
+		return searchID.get();
 	}
 
 
@@ -39,8 +37,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchKeyword() {
-		return searchKeyword;
+	public String getSearchKeyword() {
+		return searchKeyword.get();
 	}
 
 
@@ -49,8 +47,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchType() {
-		return searchType;
+	public String getSearchType() {
+		return searchType.get();
 	}
 
 
@@ -59,8 +57,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchDateIdentified() {
-		return searchDateIdentified;
+	public String getSearchDateIdentified() {
+		return searchDateIdentified.get();
 	}
 
 
@@ -69,8 +67,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchTitle() {
-		return searchTitle;
+	public String getSearchTitle() {
+		return searchTitle.get();
 	}
 
 
@@ -79,8 +77,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchSerialNumb() {
-		return searchSerialNumb;
+	public String getSearchSerialNumb() {
+		return searchSerialNumb.get();
 	}
 
 
@@ -89,8 +87,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchLink() {
-		return searchLink;
+	public String getSearchLink() {
+		return searchLink.get();
 	}
 
 
@@ -99,8 +97,8 @@ public class Search {
 	}
 
 
-	public SimpleStringProperty getSearchPubDate() {
-		return searchPubDate;
+	public String getSearchPubDate() {
+		return searchPubDate.get();
 	}
 
 
