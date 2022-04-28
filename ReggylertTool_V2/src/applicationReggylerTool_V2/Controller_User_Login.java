@@ -85,9 +85,9 @@ public class Controller_User_Login {
 
 	void loadHomepage(String name, ActionEvent event) throws IOException {
 	
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage_RT.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage2_RT.fxml"));
 		root = loader.load();
-		Controller_HomePage userProfile = loader.getController();
+		Controller_HomePage2 userProfile = loader.getController();
 		userProfile.setUsername(name);
 		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
