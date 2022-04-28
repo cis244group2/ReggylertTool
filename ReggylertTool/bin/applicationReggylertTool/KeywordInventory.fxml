@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="678.0" prefWidth="813.0">
+         <children>
+            <TabPane prefHeight="679.0" prefWidth="813.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Keywords Inventory">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="592.0" prefWidth="813.0">
+                           <children>
+                              <TableView layoutX="21.0" layoutY="90.0" prefHeight="534.0" prefWidth="771.0">
+                                <columns>
+                                  <TableColumn prefWidth="132.00005531311035" text="Keyword" />
+                                  <TableColumn prefWidth="139.55555725097656" text="Keyword ID#" />
+                                    <TableColumn prefWidth="118.2222900390625" text="Priority Rating" />
+                                    <TableColumn prefWidth="155.111083984375" text="Control Standard ID#" />
+                                    <TableColumn prefWidth="120.888916015625" text="Date Modified" />
+                                    <TableColumn prefWidth="104.88882446289062" text="Status" />
+                                </columns>
+                              </TableView>
+                              <Button layoutX="690.0" layoutY="39.0" mnemonicParsing="false" text="Return to Home" />
+                              <Button layoutX="21.0" layoutY="39.0" mnemonicParsing="false" text="Add New Keyword" />
+                              <Button layoutX="146.0" layoutY="39.0" mnemonicParsing="false" text="Update Existing Keyword" />
+                              <Button layoutX="307.0" layoutY="39.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
