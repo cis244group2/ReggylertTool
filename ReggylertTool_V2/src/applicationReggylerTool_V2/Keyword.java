@@ -11,6 +11,10 @@ public class Keyword {
 	private SimpleStringProperty  dateModified;
 	private SimpleStringProperty  status;
 	
+	public Keyword() {
+		
+	}
+	
 	public Keyword(String keyword, String keywordID, String priorityRating, String controlStd, String dateModified,
 			String status) {
 		this.keyword = new SimpleStringProperty (keyword);

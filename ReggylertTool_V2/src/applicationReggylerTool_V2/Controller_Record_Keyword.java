@@ -4,8 +4,13 @@ import java.io.IOException;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 public class Controller_Record_Keyword {
 
@@ -34,8 +39,16 @@ public class Controller_Record_Keyword {
     void action_SubmitKeyword(ActionEvent event) throws IOException {
     	
     	this.save_record();
-    	
+    	  	
     	//set up the call back event for event to update table
+    	
+    	try {
+    		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+    		stage.close();
+    		
+    	} catch (Exception e) {
+			e.printStackTrace();
+		}
     	  	
     }
     
@@ -53,5 +66,11 @@ public class Controller_Record_Keyword {
     	}
     	
     }
+    
+    
+	FXMLLoader loadFxml(String filename) {
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
+		return loader;
+	}
 
 }

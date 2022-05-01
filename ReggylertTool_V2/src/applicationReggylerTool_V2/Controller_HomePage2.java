@@ -2,6 +2,11 @@ package applicationReggylerTool_V2;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import javafx.collections.FXCollections;
@@ -20,7 +25,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class Controller_HomePage2 implements Initializable {
-	
 	
 	// Buttons
 	@FXML
@@ -174,12 +178,61 @@ public class Controller_HomePage2 implements Initializable {
     	System.exit(0);
     }
     
-    private ObservableList<Keyword> list = FXCollections
+   // FOR KEYWORD 
+    
+    private ObservableList<Keyword> listKeyword = FXCollections
 			.observableArrayList(new Keyword("key1", "key1", "key1", "key1", "key1", "key1"));
+    
+    public ObservableList<Keyword> dataBaseArrayList(ResultSet resultSet) throws SQLException {
+    	ObservableList<Keyword> data = FXCollections.observableArrayList();
+    	while(resultSet.next()) {
+    		Keyword keyTemp = new Keyword();
+    		keyTemp.setKeyword(resultSet.getString("keyword"));
+    		keyTemp.setKeywordID("keywordid");
+    		keyTemp.setPriorityRating("priorityrating");
+    		keyTemp.setControlStd("controlstandardid");
+    		keyTemp.setDateModified("datemodified");
+    		keyTemp.setStatus("status");
+    		data.add(keyTemp);
+    	}
+    	return data;
+    }
+    
+    
+    public ResultSet loadDataKeyword() {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+		Connection conn = sqlHelper.getConnection();
+		ResultSet tempSet = null;
+		try {
+		PreparedStatement preparedStatement = conn.prepareStatement("SELECT keyword, keywordid, priorityrating, controlstandardid,datemodified, status FROM keywordinventory");
+		ResultSet resultSet = preparedStatement.executeQuery();
+		tempSet = resultSet;
+		
+		} catch (SQLException e) {
+            e.printStackTrace();
+        }
+		sqlHelper.closeConnection(conn);
+		
+		return tempSet;
+    }
+    
+    ResultSet setKeyword = loadDataKeyword();
+    
+//    private ObservableList<Keyword> list = FXCollections.observableArrayList(dataBaseArrayList(setKeyword));
+    
+    //FOR RECIPIENT
+    
+    private ObservableList<Recipient> listRecipient= FXCollections
+			.observableArrayList(new Recipient("Paulo", "Test", "Active"));
+    
+    //FOR SEARCH
+    
+    private ObservableList<Search> listSearch = FXCollections
+			.observableArrayList(new Search("123","testkey","SEC","5/1/2022","Proposed Rule","321","www.sec.gov","4/30/2022"));
+    
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
-		
 		
 		//Keyword Table
 		column_invKeyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keyword"));
@@ -189,23 +242,46 @@ public class Controller_HomePage2 implements Initializable {
 		column_invPriorityRating.setCellValueFactory(new PropertyValueFactory<Keyword, String>("priorityRating"));
 		column_invStatus.setCellValueFactory(new PropertyValueFactory<Keyword, String>("status"));
 		
-		table_Keyword.setItems(list);
+		table_Keyword.setItems(listKeyword);
 
 		table_Keyword.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
 		    if (newSelection != null) {
 		        System.out.println("test lang");
 		    }
 		});
-		
+			
 		
 		//Recipient Table
+		column_nameRecipient.setCellValueFactory(new PropertyValueFactory<Recipient, String>("recipientName"));
+		column_emailRecipient.setCellValueFactory(new PropertyValueFactory<Recipient, String>("recipientEmail"));
+		column_statusRecipient.setCellValueFactory(new PropertyValueFactory<Recipient, String>("recipientStatus"));
 		
-//		 column_emailRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientEmail"));
-//		 column_statusRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientStatus"));
-//		 column_nameRecipient.setCellValueFactory(new PropertyValueFactory<Keyword, String>("recipientName"));
 		
+		table_Recipient.setItems(listRecipient);
 		
+		table_Recipient.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+		    if (newSelection != null) {
+		        System.out.println("test lang");
+		    }
+		});
+				
 		//Search Table
+		column_searchID.setCellValueFactory(new PropertyValueFactory<Search, String>("searchID"));
+		column_searchKeyword.setCellValueFactory(new PropertyValueFactory<Search, String>("searchKeyword"));
+		column_searchType.setCellValueFactory(new PropertyValueFactory<Search, String>("searchType"));
+		column_searchDateIdentified.setCellValueFactory(new PropertyValueFactory<Search, String>("searchDateIdentified"));
+		column_searchTitle.setCellValueFactory(new PropertyValueFactory<Search, String>("searchTitle"));
+		column_SerialNumber.setCellValueFactory(new PropertyValueFactory<Search, String>("searchSerialNumb"));
+		column_Link.setCellValueFactory(new PropertyValueFactory<Search, String>("searchLink"));
+		column_PublicationDate.setCellValueFactory(new PropertyValueFactory<Search, String>("searchPubDate"));
+		
+		table_Search.setItems(listSearch);
+		
+		table_Search.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+		    if (newSelection != null) {
+		        System.out.println("test lang");
+		    }
+		});
 		
 	}
 	
