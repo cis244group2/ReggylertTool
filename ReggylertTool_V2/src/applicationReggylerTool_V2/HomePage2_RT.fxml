@@ -11,11 +11,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.Color?>
-<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
    <children>
       <SplitPane dividerPositions="0.24300111982082867" orientation="VERTICAL" prefHeight="895.0" prefWidth="1052.0">
         <items>
@@ -25,7 +25,7 @@
                      <children>
                         <ImageView fitHeight="214.0" fitWidth="1050.0" opacity="0.9" pickOnBounds="true">
                            <image>
-                              <Image url="@information%20technology.jpg" />
+                              <Image url="@BusinessHand.PNG" />
                            </image>
                         </ImageView>
                         <Label layoutX="6.0" prefHeight="106.0" prefWidth="536.0" text="Reggylert" textAlignment="CENTER">
@@ -33,7 +33,7 @@
                               <Font name="Monotype Corsiva" size="96.0" />
                            </font>
                            <textFill>
-                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.6685057471264368">
+                              <LinearGradient endX="0.8578199052132702" endY="0.49763033175355453" startX="0.14691943127962087" startY="0.990521327014218">
                                  <stops>
                                     <Stop>
                                        <color>
@@ -47,11 +47,11 @@
                                     </Stop>
                                     <Stop offset="1.0">
                                        <color>
-                                          <Color />
+                                          <Color red="0.9607843160629272" green="0.35686275362968445" blue="0.003921568859368563" />
                                        </color>
                                     </Stop>
                                  </stops>
-                              </RadialGradient>
+                              </LinearGradient>
                            </textFill>
                         </Label>
                         <Label layoutX="82.0" layoutY="141.0" text="User : " textFill="WHITE">
