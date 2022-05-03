@@ -59,7 +59,7 @@
                               <Font name="Lucida Bright Demibold Italic" size="18.0" />
                            </font>
                         </Label>
-                        <Button fx:id="button_Logout" layoutX="925.0" layoutY="150.0" mnemonicParsing="false" onAction="#action_Logout" text="Log Out">
+                        <Button fx:id="button_Logout" layoutX="926.0" layoutY="26.0" mnemonicParsing="false" onAction="#action_Logout" text="Log Out">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -68,6 +68,11 @@
                            <font>
                               <Font size="15.0" />
                            </font></Label>
+                        <Button fx:id="button_refresh" layoutX="926.0" layoutY="147.0" mnemonicParsing="false" onAction="#action_refresh" text="Refresh">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
                      </children>
                   </AnchorPane>
                </children>
