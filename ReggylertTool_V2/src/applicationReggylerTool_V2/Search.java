@@ -13,6 +13,9 @@ public class Search {
 	private SimpleStringProperty searchLink;
 	private SimpleStringProperty searchPubDate;
 	
+	public Search() {
+		
+	}
 	
 	public Search(String searchID, String searchKeyword, String searchType, String searchDateIdentified,
 			String searchTitle, String searchSerialNumb, String searchLink, String searchPubDate) {

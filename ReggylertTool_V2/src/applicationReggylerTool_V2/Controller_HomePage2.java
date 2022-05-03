@@ -37,21 +37,17 @@ public class Controller_HomePage2 implements Initializable {
     private Button button_RemoveRecipient;
 
     @FXML
-    private Button button_UpdateRecipient;
-
-    @FXML
     private Button button_keyinvAddKeyword;
 
     @FXML
     private Button button_keyinvRemoveKeyword;
 
     @FXML
-    private Button button_keyinvUpdateKeyword;
-
-    @FXML
     private Button button_refresh;
     
-    
+    @FXML
+    private Button button_Search;
+       
     
     // Recipient Table
     @FXML
@@ -180,7 +176,6 @@ public class Controller_HomePage2 implements Initializable {
     	
     	this.deleteKeyword();
     	
-    	// ADD CODE FOR REMOVING SELECTED KEYWORD FROM TABLE AND FOR REFRESH OF TABLE
     }
     
     @FXML
@@ -192,6 +187,12 @@ public class Controller_HomePage2 implements Initializable {
 			e.printStackTrace();
 		}
     	
+    }
+    
+    @FXML
+    void action_Search(ActionEvent event) {
+    	
+    	performSearch();
     }
     
     @FXML
@@ -377,7 +378,75 @@ public class Controller_HomePage2 implements Initializable {
     	catch(Exception ex) {
     		System.out.println("Error!");
     	}
-    	
     }
+	
+	public static ArrayList<SecDocData> doc_search(String keyword) {
+		
+		String sql = "SELECT publication, link, note FROM sec_doc_data WHERE publication LIKE '%" + keyword + "%';";
+		ArrayList<SecDocData> al = get_sql_results(sql); 
+		return al;
+	}
 
+	public static ArrayList<SecDocData> get_sql_results(String sql) {
+		SQLhelper sqlHelper = new SQLhelper("Database_RT.db");
+		Connection conn = sqlHelper.getConnection();
+
+		ResultSet rs = sqlHelper.executeQuery(conn, sql);
+
+		ArrayList<SecDocData> al = new ArrayList<SecDocData>();
+		try {
+			while (rs.next()) {
+				SecDocData sdd = new SecDocData( rs.getString("publication")
+												, rs.getString("link")
+												, rs.getString("note")
+												);
+				al.add(sdd);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		sqlHelper.closeConnection(conn);
+
+		return al;
+	}
+	
+	// change method name
+	void performSearch() {
+		
+		for (int i = 0; i < listKeyword4Search.size(); i++) {
+			ArrayList<SecDocData> results = doc_search(listKeyword4Search.get(i));
+			for (SecDocData result : results) {
+				// code for new search record
+				Search search = new Search();
+				
+				//load search into observa. list for search
+				
+				// code for notification
+			}
+			
+			// code to load search records into table
+		}
+	}
+		
+	private ArrayList<String> listKeyword4Search;
+    
+    public void loadKeyword4Search() 
+    		throws SQLException, IOException, ClassNotFoundException, InterruptedException {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+		Connection conn = sqlHelper.getConnection();
+		
+		listKeyword4Search.clear();
+		
+		PreparedStatement statementLoging= conn.prepareStatement("SELECT keyword FROM keywordinventory");
+		ResultSet rst = statementLoging.executeQuery();
+		
+		while(rst.next()) {
+			listKeyword4Search.add(rst.getString("keyword"));
+		}
+		
+		sqlHelper.closeConnection(conn);
+    }
+	
 }
