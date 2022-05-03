@@ -8,6 +8,10 @@ public class Recipient {
 	private SimpleStringProperty recipientEmail;
 	private SimpleStringProperty recipientStatus;
 	
+	Recipient() {
+		
+	}
+	
 	Recipient(String recipientName, String recipientEmail, String recipientStatus) {
 		this.recipientName = new SimpleStringProperty(recipientName);
 		this.recipientEmail = new SimpleStringProperty(recipientEmail);

@@ -117,6 +117,11 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     private TableView<Search> table_Search;
     
+	private CallBack callBack = null;
+	
+	public void setCallback(CallBack callBack) {
+		this.callBack = callBack;
+	}
     
 
     // Home Page User Name Label
@@ -180,58 +185,59 @@ public class Controller_HomePage2 implements Initializable {
     
    // FOR KEYWORD 
     
-    private ObservableList<Keyword> listKeyword = FXCollections
-			.observableArrayList(new Keyword("key1", "key1", "key1", "key1", "key1", "key1"));
+    private ObservableList<Keyword> listKeyword = FXCollections.observableArrayList();
     
-    public ObservableList<Keyword> dataBaseArrayList(ResultSet resultSet) throws SQLException {
-    	ObservableList<Keyword> data = FXCollections.observableArrayList();
-    	while(resultSet.next()) {
-    		Keyword keyTemp = new Keyword();
-    		keyTemp.setKeyword(resultSet.getString("keyword"));
-    		keyTemp.setKeywordID("keywordid");
-    		keyTemp.setPriorityRating("priorityrating");
-    		keyTemp.setControlStd("controlstandardid");
-    		keyTemp.setDateModified("datemodified");
-    		keyTemp.setStatus("status");
-    		data.add(keyTemp);
-    	}
-    	return data;
-    }
-    
-    
-    public ResultSet loadDataKeyword() {
-    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
-		Connection conn = sqlHelper.getConnection();
-		ResultSet tempSet = null;
-		try {
-		PreparedStatement preparedStatement = conn.prepareStatement("SELECT keyword, keywordid, priorityrating, controlstandardid,datemodified, status FROM keywordinventory");
-		ResultSet resultSet = preparedStatement.executeQuery();
-		tempSet = resultSet;
-		
-		} catch (SQLException e) {
-            e.printStackTrace();
-        }
-		sqlHelper.closeConnection(conn);
-		
-		return tempSet;
-    }
-    
-    ResultSet setKeyword = loadDataKeyword();
-    
-//    private ObservableList<Keyword> list = FXCollections.observableArrayList(dataBaseArrayList(setKeyword));
-    
-    //FOR RECIPIENT
-    
-    private ObservableList<Recipient> listRecipient= FXCollections
-			.observableArrayList(new Recipient("Paulo", "Test", "Active"));
-    
-    public void loadRecipient(ActionEvent event) 
+    public void loadKeyword() 
     		throws SQLException, IOException, ClassNotFoundException, InterruptedException {
     	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
 		Connection conn = sqlHelper.getConnection();
 		
-		PreparedStatement statementLoging= conn.prepareStatement("select email, password from User where email = ? and password = ?");
+		listKeyword.clear();
 		
+		PreparedStatement statementLoging= conn.prepareStatement("SELECT keyword, keywordid, priorityrating, controlstandardid, datemodified, status FROM keywordinventory");
+		ResultSet rst = statementLoging.executeQuery();
+		
+		while(rst.next()) {
+			Keyword keyword = new Keyword();
+				keyword.setKeyword(rst.getString("keyword"));
+				keyword.setKeywordID(rst.getString("keywordid"));
+				keyword.setPriorityRating(rst.getString("priorityrating"));
+				keyword.setControlStd(rst.getString("controlstandardid"));
+				keyword.setDateModified(rst.getString("datemodified"));
+				keyword.setStatus(rst.getString("status"));
+			
+			listKeyword.add(keyword);
+		}
+		
+		sqlHelper.closeConnection(conn);
+			
+    }
+    
+    //FOR RECIPIENT
+        
+    private ObservableList<Recipient> listRecipient = FXCollections.observableArrayList();
+   
+    public void loadRecipient() 
+    		throws SQLException, IOException, ClassNotFoundException, InterruptedException {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+		Connection conn = sqlHelper.getConnection();
+		
+		listRecipient.clear();
+		
+		PreparedStatement statementLoging= conn.prepareStatement("SELECT name, email, status FROM recipientinventory");
+		ResultSet rst = statementLoging.executeQuery();
+		
+		while(rst.next()) {
+			Recipient recipient = new Recipient();
+			recipient.setRecipientName(rst.getString("name"));
+			recipient.setRecipientEmail(rst.getString("email"));
+			recipient.setRecipientStatus(rst.getString("status"));
+			
+			listRecipient.add(recipient);
+		}
+		
+		sqlHelper.closeConnection(conn);
+			
     }
     
     //FOR SEARCH
@@ -241,7 +247,15 @@ public class Controller_HomePage2 implements Initializable {
     
 
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
+	public void initialize(URL arg0, ResourceBundle arg1)  {
+		
+		try {
+			loadRecipient();
+			loadKeyword();
+		} catch (ClassNotFoundException | SQLException | IOException | InterruptedException e) {
+	
+			e.printStackTrace();
+		}
 		
 		//Keyword Table
 		column_invKeyword.setCellValueFactory(new PropertyValueFactory<Keyword, String>("keyword"));
