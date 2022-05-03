@@ -47,6 +47,9 @@ public class Controller_HomePage2 implements Initializable {
 
     @FXML
     private Button button_keyinvUpdateKeyword;
+
+    @FXML
+    private Button button_refresh;
     
     
     
@@ -156,10 +159,7 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     void action_keyinvAddKeyword(ActionEvent event) throws IOException {
     	
-    	open_keyword_record();
-    	
-    	// UPDATE CODE TO LOAD SEPARATELY AND FOR REFRESH OF TABLE
-    	
+    	open_keyword_record();	
 
     }
 
@@ -176,6 +176,17 @@ public class Controller_HomePage2 implements Initializable {
     void action_keyinvRemoveKeyword(ActionEvent event) {
     	
     	// ADD CODE FOR REMOVING SELECTED KEYWORD FROM TABLE AND FOR REFRESH OF TABLE
+    }
+    
+    @FXML
+    void action_refresh(ActionEvent event) {
+    	try {
+			loadKeyword();
+			loadRecipient();
+		} catch (ClassNotFoundException | SQLException | IOException | InterruptedException e) {
+			e.printStackTrace();
+		}
+    	
     }
     
     @FXML
@@ -333,5 +344,7 @@ public class Controller_HomePage2 implements Initializable {
 	       e.printStackTrace();
 	      }		
 	}
+	
+	
 
 }
