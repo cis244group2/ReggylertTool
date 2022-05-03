@@ -225,6 +225,15 @@ public class Controller_HomePage2 implements Initializable {
     private ObservableList<Recipient> listRecipient= FXCollections
 			.observableArrayList(new Recipient("Paulo", "Test", "Active"));
     
+    public void loadRecipient(ActionEvent event) 
+    		throws SQLException, IOException, ClassNotFoundException, InterruptedException {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+		Connection conn = sqlHelper.getConnection();
+		
+		PreparedStatement statementLoging= conn.prepareStatement("select email, password from User where email = ? and password = ?");
+		
+    }
+    
     //FOR SEARCH
     
     private ObservableList<Search> listSearch = FXCollections
