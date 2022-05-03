@@ -420,6 +420,8 @@ public class Controller_HomePage2 implements Initializable {
 			for (SecDocData result : results) {
 				// code for new search record
 				Search search = new Search();
+				search.setSearchID("123");
+				search.setSearchType("SEC");
 				
 				//load search into observa. list for search
 				
