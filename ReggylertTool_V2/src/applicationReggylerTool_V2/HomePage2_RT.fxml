@@ -23,7 +23,7 @@
                <children>
                   <AnchorPane prefHeight="214.0" prefWidth="1050.0">
                      <children>
-                        <ImageView fitHeight="214.0" fitWidth="1050.0" opacity="0.9" pickOnBounds="true">
+                        <ImageView fitHeight="214.0" fitWidth="1050.0" pickOnBounds="true">
                            <image>
                               <Image url="@BusinessHand.PNG" />
                            </image>
