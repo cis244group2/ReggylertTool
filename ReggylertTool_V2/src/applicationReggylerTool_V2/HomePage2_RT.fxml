@@ -132,7 +132,7 @@
                                 <content>
                                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                        <children>
-                                          <TableView fx:id="table_Search" prefHeight="645.0" prefWidth="1050.0">
+                                          <TableView fx:id="table_Search" layoutY="53.0" prefHeight="592.0" prefWidth="1050.0">
                                              <columns>
                                                 <TableColumn fx:id="column_searchID" prefWidth="131.25" text="Search ID#" />
                                                 <TableColumn fx:id="column_searchKeyword" prefWidth="131.25" text="Keyword" />
@@ -144,6 +144,7 @@
                                                 <TableColumn fx:id="column_Link" prefWidth="131.25" text="Link" />
                                              </columns>
                                           </TableView>
+                                          <Button fx:id="button_Search" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#action_Search" text="Search" />
                                        </children>
                                     </AnchorPane>
                                 </content>
