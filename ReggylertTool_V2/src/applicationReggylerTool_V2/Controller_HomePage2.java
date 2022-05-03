@@ -146,6 +146,9 @@ public class Controller_HomePage2 implements Initializable {
     @FXML
     void action_RemoveRecipient(ActionEvent event) {
     	// ADD CODE FOR REMOVING SELECTED RECIPIENT FROM TABLE AND FOR REFRESH OF TABLE
+    	
+    	this.deleteRecipient();
+    	
     }
     
     @FXML
@@ -174,6 +177,8 @@ public class Controller_HomePage2 implements Initializable {
     
     @FXML
     void action_keyinvRemoveKeyword(ActionEvent event) {
+    	
+    	this.deleteKeyword();
     	
     	// ADD CODE FOR REMOVING SELECTED KEYWORD FROM TABLE AND FOR REFRESH OF TABLE
     }
@@ -345,6 +350,34 @@ public class Controller_HomePage2 implements Initializable {
 	      }		
 	}
 	
+	void deleteKeyword() {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+    	Keyword deletedKeyword = table_Keyword.getSelectionModel().getSelectedItem();
+    	String sql = String.format("DELETE FROM keywordinventory WHERE keyword='%s';", deletedKeyword.getKeyword());
+    	
+    	try {
+    		sqlHelper.execute(sql);
+    		System.out.println("Recorded was deleted successfully");
+    	}
+    	catch(Exception ex) {
+    		System.out.println("Error!");
+    	}
+    	
+    }
 	
+	void deleteRecipient() {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+    	Recipient deletedRecipient = table_Recipient.getSelectionModel().getSelectedItem();
+    	String sql = String.format("DELETE FROM recipientinventory WHERE name='%s';", deletedRecipient.getRecipientName());
+    	
+    	try {
+    		sqlHelper.execute(sql);
+    		System.out.println("Recorded was deleted successfully");
+    	}
+    	catch(Exception ex) {
+    		System.out.println("Error!");
+    	}
+    	
+    }
 
 }

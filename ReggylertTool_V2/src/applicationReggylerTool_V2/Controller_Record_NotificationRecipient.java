@@ -45,7 +45,7 @@ public class Controller_Record_NotificationRecipient {
     void save_Recipientrecord() {
     	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
     	String sql = String.format("INSERT INTO recipientinventory (name, email, status) VALUES('%s', '%s', '%s');",
-    			this.field_recipientName.getText(), this.field_recipientEmail.getText(), this.field_recipientStatus.getText());
+    			this.field_recipientName.getText(), this.field_recipientEmail.getText(), "Active");
     	
     	try {
     		sqlHelper.execute(sql);
