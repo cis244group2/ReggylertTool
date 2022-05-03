@@ -99,9 +99,8 @@
                                                       <TableColumn fx:id="column_invStatus" minWidth="175.0" prefWidth="175.0" text="Status" />
                                                    </columns>
                                                 </TableView>
-                                                <Button fx:id="button_keyinvAddKeyword" layoutX="14.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />
-                                                <Button fx:id="button_keyinvUpdateKeyword" layoutX="152.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvUpdateKeyword" text="Update Existing Keyword" />
-                                                <Button fx:id="button_keyinvRemoveKeyword" layoutX="321.0" layoutY="33.0" mnemonicParsing="false" onAction="#action_keyinvRemoveKeyword" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
+                                                <Button fx:id="button_keyinvAddKeyword" layoutX="21.0" layoutY="34.0" mnemonicParsing="false" onAction="#action_keyinvAddKeyword" text="Add New Keyword" />
+                                                <Button fx:id="button_keyinvRemoveKeyword" layoutX="174.0" layoutY="34.0" mnemonicParsing="false" onAction="#action_keyinvRemoveKeyword" prefHeight="25.0" prefWidth="178.0" text="Remove Existing Keyword" />
                                              </children>
                                           </AnchorPane>
                                        </children>
@@ -122,8 +121,7 @@
                                                    </columns>
                                                 </TableView>
                                                 <Button fx:id="button_AddNewRecipient" layoutX="23.0" layoutY="31.0" mnemonicParsing="false" onAction="#action_AddNewRecipient" text="Add New Recipient" />
-                                                <Button fx:id="button_UpdateRecipient" layoutX="163.0" layoutY="31.0" mnemonicParsing="false" onAction="#add_UpdateRecipient" text="Update Existing Recipient" />
-                                                <Button fx:id="button_RemoveRecipient" layoutX="335.0" layoutY="31.0" mnemonicParsing="false" onAction="#action_RemoveRecipient" text="Remove Existing Recipient" />
+                                                <Button fx:id="button_RemoveRecipient" layoutX="189.0" layoutY="31.0" mnemonicParsing="false" onAction="#action_RemoveRecipient" text="Remove Existing Recipient" />
                                              </children>
                                           </AnchorPane>
                                        </children>
