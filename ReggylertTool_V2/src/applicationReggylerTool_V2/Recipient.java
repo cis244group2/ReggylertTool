@@ -9,7 +9,6 @@ public class Recipient {
 	private SimpleStringProperty recipientStatus;
 	
 	Recipient() {
-		
 	}
 	
 	Recipient(String recipientName, String recipientEmail, String recipientStatus) {

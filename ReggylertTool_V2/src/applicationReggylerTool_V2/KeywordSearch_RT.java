@@ -23,14 +23,13 @@ public class KeywordSearch_RT
           {
                  if (word.equals(input))   //Search for the given word
                  {
-                   count++;    //If Present increase the count by one
-                   				
+                   count++;    //If Present increase the count by one	
                  }
           }
       }
       if(count!=0)  //Check for count not equal to zero
       {
-         System.out.println("The given keyword is present for "+count+ " Times in the file");
+         System.out.println("The given keyword is present for "+count+ " times in the file");
          // ADD CODE FOR ENTERING SEARCH FOUND INTO DATABASE AND SENDING NOTIFICATION HERE
       }
       else

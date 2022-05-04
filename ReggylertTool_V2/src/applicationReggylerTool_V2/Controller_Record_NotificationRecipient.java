@@ -49,14 +49,13 @@ public class Controller_Record_NotificationRecipient {
     	
     	try {
     		sqlHelper.execute(sql);
-    		System.out.println("Recorded was added successfully");
+    		System.out.println("Record was added successfully");
     	}
     	catch(Exception ex) {
     		System.out.println("Error!");
     	}
     	
     }
-    
     
 	FXMLLoader loadFxml(String filename) {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));

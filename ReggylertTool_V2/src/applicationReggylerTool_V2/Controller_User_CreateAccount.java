@@ -77,10 +77,9 @@ public class Controller_User_CreateAccount {
 		if (checkPassword(password1, confirmPassword1)) {
 			Connection connection = this.sqlHelper.getConnection();
 			PreparedStatement statement = connection.prepareStatement("insert into User( email, password) values( ?, ?)");
-			
 			statement.setString(1, email);
 			statement.setString(2, password1);
-			// Email.accountCreationEmail(email); //trigger account confirmation email
+			Email.accountCreationEmail(email); //trigger account confirmation email
 
 			statement.executeUpdate();
 			this.sqlHelper.closeConnection(connection);
