@@ -475,7 +475,12 @@ public class Controller_HomePage2 implements Initializable {
 				
 				
 				// code for notification
-				
+				try {
+					SearchNotification_RT.main(null);
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 			
 			// code to load search records into table

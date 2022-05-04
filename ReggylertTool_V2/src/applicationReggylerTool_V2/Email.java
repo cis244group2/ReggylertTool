@@ -7,6 +7,7 @@
 package applicationReggylerTool_V2;
 
 import java.util.Properties;
+import java.util.Date;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Session;
@@ -21,7 +22,7 @@ public class Email {
 	
 	public Email() {
 		this.username = "cis244group2@gmail.com";
-		this.pass = "putpassword"; //replace with password
+		this.pass = "javaTruong"; //replace with real password
 	}
 	
 	public Email(String username, String pass) {
@@ -87,11 +88,14 @@ public class Email {
 	
 	public static void accountCreationEmail(String recipient) {
 		Email fromEmail = new Email();
+		Date date = new Date(); 		
 		String from = fromEmail.getUsername();
 		String login = fromEmail.getPass();
 		String[] to = {recipient}; 
 		String subject = "Reggylert Account Creation";
-		String body = "Hello! You have created an account for Reggylert. Your login username is " + recipient + ". Please log in."; 
+		String body = "Date: " + date + "\n\nHello!\n\nYou have created an account for Reggylert. Your login username is " + recipient + ". Please log in.\n\n"
+		  + "Best regards,\nReggylert Tool";
+		
 		sendEmail(from, login, to, subject, body);
 	}
 }
