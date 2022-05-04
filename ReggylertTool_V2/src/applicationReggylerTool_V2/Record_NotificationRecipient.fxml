@@ -5,14 +5,16 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Record_NotificationRecipient">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Record_NotificationRecipient">
    <children>
-      <VBox prefHeight="258.0" prefWidth="574.0">
+      <VBox prefHeight="240.0" prefWidth="445.0">
          <children>
-            <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+            <TabPane prefHeight="212.0" prefWidth="436.0" tabClosingPolicy="UNAVAILABLE">
               <tabs>
                 <Tab text="Recipient Record">
                   <content>
@@ -23,13 +25,18 @@
             </TabPane>
          </children>
       </VBox>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="240.0" prefWidth="445.0">
          <children>
+            <ImageView fitHeight="188.0" fitWidth="445.0" layoutY="28.0" pickOnBounds="true">
+               <image>
+                  <Image url="@lightbluegradientbackground1.jpg" />
+               </image>
+            </ImageView>
             <Label layoutX="24.0" layoutY="70.0" text="Recipient Name:" />
             <Label layoutX="24.0" layoutY="109.0" text="Recipient Email Address:" />
-            <TextField fx:id="field_recipientName" layoutX="170.0" layoutY="66.0" prefHeight="25.0" prefWidth="232.0" />
-            <TextField fx:id="field_recipientEmail" layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
-            <Button fx:id="button_recipientSubmit" layoutX="56.0" layoutY="184.0" mnemonicParsing="false" onAction="#button_recipientSubmit" prefHeight="23.0" prefWidth="65.0" text="Submit" />
+            <TextField fx:id="field_recipientName" layoutX="185.0" layoutY="66.0" prefHeight="25.0" prefWidth="232.0" />
+            <TextField fx:id="field_recipientEmail" layoutX="185.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
+            <Button fx:id="button_recipientSubmit" layoutX="24.0" layoutY="160.0" mnemonicParsing="false" onAction="#button_recipientSubmit" prefHeight="23.0" prefWidth="65.0" text="Submit" />
          </children>
       </AnchorPane>
    </children>

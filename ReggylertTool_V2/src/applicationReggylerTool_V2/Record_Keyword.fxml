@@ -5,12 +5,14 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Record_Keyword">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_Record_Keyword">
    <children>
-      <TabPane prefHeight="200.0" prefWidth="574.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane layoutY="-5.0" prefHeight="321.0" prefWidth="494.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Keyword Record">
             <content>
@@ -19,23 +21,27 @@
           </Tab>
         </tabs>
       </TabPane>
-      <VBox prefHeight="349.0" prefWidth="574.0">
+      <VBox prefHeight="310.0" prefWidth="494.0">
          <children>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="516.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="351.0" prefWidth="527.0">
                <children>
+                  <ImageView fitHeight="288.0" fitWidth="494.0" layoutY="22.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@lightbluegradientbackground1.jpg" />
+                     </image></ImageView>
                   <Label layoutX="24.0" layoutY="44.0" text="Keyword" />
                   <Label layoutX="24.0" layoutY="76.0" text="Keyword ID#" />
                   <Label layoutX="24.0" layoutY="109.0" text="Priority Tier Rating" />
-                  <TextField fx:id="field_Keyword" layoutX="170.0" layoutY="40.0" prefHeight="25.0" prefWidth="232.0" />
-                  <TextField fx:id="field_KeywordID" layoutX="170.0" layoutY="72.0" prefHeight="25.0" prefWidth="232.0" />
-                  <TextField fx:id="field_PriorityTierRating" layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
-                  <Button fx:id="button_SubmitKeyword" layoutX="37.0" layoutY="268.0" mnemonicParsing="false" onAction="#action_SubmitKeyword" prefHeight="23.0" prefWidth="65.0" text="Submit" />
+                  <TextField fx:id="field_Keyword" layoutX="183.0" layoutY="40.0" prefHeight="25.0" prefWidth="232.0" />
+                  <TextField fx:id="field_KeywordID" layoutX="183.0" layoutY="72.0" prefHeight="25.0" prefWidth="232.0" />
+                  <TextField fx:id="field_PriorityTierRating" layoutX="183.0" layoutY="105.0" prefHeight="25.0" prefWidth="232.0" />
+                  <Button fx:id="button_SubmitKeyword" layoutX="26.0" layoutY="264.0" mnemonicParsing="false" onAction="#action_SubmitKeyword" prefHeight="23.0" prefWidth="65.0" text="Submit" />
                   <Label layoutX="24.0" layoutY="175.0" text="Status:" />
                   <Label layoutX="24.0" layoutY="141.0" text="Control Standard ID#" />
-                  <TextField fx:id="field_ControlStandardID" layoutX="170.0" layoutY="137.0" prefHeight="25.0" prefWidth="232.0" />
+                  <TextField fx:id="field_ControlStandardID" layoutX="183.0" layoutY="137.0" prefHeight="25.0" prefWidth="232.0" />
                   <Label layoutX="23.0" layoutY="213.0" text="Date Modified:" />
-                  <TextField fx:id="field_KeywordStatus" layoutX="169.0" layoutY="171.0" prefHeight="25.0" prefWidth="234.0" />
-                  <TextField fx:id="field_DateModified" layoutX="170.0" layoutY="209.0" prefHeight="25.0" prefWidth="232.0" />
+                  <TextField fx:id="field_KeywordStatus" layoutX="182.0" layoutY="171.0" prefHeight="25.0" prefWidth="234.0" />
+                  <TextField fx:id="field_DateModified" layoutX="183.0" layoutY="209.0" prefHeight="25.0" prefWidth="232.0" />
                </children>
             </AnchorPane>
          </children>
