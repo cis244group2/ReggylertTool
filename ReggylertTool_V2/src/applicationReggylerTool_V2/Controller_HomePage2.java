@@ -464,10 +464,10 @@ public class Controller_HomePage2 implements Initializable {
 				search.setSearchKeyword(listKeyword4Search.get(i));
 				search.setSearchType("SEC");
 				search.setSearchDateIdentified("5/3/2022");
-				search.setSearchTitle("Title Test");
+				search.setSearchTitle("Proposed Rule");
 				search.setSearchSerialNumb("321-4");
 				search.setSearchLink(result.getLink());
-				search.setSearchPubDate("4/15/2022");				
+				search.setSearchPubDate("4/28/2022");				
 				
 				//load search into observa. list for search
 				listSearch.add(search);
