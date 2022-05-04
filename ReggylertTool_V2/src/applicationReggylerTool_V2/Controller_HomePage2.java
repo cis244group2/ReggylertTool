@@ -548,7 +548,7 @@ public class Controller_HomePage2 implements Initializable {
 		String subject = "Reggylert Search Notification";
 				
 		String body = "Date: " + date + 
-    		  "\n\nHello!\n\nA search has been found for:\n" + search.getSearchKeyword() + "\nPlease refer to the below:\n" 
+    		  "\n\nHello!\n\nA search has been found for:\n" + search.getSearchKeyword() + "\n\nPlease refer to the below hyperlink for the publication:\n" 
 				+ search.getSearchLink() + "\n\nBest regards,\nReggylert Tool";
 		Email.sendEmail(from, login, to, subject, body);
 		
