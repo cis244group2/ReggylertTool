@@ -193,6 +193,7 @@ public class Controller_HomePage2 implements Initializable {
     void action_Search(ActionEvent event) {
     	
     	performSearch();
+    	
     }
     
     @FXML
@@ -259,9 +260,10 @@ public class Controller_HomePage2 implements Initializable {
     
     //FOR SEARCH
     
-    private ObservableList<Search> listSearch = FXCollections
-			.observableArrayList(new Search("123","testkey","SEC","5/1/2022","Proposed Rule","321","www.sec.gov","4/30/2022"));
+//    private ObservableList<Search> listSearch = FXCollections
+//			.observableArrayList(new Search("123","testkey","SEC","5/1/2022","Proposed Rule","321","www.sec.gov","4/30/2022"));
     
+    private ObservableList<Search> listSearch = FXCollections.observableArrayList();
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1)  {
@@ -412,27 +414,42 @@ public class Controller_HomePage2 implements Initializable {
 		return al;
 	}
 	
+	
 	// change method name
 	void performSearch() {
 		
+		try {
+			loadKeyword4Search();
+		} catch (ClassNotFoundException | SQLException | IOException | InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		for (int i = 0; i < listKeyword4Search.size(); i++) {
 			ArrayList<SecDocData> results = doc_search(listKeyword4Search.get(i));
 			for (SecDocData result : results) {
 				// code for new search record
 				Search search = new Search();
 				search.setSearchID("123");
+				search.setSearchKeyword(listKeyword4Search.get(i));
 				search.setSearchType("SEC");
+				search.setSearchDateIdentified("5/3/2022");
+				search.setSearchTitle("Title Test");
+				search.setSearchSerialNumb("321-4");
+				search.setSearchLink(result.getLink());
+				search.setSearchPubDate("4/15/2022");				
 				
 				//load search into observa. list for search
+				listSearch.add(search);
 				
 				// code for notification
+				
 			}
 			
 			// code to load search records into table
 		}
 	}
 		
-	private ArrayList<String> listKeyword4Search;
+	private ArrayList<String> listKeyword4Search = new ArrayList<String>();
     
     public void loadKeyword4Search() 
     		throws SQLException, IOException, ClassNotFoundException, InterruptedException {

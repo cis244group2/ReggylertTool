@@ -81,7 +81,7 @@ public class Main extends Application {
 
 	public static void main(String[] args) {
 		
-		ArrayList<SecDocData> results = doc_search("17 CFR 242.600(b)(55)");
+		ArrayList<SecDocData> results = doc_search("13f-2");
 		for (SecDocData result : results) {
 			System.out.println("publication: " + result.getPublication());
 			System.out.println("link: " + result.getLink());
