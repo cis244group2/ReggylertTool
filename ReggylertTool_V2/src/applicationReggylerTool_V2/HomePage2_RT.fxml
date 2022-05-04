@@ -15,9 +15,9 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="815.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationReggylerTool_V2.Controller_HomePage2">
    <children>
-      <SplitPane dividerPositions="0.24300111982082867" orientation="VERTICAL" prefHeight="895.0" prefWidth="1052.0">
+      <SplitPane dividerPositions="0.24300111982082867" orientation="VERTICAL" prefHeight="815.0" prefWidth="1052.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
@@ -77,19 +77,19 @@
                   </AnchorPane>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="639.0" prefWidth="1049.0">
                <children>
                   <AnchorPane prefHeight="673.0" prefWidth="1050.0">
                      <children>
-                        <TabPane prefHeight="673.0" prefWidth="1050.0" tabClosingPolicy="UNAVAILABLE">
+                        <TabPane prefHeight="612.0" prefWidth="1050.0" tabClosingPolicy="UNAVAILABLE">
                           <tabs>
                             <Tab text="Keyword Inventory">
                               <content>
-                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="278.0" prefWidth="1050.0">
                                        <children>
-                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="646.0" prefWidth="1050.0">
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="584.0" prefWidth="1050.0">
                                              <children>
-                                                <TableView fx:id="table_Keyword" layoutY="79.0" prefHeight="567.0" prefWidth="1050.0">
+                                                <TableView fx:id="table_Keyword" layoutY="79.0" prefHeight="504.0" prefWidth="1050.0">
                                                    <columns>
                                                       <TableColumn fx:id="column_invKeyword" minWidth="175.0" prefWidth="175.0" text="Keyword" />
                                                       <TableColumn fx:id="column_invKeywordID" minWidth="175.0" prefWidth="175.0" text="Keyword ID#" />
