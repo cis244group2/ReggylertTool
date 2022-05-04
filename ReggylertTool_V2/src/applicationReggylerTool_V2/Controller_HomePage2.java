@@ -183,6 +183,7 @@ public class Controller_HomePage2 implements Initializable {
     	try {
 			loadKeyword();
 			loadRecipient();
+			loadSearch();
 		} catch (ClassNotFoundException | SQLException | IOException | InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -264,6 +265,34 @@ public class Controller_HomePage2 implements Initializable {
 //			.observableArrayList(new Search("123","testkey","SEC","5/1/2022","Proposed Rule","321","www.sec.gov","4/30/2022"));
     
     private ObservableList<Search> listSearch = FXCollections.observableArrayList();
+    
+    public void loadSearch() 
+    		throws SQLException, IOException, ClassNotFoundException, InterruptedException {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+		Connection conn = sqlHelper.getConnection();
+		
+		listSearch.clear();
+		
+		PreparedStatement statementLoging= conn.prepareStatement("SELECT searchID, keyword, dateidentified, publicationtitle, type, publicationdate, serialnumber, link FROM searchinventory");
+		ResultSet rst = statementLoging.executeQuery();
+		
+		while(rst.next()) {
+			Search search = new Search();
+			search.setSearchID(rst.getString("searchID"));
+			search.setSearchKeyword(rst.getString("keyword"));
+			search.setSearchDateIdentified(rst.getString("dateidentified"));
+			search.setSearchTitle(rst.getString("publicationtitle"));
+			search.setSearchType(rst.getString("type"));
+			search.setSearchPubDate(rst.getString("publicationdate"));
+			search.setSearchSerialNumb(rst.getString("serialnumber"));
+			search.setSearchLink(rst.getString("link"));
+
+				listSearch.add(search);
+		}
+		
+		sqlHelper.closeConnection(conn);
+			
+    }
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1)  {
@@ -429,7 +458,7 @@ public class Controller_HomePage2 implements Initializable {
 			for (SecDocData result : results) {
 				// code for new search record
 				Search search = new Search();
-				search.setSearchID("123");
+				search.setSearchID("");
 				search.setSearchKeyword(listKeyword4Search.get(i));
 				search.setSearchType("SEC");
 				search.setSearchDateIdentified("5/3/2022");
@@ -440,6 +469,10 @@ public class Controller_HomePage2 implements Initializable {
 				
 				//load search into observa. list for search
 				listSearch.add(search);
+				
+				//Saves search into DB
+				save_Searchrecord(search);
+				
 				
 				// code for notification
 				
@@ -466,6 +499,22 @@ public class Controller_HomePage2 implements Initializable {
 		}
 		
 		sqlHelper.closeConnection(conn);
+    }
+        
+    public void save_Searchrecord(Search search) {
+    	SQLhelper sqlHelper = new SQLhelper("Database_RT.db"); 
+    	String sql = String.format("INSERT INTO searchinventory (keyword, dateidentified, publicationtitle, type, publicationdate, serialnumber, link) VALUES('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
+    			search.getSearchKeyword(), search.getSearchDateIdentified(), search.getSearchTitle(), search.getSearchType(), 
+    			search.getSearchPubDate(), search.getSearchSerialNumb(), search.getSearchLink());
+    	
+    	try {
+    		sqlHelper.execute(sql);
+    		System.out.println("Record was added successfully");
+    	}
+    	catch(Exception ex) {
+    		System.out.println("Error!");
+    	}
+    	
     }
 	
 }
