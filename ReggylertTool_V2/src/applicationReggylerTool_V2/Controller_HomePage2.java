@@ -6,7 +6,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 import javafx.collections.FXCollections;
@@ -476,7 +478,7 @@ public class Controller_HomePage2 implements Initializable {
 				
 				// code for notification
 				try {
-					SearchNotification_RT.main(null);
+					NotificationEmail(search);
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -522,4 +524,34 @@ public class Controller_HomePage2 implements Initializable {
     	
     }
 	
+	public void NotificationEmail(Search search) throws SQLException {
+		SQLhelper sqlHelper = new SQLhelper("Database_RT.db");
+		Connection connection = sqlHelper.getConnection();		
+		Statement st = connection.createStatement(); 
+		ResultSet rs = st.executeQuery("SELECT email FROM recipientinventory");		
+
+		ArrayList<String> recips = new ArrayList<String>();
+		while (rs.next()) {
+			recips.add(rs.getString("email"));
+		}		
+				
+		String array[] = new String[recips.size()];              
+		for(int j =0;j<recips.size();j++){
+		  array[j] = recips.get(j);
+		}
+		
+		Date date = new Date(); 		
+		Email notificationEmail = new Email();
+		String from = notificationEmail.getUsername();
+		String login = notificationEmail.getPass();
+		String[] to = array;
+		String subject = "Reggylert Search Notification";
+				
+		String body = "Date: " + date + 
+    		  "\n\nHello!\n\nA search has been found for:\n" + search.getSearchKeyword() + "\nPlease refer to the below:\n" 
+				+ search.getSearchLink() + "\n\nBest regards,\nReggylert Tool";
+		Email.sendEmail(from, login, to, subject, body);
+		
+		sqlHelper.closeConnection(connection);
+  }
 }
